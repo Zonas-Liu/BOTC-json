@@ -1,0 +1,406 @@
+[
+    {
+        "id": "_meta",
+        "name": "秉公办事v6.0",
+        "author": "清清Jungle",
+        "logo": "https://www.bloodstar.xyz/p/ronchi/binggongbanshi/_meta.png",
+        "almanac": "https://www.bloodstar.xyz/p/ronchi/binggongbanshi/almanac.html"
+    },
+    {
+        "id": "investigatorbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/investigator.png",
+        "firstNightReminder": "展示那个爪牙角色标记。指向被你标记“爪牙”和“错误”的两名玩家。",
+        "reminders": [
+            "爪牙",
+            "错误"
+        ],
+        "name": "调查员",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+        "firstNight": 20
+    },
+    {
+        "id": "1_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/grandmother.png",
+        "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
+        "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
+        "reminders": [
+            "孙子",
+            "死亡"
+        ],
+        "name": "祖母",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+        "firstNight": 21,
+        "otherNight": 17
+    },
+    {
+        "id": "2_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pixie.png",
+        "firstNightReminder": "对小精灵展示“这些角色在场”和被标记了疯狂的角色标记。",
+        "reminders": [
+            "疯狂"
+        ],
+        "remindersGlobal": [
+            "获得能力"
+        ],
+        "name": "小精灵",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+        "firstNight": 19
+    },
+    {
+        "id": "3_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/202301/c_7952077694761_e7ab28d7.jpg",
+        "firstNightReminder": "唤醒掮客，让他指向两名存活玩家。如果这两名玩家阵营相同，在这些玩家的角色标记旁放置“熟客”提示标记。",
+        "otherNightReminder": "移除上个夜晚放置的“熟客”标记。唤醒掮客，让他指向两名存活玩家。如果这两名玩家阵营相同，在这些玩家的角色标记旁放置“熟客”提示标记。",
+        "reminders": [
+            "熟客"
+        ],
+        "name": "掮客",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
+        "firstNight": 14,
+        "otherNight": 3
+    },
+    {
+        "id": "4_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/general.png",
+        "firstNightReminder": "对将军展示：用拇指向上代表善良优势、向下代表邪恶优势、两边代表双方均势。",
+        "otherNightReminder": "对将军展示：用拇指向上代表善良优势、向下代表邪恶优势、两边代表双方均势。",
+        "name": "将军",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
+        "firstNight": 23,
+        "otherNight": 19
+    },
+    {
+        "id": "5_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gambler.png",
+        "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "name": "赌徒",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
+        "otherNight": 5
+    },
+    {
+        "id": "6_binggongbanshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/binggongbanshi/6_binggongbanshi.png",
+        "otherNightReminder": "移除上个夜晚放置的“保护”标记。唤醒锦衣卫，让其选择一名玩家。在该玩家角色标记旁放置“保护”提示标记。",
+        "reminders": [
+            "保护"
+        ],
+        "name": "锦衣卫",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
+        "otherNight": 6
+    },
+    {
+        "id": "7_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/professor.png",
+        "otherNightReminder": "教授可以选择一名死亡玩家。如果他这么做了，标记教授失去能力，然后如果那名玩家是镇民，标记那名玩家被复活。之后的夜晚无需再唤醒教授。",
+        "reminders": [
+            "复活",
+            "失去能力"
+        ],
+        "name": "教授",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
+        "otherNight": 15
+    },
+    {
+        "id": "8_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/a/a7/Wudaozhe.png",
+        "remindersGlobal": [
+            "是悟道者"
+        ],
+        "setup": true,
+        "name": "悟道者",
+        "team": "townsfolk",
+        "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择了你或对你产生了影响，在该效果生效前你会变成一个不在场的镇民角色。",
+        "otherNight": 0
+    },
+    {
+        "id": "9_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/tea_lady.png",
+        "reminders": [
+            "不会死亡"
+        ],
+        "name": "茶艺师",
+        "team": "townsfolk",
+        "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。"
+    },
+    {
+        "id": "10_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pacifist.png",
+        "name": "和平主义者",
+        "team": "townsfolk",
+        "ability": "被处决的善良玩家可能不会死亡。"
+    },
+    {
+        "id": "11_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/alchemist.png",
+        "firstNightReminder": "展示给炼金术士一个不在场的爪牙标记",
+        "remindersGlobal": [
+            "是炼金术士"
+        ],
+        "name": "炼金术士",
+        "team": "townsfolk",
+        "ability": "你拥有一个不在场的爪牙角色的能力。",
+        "firstNight": 2
+    },
+    {
+        "id": "12_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/poppy_grower.png",
+        "firstNightReminder": "不要让恶魔和爪牙相认。",
+        "otherNightReminder": "如果罂粟种植者死亡，安排恶魔和爪牙相认环节。",
+        "reminders": [
+            "邪恶角色互认"
+        ],
+        "name": "罂粟种植者",
+        "team": "townsfolk",
+        "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+        "firstNight": 16,
+        "otherNight": 4
+    },
+    {
+        "id": "13_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/atheist.png",
+        "setup": true,
+        "name": "无神论者",
+        "team": "townsfolk",
+        "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]"
+    },
+    {
+        "id": "14_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/cannibal.png",
+        "reminders": [
+            "中毒",
+            "死于处决"
+        ],
+        "name": "食人族",
+        "team": "townsfolk",
+        "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。"
+    },
+    {
+        "id": "15_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/drunk.png",
+        "remindersGlobal": [
+            "是酒鬼"
+        ],
+        "setup": true,
+        "name": "酒鬼",
+        "team": "outsider",
+        "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。"
+    },
+    {
+        "id": "lunaticbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lunatic.png",
+        "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
+        "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
+        "reminders": [
+            "被选择"
+        ],
+        "remindersGlobal": [
+            "是疯子"
+        ],
+        "name": "疯子",
+        "team": "outsider",
+        "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+        "firstNight": 15,
+        "otherNight": 9
+    },
+    {
+        "id": "17_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/moonchild.png",
+        "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "name": "月之子",
+        "team": "outsider",
+        "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+        "otherNight": 16
+    },
+    {
+        "id": "18_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/5/51/Nichen.png",
+        "firstNightReminder": "让逆臣选择一名玩家，在那名玩家上放置“不共戴天”标记。",
+        "otherNightReminder": "如果逆臣或标记了“不共戴天”的玩家死于处决，唤醒两者之中的另一名玩家，告诉他变为邪恶阵营。",
+        "reminders": [
+            "不共戴天",
+            "邪恶"
+        ],
+        "name": "逆臣",
+        "team": "outsider",
+        "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
+        "firstNight": 22,
+        "otherNight": 7
+    },
+    {
+        "id": "damselbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/damsel.png",
+        "firstNightReminder": "如果落难少女被巡山人选中，唤醒落难少女，展示“你是”信息标记和一个不在场的镇民角色标记，将落难少女的角色标记替换成新的镇民角色标记。",
+        "otherNightReminder": "如果落难少女被巡山人选中，唤醒落难少女，展示“你是”信息标记和一个不在场的镇民角色标记，将落难少女的角色标记替换成新的镇民角色标记。",
+        "reminders": [
+            "已被猜测"
+        ],
+        "name": "落难少女",
+        "team": "outsider",
+        "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+        "firstNight": 20,
+        "otherNight": 18
+    },
+    {
+        "id": "pit-hagbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pit-hag.png",
+        "otherNightReminder": "让麻脸巫婆选择一名玩家和一个角色。如果她选择的角色不在场：让麻脸巫婆重新入睡。唤醒她的目标玩家。对该玩家展示“你是”信息标记和他的新角色标记。",
+        "name": "麻脸巫婆",
+        "team": "minion",
+        "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+        "otherNight": 8
+    },
+    {
+        "id": "21_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/godfather.png",
+        "firstNightReminder": "对他展示所有在场的外来者标记。",
+        "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
+        "reminders": [
+            "死于近日",
+            "死亡"
+        ],
+        "setup": true,
+        "name": "教父",
+        "team": "minion",
+        "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+        "firstNight": 18,
+        "otherNight": 14
+    },
+    {
+        "id": "22_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/psychopath.png",
+        "name": "精神病患者",
+        "team": "minion",
+        "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。"
+    },
+    {
+        "id": "23_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/7/7f/Ganshiren.png",
+        "reminders": [
+            "以为存活"
+        ],
+        "setup": true,
+        "name": "赶尸人",
+        "team": "minion",
+        "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]"
+    },
+    {
+        "id": "24_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/0/09/Vizier.png",
+        "firstNightReminder": "告诉所有玩家维齐尔在场，并指向维齐尔玩家。",
+        "name": "维齐尔",
+        "team": "minion",
+        "ability": "所有玩家都知道你是维齐尔。 你在白天时不会死亡。 如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
+        "firstNight": 24
+    },
+    {
+        "id": "25_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/al-hadikhia.png",
+        "otherNightReminder": "哈迪寂亚选择三名玩家。对所有人宣告第一位玩家，然后唤醒他并让他秘密选择活着还是死去。依次对第二第三位玩家如此做。如果三名玩家都选择活着，他们都死去。",
+        "reminders": [
+            "1",
+            "2",
+            "3",
+            "选择生",
+            "选择死"
+        ],
+        "name": "哈迪寂亚",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
+        "otherNight": 11
+    },
+    {
+        "id": "26_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/13/Qiongqi.png/300px-Qiongqi.png",
+        "otherNightReminder": "（清清自编）让穷奇选择一名玩家。如果白天没有外来者死亡，标记该玩家死亡。如果白天有外来者死亡，标记该玩家“视为存活”。说书人选择一名玩家，那名玩家死亡。",
+        "reminders": [
+            "死亡",
+            "死于今日",
+            "视为存活"
+        ],
+        "setup": true,
+        "name": "穷奇",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
+        "otherNight": 13
+    },
+    {
+        "id": "27_binggongbanshi",
+        "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/52/Taowu.png/300px-Taowu.png",
+        "firstNightReminder": "（清清自编）不要唤醒拿到梼杌的玩家，他不会得知自己的爪牙是谁，也不会得知三个不在场的角色。",
+        "otherNightReminder": "（清清自编）让梼杌选择一名玩家。标记那名玩家死亡。如果梼杌选择了自己，在一名存活且具有能力的爪牙身边放置“失去能力”标记。",
+        "reminders": [
+            "死亡",
+            "失去能力"
+        ],
+        "name": "梼杌",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
+        "firstNight": 17,
+        "otherNight": 12
+    },
+    {
+        "id": "28_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/imp.png",
+        "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
+        "reminders": [
+            "死亡"
+        ],
+        "name": "小恶魔",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+        "otherNight": 10
+    },
+    {
+        "id": "29_binggongbanshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/binggongbanshi/29_binggongbanshi.png",
+        "firstNightReminder": "《秉公办事V6.0》这个剧本是清清对维齐尔和华灯初上的角色设计的特制剧本。",
+        "name": "官方说书人",
+        "team": "fabled",
+        "ability": "宣布版权问题和一些不同于基础剧本的特殊规则。",
+        "firstNight": 11
+    },
+    {
+        "id": "30_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/djinn.png",
+        "firstNightReminder": "说书人宣布三条相克规则。",
+        "name": "灯神",
+        "team": "fabled",
+        "ability": "宣布调查员和维齐尔的相克规则：如果调查员的能力使其得知了维齐尔，则说书人不会告知所有人维齐尔在场。",
+        "firstNight": 12
+    },
+    {
+        "id": "31_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/djinn.png",
+        "name": "灯神",
+        "team": "fabled",
+        "ability": "宣布炼金术士和维齐尔的相克规则：如果炼金术士拥有维齐尔的能力，他只能在三名或更多玩家投票时选择立即处决，不论这些玩家的阵营如何。（不仅如此，实际上所有初始阵营为善良的玩家获得维齐尔的能力，都应该参照这种方式来执行。）"
+    },
+    {
+        "id": "32_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/djinn.png",
+        "name": "灯神",
+        "team": "fabled",
+        "ability": "宣布麻脸巫婆和落难少女的相克规则：如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。"
+    },
+    {
+        "id": "33_binggongbanshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/spirit_of_ivory.png",
+        "name": "圣洁之魂",
+        "team": "fabled",
+        "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。"
+    }
+]

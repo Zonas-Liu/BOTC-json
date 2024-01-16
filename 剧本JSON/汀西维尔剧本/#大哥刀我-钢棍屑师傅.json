@@ -1,0 +1,216 @@
+[
+    {
+        "id": "_meta",
+        "name": "大哥刀我",
+        "author": "钢棍屑师傅",
+        "logo": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/_meta.png",
+        "almanac": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/almanac.html"
+    },
+    {
+        "id": "_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/_dagedaowo.png",
+        "firstNightReminder": "唤醒事务官，指向标记有“得知”的那名玩家。让事务官重新入睡。",
+        "reminders": [
+            "得知"
+        ],
+        "name": "事务官",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知一名善良玩家。",
+        "firstNight": 16
+    },
+    {
+        "id": "1_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/1_dagedaowo.png",
+        "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
+        "reminders": [
+            "外来者",
+            "错误"
+        ],
+        "name": "图书管理员",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
+        "firstNight": 12
+    },
+    {
+        "id": "2_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/2_dagedaowo.png",
+        "firstNightReminder": "展示那个爪牙角色标记。指向被你标记“爪牙”和“错误”的两名玩家。",
+        "reminders": [
+            "爪牙",
+            "错误"
+        ],
+        "name": "调查员",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+        "firstNight": 13
+    },
+    {
+        "id": "3_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/3_dagedaowo.png",
+        "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+        "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+        "name": "共情者",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+        "firstNight": 14,
+        "otherNight": 4
+    },
+    {
+        "id": "4_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/4_dagedaowo.png",
+        "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+        "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+        "name": "侍女",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+        "firstNight": 17,
+        "otherNight": 9
+    },
+    {
+        "id": "5_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/5_dagedaowo.png",
+        "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
+        "remindersGlobal": [
+            "恶魔已投票",
+            "恶魔未投票"
+        ],
+        "name": "卖花女孩",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
+        "otherNight": 5
+    },
+    {
+        "id": "6_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/6_dagedaowo.png",
+        "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
+        "remindersGlobal": [
+            "爪牙已提名",
+            "爪牙未提名"
+        ],
+        "name": "城镇公告员",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+        "otherNight": 6
+    },
+    {
+        "id": "7_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/7_dagedaowo.png",
+        "name": "博学者",
+        "team": "townsfolk",
+        "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。"
+    },
+    {
+        "id": "8_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/8_dagedaowo.png",
+        "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+        "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "女裁缝",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+        "firstNight": 15,
+        "otherNight": 7
+    },
+    {
+        "id": "9_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/9_dagedaowo.png",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "猎手",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。"
+    },
+    {
+        "id": "10_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/10_dagedaowo.png",
+        "otherNightReminder": "给他展示数字手势来告诉他他当天白天猜测正确的次数。",
+        "remindersGlobal": [
+            "猜测正确"
+        ],
+        "name": "杂耍艺人",
+        "team": "townsfolk",
+        "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的次数。",
+        "otherNight": 8
+    },
+    {
+        "id": "11_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/11_dagedaowo.png",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "艺术家",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。"
+    },
+    {
+        "id": "12_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/12_dagedaowo.png",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "渔夫",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。"
+    },
+    {
+        "id": "13_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/13_dagedaowo.png",
+        "remindersGlobal": [
+            "是酒鬼"
+        ],
+        "setup": true,
+        "name": "酒鬼",
+        "team": "outsider",
+        "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。"
+    },
+    {
+        "id": "14_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/14_dagedaowo.png",
+        "firstNightReminder": "选择一名邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
+        "remindersGlobal": [
+            "是提线木偶"
+        ],
+        "setup": true,
+        "name": "提线木偶",
+        "team": "minion",
+        "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+        "firstNight": 11
+    },
+    {
+        "id": "15_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/15_dagedaowo.png",
+        "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
+        "reminders": [
+            "死亡",
+            "保留能力",
+            "中毒"
+        ],
+        "setup": true,
+        "name": "亡骨魔",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+        "otherNight": 3
+    },
+    {
+        "id": "16_dagedaowo",
+        "image": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/16_dagedaowo.png",
+        "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
+        "reminders": [
+            "死亡",
+            "产生错误信息"
+        ],
+        "name": "涡流",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+        "otherNight": 2
+    },
+    {
+        "id": "17_dagedaowo",
+        "name": "死灵的复活祭典",
+        "team": "jinxes",
+        "ability": "恶魔会如同鸦木布拉夫模式一般获取初始信息。所有玩家在首次死亡时不会死亡，然后将其角色转变为相同角色类型的一个未出现过的角色（不会转变为恶魔的伪装角色）。如果恶魔在夜晚首次死亡，则他在当晚不会再被唤醒。如果白天没人被处决，邪恶阵营获胜。（即使涡流不在场）"
+    }
+]

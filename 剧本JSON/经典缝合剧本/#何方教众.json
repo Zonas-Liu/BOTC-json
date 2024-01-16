@@ -1,0 +1,349 @@
+[
+    {
+        "id": "_meta",
+        "name": "何方教众",
+        "author": "Zets",
+		        "townsfolkName":"镇民",
+        "logo": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/_meta.png",
+        "almanac": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/almanac.html"
+    },
+    {
+        "id": "_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/_hefangjiaozhong.png",
+        "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
+        "reminders": [
+            "被得知"
+        ],
+        "name": "贵族",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+        "firstNight": 18
+    },
+    {
+        "id": "1_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/1_hefangjiaozhong.png",
+        "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
+        "reminders": [
+            "疯狂",
+            "获得能力"
+        ],
+        "name": "小精灵",
+        "team": "townsfolk",
+        "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+        "firstNight": 19
+    },
+    {
+        "id": "2_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/2_hefangjiaozhong.png",
+        "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+        "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+        "reminders": [
+            "干扰项"
+        ],
+        "name": "占卜师",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+        "firstNight": 21,
+        "otherNight": 12
+    },
+    {
+        "id": "3_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/3_hefangjiaozhong.png",
+        "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+        "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+        "reminders": [
+            "得知镇民",
+            "得知外来者",
+            "得知爪牙",
+            "得知恶魔",
+            "得知旅行者"
+        ],
+        "setup": true,
+        "name": "气球驾驶员",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
+        "firstNight": 20,
+        "otherNight": 11
+    },
+    {
+        "id": "4_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/4_hefangjiaozhong.png",
+        "firstNightReminder": "唤醒恶魔，并告诉他国王是谁。",
+        "otherNightReminder": "如果死亡玩家人数大于存活玩家，唤醒国王并对其展示一个存活的角色标记。",
+        "name": "国王",
+        "team": "townsfolk",
+        "ability": "每个夜晚，如果死亡的玩家数量大于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
+        "firstNight": 13,
+        "otherNight": 14
+    },
+    {
+        "id": "5_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/5_hefangjiaozhong.png",
+        "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
+        "name": "神谕者",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+        "otherNight": 13
+    },
+    {
+        "id": "6_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/6_hefangjiaozhong.png",
+        "firstNightReminder": "如果异教领袖改变了阵营，告诉他。",
+        "otherNightReminder": "如果异教领袖改变了阵营，告诉他。",
+        "reminders": [
+            "相同阵营"
+        ],
+        "name": "异教领袖",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
+        "firstNight": 24,
+        "otherNight": 18
+    },
+    {
+        "id": "7_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/7_hefangjiaozhong.png",
+        "otherNightReminder": "半兽人指向一名存活玩家：如果那名玩家善良，则立刻死去且今夜不会再有玩家死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "name": "半兽人",
+        "team": "townsfolk",
+        "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+        "otherNight": 5
+    },
+    {
+        "id": "8_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/8_hefangjiaozhong.png",
+        "name": "博学者",
+        "team": "townsfolk",
+        "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。"
+    },
+    {
+        "id": "9_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/9_hefangjiaozhong.png",
+        "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+        "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "女裁缝",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+        "firstNight": 22,
+        "otherNight": 15
+    },
+    {
+        "id": "10_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/10_hefangjiaozhong.png",
+        "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
+        "otherNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
+        "reminders": [
+            "失去能力"
+        ],
+        "setup": true,
+        "name": "巡山人",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
+        "firstNight": 23,
+        "otherNight": 16
+    },
+    {
+        "id": "11_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/11_hefangjiaozhong.png",
+        "otherNightReminder": "如果国王被恶魔杀死，将唱诗男孩唤醒并告诉他谁是那个杀死国王的恶魔。",
+        "setup": true,
+        "name": "唱诗男孩",
+        "team": "townsfolk",
+        "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
+        "otherNight": 10
+    },
+    {
+        "id": "12_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/12_hefangjiaozhong.png",
+        "reminders": [
+            "中毒",
+            "死于处决"
+        ],
+        "name": "食人族",
+        "team": "townsfolk",
+        "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。"
+    },
+    {
+        "id": "13_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/13_hefangjiaozhong.png",
+        "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
+        "otherNightReminder": "如果被巡山人选中，唤醒并为其展示新角色。",
+        "reminders": [
+            "已被猜测"
+        ],
+        "name": "落难少女",
+        "team": "outsider",
+        "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+        "firstNight": 12,
+        "otherNight": 17
+    },
+    {
+        "id": "14_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/14_hefangjiaozhong.png",
+        "name": "畸形秀演员",
+        "team": "outsider",
+        "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。"
+    },
+    {
+        "id": "15_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/15_hefangjiaozhong.png",
+        "name": "陌客",
+        "team": "outsider",
+        "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。"
+    },
+    {
+        "id": "16_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/16_hefangjiaozhong.png",
+        "reminders": [
+            "醉酒",
+            "已猜测"
+        ],
+        "name": "解谜大师",
+        "team": "outsider",
+        "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。"
+    },
+    {
+        "id": "17_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/17_hefangjiaozhong.png",
+        "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
+        "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
+        "reminders": [
+            "被诅咒",
+            "失去能力"
+        ],
+        "name": "女巫",
+        "team": "minion",
+        "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+        "firstNight": 15,
+        "otherNight": 2
+    },
+    {
+        "id": "cerenovusbutton",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/18_hefangjiaozhong.png",
+        "firstNightReminder": " 让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
+        "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
+        "reminders": [
+            "被洗脑"
+        ],
+        "name": "洗脑师",
+        "team": "minion",
+        "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+        "firstNight": 16,
+        "otherNight": 3
+    },
+    {
+        "id": "19_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/19_hefangjiaozhong.png",
+        "firstNightReminder": "恐惧之灵指向一名玩家，放置恐惧标记。宣布恐惧之灵选中或改变了目标。",
+        "otherNightReminder": "恐惧之灵指向一名玩家。如果与之前选择的不同，则更换恐惧标记并宣布恐惧之灵选中或改变了目标。",
+        "reminders": [
+            "恐惧蔓延"
+        ],
+        "name": "恐惧之灵",
+        "team": "minion",
+        "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
+        "firstNight": 17,
+        "otherNight": 4
+    },
+    {
+        "id": "goblinbutton",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/20_hefangjiaozhong.png",
+        "reminders": [
+            "已公开声明"
+        ],
+        "name": "哥布林",
+        "team": "minion",
+        "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。"
+    },
+    {
+        "id": "21_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/21_hefangjiaozhong.png",
+        "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“首次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原",
+        "reminders": [
+            "死亡"
+        ],
+        "remindersGlobal": [
+            "限一次"
+        ],
+        "setup": true,
+        "name": "方古",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+        "otherNight": 6
+    },
+    {
+        "id": "22_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/22_hefangjiaozhong.png",
+        "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+        "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+        "remindersGlobal": [
+            "是恶魔",
+            "死亡"
+        ],
+        "setup": true,
+        "name": "小怪宝",
+        "team": "demon",
+        "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+        "firstNight": 14,
+        "otherNight": 9
+    },
+    {
+        "id": "23_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/23_hefangjiaozhong.png",
+        "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
+        "reminders": [
+            "死亡",
+            "中毒"
+        ],
+        "name": "诺-达鲺",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+        "otherNight": 7
+    },
+    {
+        "id": "24_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/24_hefangjiaozhong.png",
+        "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "name": "涡流",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+        "otherNight": 8
+    },
+    {
+        "id": "25_hefangjiaozhong",
+        "image": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/25_hefangjiaozhong.png",
+        "firstNightReminder": "如果被暴风捕手选择的角色在场，使用暴风捕手的“不会死亡”提示标记标记那个角色。",
+        "reminders": [
+            "不会死亡"
+        ],
+        "name": "暴风捕手",
+        "team": "fabled",
+        "ability": "游戏开始时，你要宣布一个善良角色。如果该角色在场，他只能死于处决，但所有邪恶玩家会在首个夜晚得知他是哪一名玩家。",
+        "firstNight": 11
+    },
+	
+  {
+	"ability": "使用灯神的相克规则。",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/djinn.png",
+	"edition": "custom",
+	"flavor": "",
+	"id": "20003_107",
+	"firstNightReminder": "",
+	"otherNightReminder": "",
+	"name": "灯神",
+	"otherNight": 0,
+	"setup": 0,
+	"reminders": [],
+	"remindersGlobal": [],
+	"team": "fabled",
+	"firstNight": 0
+  }
+]

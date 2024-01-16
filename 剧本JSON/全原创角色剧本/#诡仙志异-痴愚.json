@@ -1,0 +1,500 @@
+[
+  {
+    "id": "_meta",
+    "name": "诡仙志异2.7.5",
+    "author": "[作者]痴愚；[图标]叶陌上",
+    "logo": "https://i.postimg.cc/JzLsd6YW/image.png",
+    "description": "“道可道，非常道，孕育万千子孙的森之黑山羊亦是一种道！道爷我成了！ 恍恍惚惚哈哈哈哈嘎——嘎——嘎——！！！”只见那道人裂开头颅，撕裂肋骨，化出肉翅，飞上天空成为了一名羽化仙......\n",
+    "townsfolkName": "护道者",
+    "outsidersName": "求道者",
+    "minionsName": "古仙",
+    "demonsName": "人仙",
+    "townsfolk": "护道者",
+    "outsider": "求道者",
+    "minion": "古仙",
+    "demon": "人仙",
+    "state": [
+      {
+        "stateName": "天道畸变",
+        "stateDescription": "善良玩家每次使用自身能力时都会顿悟，每次顿悟后有可能获得一个畸变能力且你会得知此能力，每种能力只能获得一次。如果白天没人死亡，会有一名玩家变成太岁（旅行者）。"
+      },
+      {
+        "stateName": "得道成仙",
+        "stateDescription": "存活的善良玩家在第四次顿悟时，会首先变成邪恶的古仙，最后一个仙位则会变成邪恶的人仙。然后仙位已满，继续满足条件的玩家会变成太岁（旅行者）。所有邪恶玩家互相认识，且拥有\u003c吸盘触手\u003e。"
+      },
+      {
+        "stateName": "天道有缺",
+        "stateDescription": "仙位固定，先到先得。仙位数量与邪恶玩家初始设置数量相同。初始设置无邪恶角色在场，只有当仙位已满且所有仙都死亡时，善良阵营才能获胜。"
+      },
+      {
+        "stateName": "登阶仪式",
+        "stateDescription": "游戏开始时，天道（说书人）会秘密定下一个登阶仪式（要求玩家满足一定的条件），如果仙位有余，完成登阶仪式的玩家会成仙。"
+      }
+    ],
+    "status": [
+      {
+        "name": "天道畸变",
+        "skill": "善良玩家每次使用自身能力时都会顿悟，每次顿悟后有可能获得一个畸变能力且你会得知此能力，每种能力只能获得一次。如果白天没人死亡，会有一名玩家变成太岁（旅行者）。"
+      },
+      {
+        "name": "得道成仙",
+        "skill": "存活的善良玩家在第四次顿悟时，会首先变成邪恶的古仙，最后一个仙位则会变成邪恶的人仙。然后仙位已满，继续满足条件的玩家会变成太岁（旅行者）。所有邪恶玩家互相认识，且拥有\u003c吸盘触手\u003e。"
+      },
+      {
+        "name": "天道有缺",
+        "skill": "仙位固定，先到先得。仙位数量与邪恶玩家初始设置数量相同。初始设置无邪恶角色在场，只有当仙位已满且所有仙都死亡时，善良阵营才能获胜。"
+      },
+      {
+        "name": "登阶仪式",
+        "skill": "游戏开始时，天道（说书人）会秘密定下一个登阶仪式（要求玩家满足一定的条件），如果仙位有余，完成登阶仪式的玩家会成仙。"
+      }
+    ]
+  },
+  {
+    "id": "1914ac3d-0d88-4dce-887b-9e2c5b984e58",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7474907832071_cfb30573.jpg",
+    "edition": "custom",
+    "name": "道子",
+    "ability": "每个白天，你可以私下拜访天道以许一个愿望，你的愿望可能会被扭曲并实现。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "."
+  },
+  {
+    "id": "6f16ab4c-5933-4b3b-8709-e2a7dfe8800c",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_908027832071_d4a96c3b.jpg",
+    "edition": "custom",
+    "name": "佛陀",
+    "ability": "每个夜晚，你可以得知一个当晚顿悟的角色。你不会变成太岁。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 95,
+    "otherNight": 96,
+    "firstNightReminder": "佛陀每晚都可以得知一个当晚顿悟的角色，若他这么做了，他顿悟，并告知他获得的畸变能力。",
+    "otherNightReminder": "佛陀每晚都可以得知一个当晚顿悟的角色，若他这么做了，他顿悟，并告知他获得的畸变能力。"
+  },
+  {
+    "id": "f485166a-f561-4b79-84a2-bc05548a139c",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4479477832071_f56e47de.jpg",
+    "edition": "custom",
+    "name": "丹师",
+    "ability": "每个夜晚*，你可以选择一名玩家：你可能会得知一个和该玩家有关的提示标记。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 0,
+    "otherNight": 23,
+    "firstNightReminder": "丹师每晚都可以选择一名玩家，若他这么做了，他顿悟，可以给他看一个和该玩家有关的提示标记，并告知他获得的畸变能力。",
+    "otherNightReminder": "丹师每晚都可以选择一名玩家，若他这么做了，他顿悟，可以给他看一个和该玩家有关的提示标记，并告知他获得的畸变能力。"
+  },
+  {
+    "id": "11011029-1b3a-4933-86d5-7677846cd673",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3899677832071_88dae181.jpg",
+    "edition": "custom",
+    "name": "钦天监",
+    "ability": "每个夜晚*，你可以选择两名玩家：你会得知他们顿悟次数的总和。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 0,
+    "otherNight": 90,
+    "otherNightReminder": "钦天监每个夜晚可以选择两名玩家，若他这么做了，他顿悟，告知他这两名玩家的顿悟次数之和。"
+  },
+  {
+    "id": "d04c0159-2ec5-48a7-875a-c77632ff2cab",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5001977832071_a6d78a47.jpg",
+    "edition": "custom",
+    "name": "天潢贵胄",
+    "ability": "你拥有三个畸变能力。你不会顿悟。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 31,
+    "otherNight": 0,
+    "firstNightReminder": "告知天皇贵胄获得的三个畸变能力。"
+  },
+  {
+    "id": "06bbc464-ef8c-41f0-8799-7452a95841b5",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2603187832071_5a12a8c0.jpg",
+    "edition": "custom",
+    "name": "学究",
+    "ability": "你始终拥有\u003c外附虫脑\u003e，你会因使用该能力而顿悟，每个夜晚至多使用两次。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 26,
+    "otherNight": 26,
+    "firstNightReminder": "学究每晚至多可以发动两次外附虫脑，但每发动一次，顿悟一次。",
+    "otherNightReminder": "学究每晚至多可以发动两次外附虫脑，但每发动一次，顿悟一次。"
+  },
+  {
+    "id": "e6bcf633-b860-44aa-896c-18a5c24390c7",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8201487832071_ad6a07d1.jpg",
+    "edition": "custom",
+    "name": "天机子",
+    "ability": "每个夜晚，你可以询问天道以得知还有几个仙位空缺，如果仙位已满，你会得知任意两个仙之间的距离。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 80,
+    "otherNight": 80,
+    "firstNightReminder": "天机子可以得知还有几个仙位空缺，若仙位已满，可以告诉他随机两个仙之间的距离，他顿悟，并告知他获得的畸变能力。",
+    "otherNightReminder": "天机子可以得知还有几个仙位空缺，若仙位已满，可以告诉他随机两个仙之间的距离，他顿悟，并告知他获得的畸变能力。"
+  },
+  {
+    "id": "1ff14c15-df43-4d9a-8f34-b94c9087208b",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6556587832071_02950460.jpg",
+    "edition": "custom",
+    "name": "玄君",
+    "ability": "在你的首个夜晚，你要选择一个古仙角色，你获得该角色的能力。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 9,
+    "otherNight": 0,
+    "firstNightReminder": "让玄君选择一个古仙角色，他获得该角色的能力。",
+    "remindersGlobal": [
+      "是玄君"
+    ]
+  },
+  {
+    "id": "59ada06c-75ae-4ccd-8abd-32d89c588f47",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3433787832071_9f609bc0.jpg",
+    "edition": "custom",
+    "name": "画圣",
+    "ability": "每个夜晚，你可以选择一名玩家：你会得知该玩家以及与他邻近的存活的玩家中有多少种角色类型。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 27,
+    "otherNight": 27,
+    "firstNightReminder": "画圣可以选择一名玩家，若他这么做了，告诉他该玩家及其相邻存活玩家的角色种类数量，他顿悟，告知他获得的畸变能力。",
+    "otherNightReminder": "画圣可以选择一名玩家，若他这么做了，告诉他该玩家及其相邻存活玩家的角色种类数量，他顿悟，告知他获得的畸变能力。"
+  },
+  {
+    "id": "495ee6a5-26f4-4e7d-8c6f-d44ff84f16eb",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5846887832071_829d0a96.jpg",
+    "edition": "custom",
+    "name": "剧作家",
+    "ability": "在你的前两个夜晚，你可以查看四分之一的魔典（左上/左下/右上/右下），每看一秒顿悟两次。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 55,
+    "otherNight": 55,
+    "firstNightReminder": "前两个夜晚剧作家可以查看魔典，若他这么做了，他顿悟，并告知他获得的畸变能力。",
+    "otherNightReminder": "前两个夜晚剧作家可以查看魔典，若他这么做了，他顿悟，并告知他获得的畸变能力。"
+  },
+  {
+    "id": "6874e676-66cf-4bf6-856f-b0ad294afd66",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6722097832071_2027751f.jpg",
+    "edition": "custom",
+    "name": " 巫觋",
+    "ability": "每个白天，你可以私下拜访天道以得知一条正确信息。每条这些信息被首次公布时，你顿悟。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "c6e02f39-9192-4ced-b18d-c9c0eb885b36",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4265197832071_9087051f.jpg",
+    "edition": "custom",
+    "name": "司命",
+    "ability": "每个夜晚，你可以选择一个畸变能力（需满足顿悟需求）：你获得该能力。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 77,
+    "otherNight": 77,
+    "firstNightReminder": "司命可以选择一个畸变能力，若他这么做了，他顿悟。",
+    "otherNightReminder": "司命可以选择一个畸变能力，若他这么做了，他顿悟。"
+  },
+  {
+    "id": "a9b8453e-0d62-4804-9bfb-69c1252a7d24",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8969497832071_d19cbd97.jpg",
+    "edition": "custom",
+    "name": "祥瑞",
+    "ability": "在你的首个夜晚，你会得知有多少名求道者以及得知一个在场的求道者角色，如果他死亡，你变成该角色。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 61,
+    "otherNight": 0,
+    "firstNightReminder": "告诉祥瑞求道者的玩家数量和一个在场的求道者角色。",
+    "reminders": [
+      "知晓"
+    ]
+  },
+  {
+    "id": "9c339c0b-af0f-4c95-b875-e99f35ee2857",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8478297832071_69ea6ee6.jpg",
+    "edition": "custom",
+    "name": "山鬼",
+    "ability": "每个夜晚，你可以选择除你以外的两名玩家：你会得知他们中有多少人于当天顿悟。",
+    "team": "townsfolk",
+    "sch_team": "护道者",
+    "firstNight": 99,
+    "otherNight": 99,
+    "firstNightReminder": "山鬼每个夜晚都可以选择两名除他以外的存活玩家，若他这么做了，他顿悟，并告知他获得的畸变能力，这两名玩家的中有几人在今晚顿悟。",
+    "otherNightReminder": "山鬼每个夜晚都可以选择两名除他以外的存活玩家，若他这么做了，他顿悟，并告知他获得的畸变能力，这两名玩家的中有几人在今晚顿悟。"
+  },
+  {
+    "id": "96908901-2488-4e0b-87e0-f919cc3b9af3",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4278697832071_d4b2d6d0.jpg",
+    "edition": "custom",
+    "name": "旁门",
+    "ability": "每个夜晚，你要选择两名玩家：如果他们中有人于当晚顿悟，你一同顿悟。",
+    "team": "outsider",
+    "sch_team": "求道者",
+    "firstNight": 95,
+    "otherNight": 95,
+    "firstNightReminder": "让旁门选择二名玩家，旁门会同他们一起顿悟。",
+    "otherNightReminder": "让旁门选择二名玩家，旁门会同他们一起顿悟。"
+  },
+  {
+    "id": "3ffa01aa-e1b1-4335-874d-c9647213efc7",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4607897832071_82e767f4.jpg",
+    "edition": "custom",
+    "name": "左道",
+    "ability": "你知晓本局游戏的登阶仪式。",
+    "team": "outsider",
+    "sch_team": "求道者",
+    "firstNight": 20,
+    "otherNight": 0,
+    "firstNightReminder": "告知左道本局游戏的登阶仪式达成条件。"
+  },
+  {
+    "id": "18794c9d-bc6c-456c-8693-f8556c249db4",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9193108832071_b1b7d583.jpg",
+    "edition": "custom",
+    "name": "飨民",
+    "ability": "每当有人死于处决，你获得与他相等的顿悟次数。",
+    "team": "outsider",
+    "sch_team": "求道者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "otherNightReminder": "告诉飨民上个死于处决的玩家的顿悟次数，让他顿悟该次数，告知他获得的畸变能力",
+    "reminders": [
+      "飨宴"
+    ]
+  },
+  {
+    "id": "88625e23-ad65-454b-a6a3-b9b3c3042da9",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_34308832071_f0b781f9.jpg",
+    "edition": "custom",
+    "name": "庙祝",
+    "ability": "在你的首个夜晚，你要选择一个古仙角色：如果仙位有余，下个黄昏时你变成邪恶的该角色。",
+    "team": "outsider",
+    "sch_team": "求道者",
+    "firstNight": 25,
+    "otherNight": 0,
+    "firstNightReminder": "让庙祝选择一个古仙角色，他顿悟，并告知他获得的畸变能力。"
+  },
+  {
+    "id": "1b1491fa-50b9-494f-84cf-bfdc9d72e1f2",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3698408832071_3ec79170.jpg",
+    "edition": "custom",
+    "name": "黑太岁",
+    "ability": "你会在你死亡后的第二个黎明起死回生。提名你或使用其自身能力选择了你的玩家会顿悟。",
+    "team": "minion",
+    "sch_team": "古仙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "无",
+    "reminders": [
+      "第一个黎明",
+      "第二个黎明"
+    ]
+  },
+  {
+    "id": "737c5531-810c-4126-978d-ca1a6236c893",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9483608832071_9bc92cf2.jpg",
+    "edition": "custom",
+    "name": "巴虺",
+    "ability": "你与其他仙互相不认识。如果你死亡，当晚你要选择一名存活的玩家：如果他不是仙，你和他交换角色和阵营。",
+    "team": "minion",
+    "sch_team": "古仙",
+    "firstNight": 0,
+    "otherNight": 9,
+    "otherNightReminder": "若巴虺死亡，当晚让他选择一名玩家，如果选中非人仙或古仙玩家，告知他变成了被选中玩家的角色和阵营，给他放置遗蜕标记，告知被选中的玩家变成了邪恶的巴虺。",
+    "reminders": [
+      "遗蜕"
+    ]
+  },
+  {
+    "id": "d39c90a1-1113-4b4a-89ca-b7c348676987",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1869708832071_051f22ea.jpg",
+    "edition": "custom",
+    "name": "尸林怙主",
+    "ability": "即使你已死亡也能使用畸变能力。",
+    "team": "minion",
+    "sch_team": "古仙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "otherNightReminder": "无"
+  },
+  {
+    "id": "b48645fa-563c-4cf7-85c4-0f7ffe5f5816",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_867018832071_0086fdfc.jpg",
+    "edition": "custom",
+    "name": "鬼乘菩萨",
+    "ability": "每个夜晚*，你会得知哪些玩家拥有\u003c影子旧友\u003e，你可以选择其中一名玩家：改为你向他下达任务，即使你已死亡。",
+    "team": "minion",
+    "sch_team": "古仙",
+    "firstNight": 0,
+    "otherNight": 15,
+    "otherNightReminder": "给鬼乘菩萨指出所有拥有影子旧友的玩家，让他选择其中一名，并决定该玩家要做的事情，由说书人去告知该玩家。"
+  },
+  {
+    "id": "0900a0aa-8400-48c9-801c-587c5db9b081",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2087218832071_8f70301d.jpg",
+    "edition": "custom",
+    "name": "羽化仙",
+    "ability": "每个夜晚*，你要选择一名玩家：他变成邪恶的太岁。",
+    "team": "demon",
+    "sch_team": "人仙",
+    "firstNight": 0,
+    "otherNight": 11,
+    "otherNightReminder": "让羽化仙选择一名玩家，该玩家变成邪恶的太岁。",
+    "reminders": [
+      "悟！"
+    ]
+  },
+  {
+    "id": "98b123c7-a2e3-4c7b-ad1d-c1fccede9fc1",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7933418832071_852d6382.jpg",
+    "edition": "custom",
+    "name": "尸解仙",
+    "ability": "当你首次死亡后，你仍存活，但会被当作死亡。",
+    "team": "demon",
+    "sch_team": "人仙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "尸解"
+    ]
+  },
+  {
+    "id": "10c52366-b2e9-41e4-89c7-0a9dd9be107c",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3223718832071_d3278c24.jpg",
+    "edition": "custom",
+    "name": "域外天魔",
+    "ability": "每个夜晚，你可能会获得一个畸变能力，直到下个黄昏。你不会顿悟，不能完成登阶仪式。",
+    "team": "traveler",
+    "firstNight": 0,
+    "otherNight": 1
+  },
+  {
+    "id": "472cbb06-be02-4029-8319-16d2e108df69",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7061918832071_127275dd.jpg",
+    "edition": "custom",
+    "name": "太岁",
+    "ability": "你不会被流放，不能投票，即使你已死亡。你拥有\u003c吸盘触手\u003e，且每个白天必须使用，否则你死亡。",
+    "team": "traveler",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "c3f33080-223a-4d96-83ba-7621a98ceb9e",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4825238832071_58dca7ca.jpg",
+    "edition": "custom",
+    "name": "外附虫脑",
+    "ability": "在夜晚时，你可以选择一名玩家：你会得知关于他的一些信息。〈消耗型，顿悟可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "外附虫脑"
+    ]
+  },
+  {
+    "id": "72cd6b21-2f5b-4d9c-a8d9-28dbe5059d1b",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6084369832071_d02d22b4.jpg",
+    "edition": "custom",
+    "name": "黑羊胎盘",
+    "ability": "在夜晚时，你可以选择一名死亡的玩家：他复活。〈消耗型，顿悟2次及以上可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "黑羊胎盘"
+    ]
+  },
+  {
+    "id": "983e6c50-e442-4f70-9d28-c5e840f2f102",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4563838832071_f5ee0eb6.jpg",
+    "edition": "custom",
+    "name": "吸盘触手",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家和你猜拳：输了的玩家死亡。〈顿悟2次及以上可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "吸盘触手"
+    ]
+  },
+  {
+    "id": "854321db-aed0-4efc-a53e-132f882bec37",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_387538832071_bb049cee.jpg",
+    "edition": "custom",
+    "name": "血肉灵芝",
+    "ability": "当你首次将要死亡时，你不会死亡。〈顿悟2次及以上可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "血肉灵芝",
+      "血肉灵芝（破损）"
+    ]
+  },
+  {
+    "id": "737c708c-53a6-4104-9d37-abab1f801087",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8997728832071_a2ef37e6.jpg",
+    "edition": "custom",
+    "name": "影子旧友",
+    "ability": "天道会要求你完成某些任务，否则你会遭遇一些不好的事情。〈顿悟可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "影子旧友",
+	  "不好的事"
+    ]
+  },
+  {
+    "id": "a1ed1fc2-ffd8-4ed2-b32a-27c20ac1bf6d",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8698928832071_b62db00e.jpg",
+    "edition": "custom",
+    "name": "瓷瓶娃娃",
+    "ability": "天道随时可能会给你一些不知真假的信息。〈顿悟可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "瓷瓶娃娃"
+    ]
+  },
+  {
+    "id": "e9d3e5c8-602b-4995-a8cd-4c4aade1cc07",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2477428832071_1a668a15.jpg",
+    "edition": "custom",
+    "name": "呢喃细语",
+    "ability": "每个白天，你要发表一些毫无关联的言论或疯狂的呓语，否则你顿悟或死亡。〈顿悟可获得〉",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "呢喃细语"
+    ]
+  },
+  {
+    "id": "447c357a-6408-4c9a-bfc2-84036ee31b4b",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6931901625861_d30a61b1.jpg",
+    "edition": "custom",
+    "name": "画外音",
+    "ability": "当天道被孕育千万子孙的森之黑山羊侵染，修仙世界将会何去何从？",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "登阶"
+    ]
+  }
+]

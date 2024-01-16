@@ -1,0 +1,232 @@
+[
+    {
+        "id": "_meta",
+        "name": "堕落天使",
+        "author": "Zets",
+        "logo": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/_meta.png",
+        "almanac": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/almanac.html"
+    },
+    {
+        "id": "_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/_duoluotianshi.png",
+        "name": "博学者",
+        "team": "townsfolk",
+        "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。"
+    },
+    {
+        "id": "empathButton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/empath.png",
+        "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+        "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+        "name": "共情者",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+        "firstNight": 16,
+        "otherNight": 11
+    },
+    {
+        "id": "chambermaidButton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/chambermaid.png",
+        "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+        "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+        "name": "侍女",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+        "firstNight": 17,
+        "otherNight": 13
+    },
+    {
+        "id": "mathematicianButton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mathematician.png",
+        "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
+        "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
+        "remindersGlobal": [
+            "未正常生效"
+        ],
+        "name": "数学家",
+        "team": "townsfolk",
+        "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
+        "firstNight": 18,
+        "otherNight": 14
+    },
+    {
+        "id": "4_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/4_duoluotianshi.png",
+        "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+        "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+        "remindersGlobal": [
+            "是哲学家",
+            "醉酒"
+        ],
+        "name": "哲学家",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+        "firstNight": 11,
+        "otherNight": 2
+    },
+    {
+        "id": "engineerButton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/engineer.png",
+        "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+        "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+        "reminders": [
+            "失去能力"
+        ],
+        "name": "工程师",
+        "team": "townsfolk",
+        "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
+        "firstNight": 13,
+        "otherNight": 3
+    },
+    {
+        "id": "6_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/6_duoluotianshi.png",
+        "otherNightReminder": "给他展示数字手势来告诉他他当天白天猜测正确的次数。",
+        "remindersGlobal": [
+            "猜测正确"
+        ],
+        "name": "杂耍艺人",
+        "team": "townsfolk",
+        "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的次数。",
+        "otherNight": 12
+    },
+    {
+        "id": "mutantbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mutant.png",
+        "name": "畸形秀演员",
+        "team": "outsider",
+        "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。"
+    },
+    {
+        "id": "lunaticbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lunatic.png",
+        "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
+        "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
+        "remindersGlobal": [
+            "是疯子",
+            "被选择"
+        ],
+        "setup": true,
+        "name": "疯子",
+        "team": "outsider",
+        "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+        "firstNight": 12,
+        "otherNight": 6
+    },
+    {
+        "id": "9_duoluotianshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/psychopath.png",
+        "name": "精神病患者",
+        "team": "minion",
+        "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。"
+    },
+    {
+        "id": "10_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/10_duoluotianshi.png",
+        "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
+        "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
+        "reminders": [
+            "处决不死"
+        ],
+        "name": "魔鬼代言人",
+        "team": "minion",
+        "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+        "firstNight": 14,
+        "otherNight": 4
+    },
+    {
+        "id": "pithagbutton",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/11_duoluotianshi.png",
+        "otherNightReminder": "让麻脸巫婆选择一名玩家和一个角色。如果她选择的角色不在场：让麻脸巫婆重新入睡。唤醒她的目标玩家。对该玩家展示“你是”信息标记和他的新角色标记。",
+        "reminders": [
+            "生死无常"
+        ],
+        "name": "麻脸巫婆",
+        "team": "minion",
+        "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果你因此创造了一个恶魔，当晚生死无常。",
+        "otherNight": 5
+    },
+    {
+        "id": "12_duoluotianshi",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pukka.png",
+        "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
+        "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上一个因普卡中毒的玩家死亡，随后恢复健康。",
+        "reminders": [
+            "中毒",
+            "死亡"
+        ],
+        "name": "普卡",
+        "team": "demon",
+        "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+        "firstNight": 15,
+        "otherNight": 7
+    },
+    {
+        "id": "13_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/13_duoluotianshi.png",
+        "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
+        "reminders": [
+            "死亡",
+            "保留能力",
+            "中毒"
+        ],
+        "setup": true,
+        "name": "亡骨魔",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+        "otherNight": 9
+    },
+    {
+        "id": "14_duoluotianshi",
+        "image": "https://www.bloodstar.xyz/p/ronchi/duoluotianshi/14_duoluotianshi.png",
+        "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
+        "reminders": [
+            "死亡",
+            "中毒"
+        ],
+        "name": "诺-达鲺",
+        "team": "demon",
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+        "otherNight": 8
+    },
+    {
+        "id": "legionbutton",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/legion.png",
+        "otherNightReminder": "由说书人决定，让哪一名玩家死亡。",
+        "reminders": [
+            "死亡",
+            "即将被处决"
+        ],
+        "setup": true,
+        "name": "军团",
+        "team": "demon",
+        "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
+        "otherNight": 10
+    },
+    {
+        "id": "angle",
+		"image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/angel.png",
+        "name": "天使告诉恶魔",
+		"reminders": [
+            "庇护"
+        ],
+        "team": "jinxes",
+        "ability": "即使这是一个汀西维尔模式的游戏，恶魔仍然能获得两个不在场角色的伪装。"
+    },
+  {
+	"ability": "使用灯神的相克规则。",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/djinn.png",
+	"edition": "custom",
+	"flavor": "",
+	"id": "20003_107",
+	"firstNightReminder": "",
+	"otherNightReminder": "",
+	"name": "灯神",
+	"otherNight": 0,
+	"setup": 0,
+	"reminders": [],
+	"remindersGlobal": [],
+	"team": "fabled",
+	"firstNight": 0
+  }
+]

@@ -1,0 +1,403 @@
+[{
+	"id": "_meta",
+	"name": "梨园残梦3.5",
+	"author": "痴愚＆鸭镇、Lei",
+	"logo": "https://i.postimg.cc/GtCBw47p/image.png",
+	"description": "诸君：不到园林，怎知春色如许？",
+	"townsfolkName": "生角",
+	"outsidersName": "旦角",
+	"minionsName": "净角",
+	"demonsName": "丑角",
+	"townsfolk": "生角",
+	"outsider": "旦角",
+	"minion": "净角",
+	"demon": "丑角",
+	"state": [{
+		"stateName": "逢场作戏",
+		"stateDescription": "在游戏开始时，说书人会决定第一个剧目。一个剧目中，会有玩家饰演其中的角色（不再是原本的角色）。一个剧目上演两天后的当天黄昏会变更剧目，且之前剧目的玩家变成原本的角色。所有玩家都知道当前上演的剧目。"
+	}, {
+		"stateName": "一唱一和",
+		"stateDescription": "在游戏开始时，说书人会将所有玩家两两组成搭档，饰反派的玩家会相互组成搭档或没有搭档。搭档之间可以随时私聊，在夜晚时会被一同唤醒。如果搭档之一转变了阵营，另一名也转变为相同阵营。"
+	}, {
+		"stateName": "生旦净丑",
+		"stateDescription": "剧本的角色类型为：生角、旦角、净角、丑角。除饰反派和饰主演的角色以外，所有角色都是善良角色，说书人随意配版。"
+	}, {
+		"stateName": "曲终人散",
+		"stateDescription": "如果所有主演都已退场，善良阵营获胜。如果白天无人死亡或只有三名玩家存活，邪恶阵营获胜。如果两个阵营同时达成胜利条件，则善良阵营获胜。"
+	}],
+	"status": [{
+		"name": "逢场作戏",
+		"skill": "在游戏开始时，说书人会决定第一个剧目。一个剧目中，会有玩家饰演其中的角色（不再是原本的角色）。一个剧目上演两天后的当天黄昏会变更剧目，且之前剧目的玩家变成原本的角色。所有玩家都知道当前上演的剧目。"
+	}, {
+		"name": "一唱一和",
+		"skill": "在游戏开始时，说书人会将所有玩家两两组成搭档，饰反派的玩家会相互组成搭档或没有搭档。搭档之间可以随时私聊，在夜晚时会被一同唤醒。如果搭档之一转变了阵营，另一名也转变为相同阵营。"
+	}, {
+		"name": "生旦净丑",
+		"skill": "剧本的角色类型为：生角、旦角、净角、丑角。除饰反派和饰主演的角色以外，所有角色都是善良角色，说书人随意配版。"
+	}, {
+		"name": "曲终人散",
+		"skill": "如果所有主演都已退场，善良阵营获胜。如果白天无人死亡或只有三名玩家存活，邪恶阵营获胜。如果两个阵营同时达成胜利条件，则善良阵营获胜。"
+	}]
+}, {
+	"id": "2867e1af-8f03-421e-8318-c1602dbfe6bd",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5830599077861_da671b0c.jpg",
+	"edition": "custom",
+	"name": "状元郎",
+	"ability": "每个剧目的首个夜晚，你会得知你与你的搭档最近的距离之间，有多少名存活的善良玩家。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 22,
+	"otherNight": 12,
+	"firstNightReminder": "向状元郎展示他与他的搭档之间，存活善良玩家数量的手势。",
+	"otherNightReminder": "如果这是本剧目的首个夜晚，向状元郎展示他与他的搭档之间，存活善良玩家数量的手势。",
+	"reminders": ["搭档"]
+}, {
+	"id": "86f32215-7eaa-4d04-8975-dd848a502c0c",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4391479077861_d4b59534.jpg",
+	"edition": "custom",
+	"name": "诗人",
+	"ability": "每个剧目的首个夜晚，你会得知主演位于你的哪一侧（左/右）。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 23,
+	"otherNight": 13,
+	"firstNightReminder": "用手指指向左侧或右侧，代表主演位于诗人的哪一侧。",
+	"otherNightReminder": "如果这是本剧目的首个夜晚，用手指指向左侧或右侧，代表主演位于诗人的哪一侧。"
+}, {
+	"id": "182bba2e-c248-4a3c-9f33-1fd8fbf0e65b",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2324289077861_5b3b37ef.jpg",
+	"edition": "custom",
+	"name": "武夫",
+	"ability": "每个剧目的首个夜晚，你会得知任意两名邪恶玩家之间的距离。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 24,
+	"otherNight": 14,
+	"firstNightReminder": "向武夫展示任意两名邪恶玩家的距离的手势。",
+	"otherNightReminder": "如果这是本剧目的首个夜晚，向武夫展示任意两名邪恶玩家的距离的手势。"
+}, {
+	"id": "ad2ed943-5f1c-45f2-80d4-c3b640309056",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2510789077861_5c66e3e7.jpg",
+	"edition": "custom",
+	"name": "戏曲大家",
+	"ability": "每个夜晚，你要选择一个善良角色：你可能会获得该角色的能力，直到下个黄昏。你可能会被当作任何角色类型（生旦净丑）。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 11,
+	"otherNight": 7,
+	"firstNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记“获得能力”，否则让他入睡。",
+	"otherNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记“获得能力”，否则让他入睡。",
+	"reminders": ["获得能力"]
+}, {
+	"id": "da7d8b93-437d-4592-80e5-2840d0973b01",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3853629077861_a3cfed17.jpg",
+	"edition": "custom",
+	"name": "附马爷",
+	"ability": "每个夜晚，你会得知一种角色类型（生旦净丑）有多少名玩家，直到场上所有的角色类型你都得知过一次。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 27,
+	"otherNight": 17,
+	"firstNightReminder": "选择一种角色类型，并向驸马爷展示该角色类型玩家数量的手势，标记得知该角色数量。",
+	"otherNightReminder": "选择一种尚未向驸马爷展示数量的角色类型，并向其展示该角色类型玩家数量的手势，标记得知该角色数量。如果所有角色类型的玩家数量均已得知，驸马爷不会醒来。",
+	"reminders": ["得知生角数量", "得知旦角数量", "得知净角数量", "得知丑角数量", "得知旅行者数量"]
+}, {
+	"id": "fbefa87b-6e01-4551-8e62-78244bbe6eae",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5539149077861_c2489416.jpg",
+	"edition": "custom",
+	"name": "郎中",
+	"ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知该玩家与你上次选择的玩家的角色类型是否相同。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 26,
+	"otherNight": 16,
+	"firstNightReminder": "让郎中指向除他以外的一名玩家，标记“上次选择”。",
+	"otherNightReminder": "让郎中指向除他以外的一名玩家，如果该玩家与“上次选择”的玩家角色类型相同，点头表示“是”，否则摇头表示“否”。移除“上次选择”，并标记该玩家“上次选择”。",
+	"reminders": ["上次选择"]
+}, {
+	"id": "98cbc246-e4d4-4cd0-8542-355dc9391c23",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6794039077861_432a1345.jpg",
+	"edition": "custom",
+	"name": "负心汉",
+	"ability": "如果你是善良的，你随时可以与另一名玩家组成搭档，且失去原来的搭档。如果有玩家“疯狂”地证明你是负心汉，你可能被处决。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 0,
+	"otherNight": 0
+}, {
+	"id": "393fd34b-14ee-4b52-87de-280462181e59",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3032339077861_ee26449f.jpg",
+	"edition": "custom",
+	"name": "谏官",
+	"ability": "如果被你提名的玩家（与上个白天不同）是邪恶玩家，他当晚不会因其自身能力而被唤醒。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"reminders": ["上个白天", "不会被唤醒"]
+}, {
+	"id": "3d988b09-0c32-4037-8e8b-0c5f131fae03",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5828879077861_f168b5ad.jpg",
+	"edition": "custom",
+	"name": "天子",
+	"ability": "饰反派。如果你死亡，当晚你要选择一名存活的玩家：如果他不是主演，你和他交换角色和阵营。[无搭档]",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 0,
+	"otherNight": 3,
+	"firstNightReminder": "",
+	"otherNightReminder": "如果天子死亡，标记“驾崩”，让天子选择一名存活玩家，如果该玩家不是主演，向天子展示“你是”提示卡和那名玩家的角色标记，拇指向上代表他的阵营变为善良。交换他们的角色标记。唤醒新的天子，展示“你是”提示卡和天子角色标记，拇指向下代表他的阵营变为邪恶。",
+	"reminders": ["驾崩"],
+	"setup": 1
+}, {
+	"id": "ffa79f9d-baab-4a2e-af57-d26cd291461c",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4558369077861_81b6b5da.jpg",
+	"edition": "custom",
+	"name": "曲作家",
+	"ability": "饰反派。你知道谁是主演。每局游戏限一次，在白天时，你可以公开声明变更当前剧目，然后你被处决。",
+	"team": "townsfolk",
+	"sch_team": "生角",
+	"firstNight": 10,
+	"otherNight": 6,
+	"firstNightReminder": "告诉曲作家谁是主演。",
+	"otherNightReminder": "如果这是本剧目的首个夜晚，告诉曲作家谁是主演。"
+}, {
+	"id": "90d3223a-a3e1-4bf1-8785-fe973e51d7e1",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4961459077861_0de1dd12.jpg",
+	"edition": "custom",
+	"name": "女元帅",
+	"ability": "每个剧目的首个夜晚，你会得知你的搭档以及与他邻近的存活玩家中有多少种角色类型（生旦净丑）。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 25,
+	"otherNight": 15,
+	"firstNightReminder": "向女元帅展示其搭档及与其搭档邻近的存活玩家中角色类型数量的手势。",
+	"otherNightReminder": "如果这是本剧目的首个夜晚，向女元帅展示其搭档及与其搭档邻近的存活玩家中角色类型数量的手势。"
+}, {
+	"id": "714faa21-c593-4bd6-8a54-afcb1e67369c",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8703299077861_9b480a3f.jpg",
+	"edition": "custom",
+	"name": "丫鬟",
+	"ability": "每个夜晚，你会得知一个在场角色。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 28,
+	"otherNight": 18,
+	"firstNightReminder": "向丫鬟展示一个在场的角色标记。",
+	"otherNightReminder": "向丫鬟展示一个在场的角色标记。"
+}, {
+	"id": "aac6786f-9e18-4e5a-a1be-5557913a2ed5",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8554739077861_333922db.jpg",
+	"edition": "custom",
+	"name": "郡主",
+	"ability": "每个夜晚*，你要选择一名存活的玩家：当晚主演的负面能力对你无效，如果你选中了邪恶玩家或者丑角，你死亡。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 0,
+	"otherNight": 8,
+	"firstNightReminder": "",
+	"otherNightReminder": "让郡主指向一名存活玩家，如果该玩家是邪恶玩家或丑角，标记郡主“所托非人”，郡主死亡；否则当晚主演的负面能力对郡主无效。",
+	"reminders": ["所托非人"]
+}, {
+	"id": "caf42fbc-d35b-4702-9317-37ce123efe89",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_274129077861_a77141d6.jpg",
+	"edition": "custom",
+	"name": "妃子",
+	"ability": "如果你在被提名后公开声明“绝艳惊人出汉宫，红颜命薄古今同”，可能会有一名参与投票的玩家代替你被处决。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"reminders": ["香消玉殒"]
+}, {
+	"id": "959ba294-28c3-4451-8030-9983200cbe25",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2842279077861_b3c2ddb4.jpg",
+	"edition": "custom",
+	"name": "含冤女",
+	"ability": "如果你死于处决，说书人会宣布“血溅白练，六月飞雪，大旱三年”，随后，对你的死亡负最大责任的玩家需要以哭腔发言直到下个黄昏，否则他可能被处决。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"reminders": ["冤呐"]
+}, {
+	"id": "f3f4a5aa-9b00-44d2-8c16-af965a150b09",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9753489077861_86014568.jpg",
+	"edition": "custom",
+	"name": "痴情女",
+	"ability": "如果你的搭档在夜晚死亡，你会和他一同死亡。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 0,
+	"otherNight": 11,
+	"firstNightReminder": "",
+	"otherNightReminder": "如果痴情女的搭档在夜晚死亡，标记痴情女“殉情”。",
+	"reminders": ["殉情"]
+}, {
+	"id": "074abc23-0073-43cf-b60a-5e9278aee0b1",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6095679077861_11397a85.jpg",
+	"edition": "custom",
+	"name": "太后",
+	"ability": "如果你是善良的且你的搭档死亡，你获得他的能力。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"reminders": ["垂帘听政"]
+}, {
+	"id": "0c0756ab-286c-4e13-8371-c2fc18679973",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3983859077861_20532f15.jpg",
+	"edition": "custom",
+	"name": "千金",
+	"ability": "饰反派。每个夜晚，你要选择一名玩家：该玩家中毒且发言只能是“小生/小女子身体不适，改日再聊”直到下个黄昏，否则他可能被处决。每局游戏限一次，你可以改为选择说书人。",
+	"team": "outsider",
+	"sch_team": "旦角",
+	"firstNight": 9,
+	"otherNight": 5,
+	"firstNightReminder": "让千金选择一名玩家，标记该玩家“娇弱”。唤醒该玩家，向他展示“该角色能力对你生效”提示卡和千金角色标记。如果千金选择说书人，标记“限一次”。",
+	"otherNightReminder": "让千金选择一名玩家，标记该玩家“娇弱”。唤醒该玩家，向他展示“该角色能力对你生效”提示卡和千金角色标记。如果千金选择说书人，标记“限一次”。",
+	"reminders": ["娇弱", "限一次"]
+}, {
+	"id": "229a3783-bfcc-435b-81da-d6b573b8396c",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8788069077861_643b5dc5.jpg",
+	"edition": "custom",
+	"name": "青天大老爷",
+	"ability": "每个夜晚，你会得知一条有关主演的信息，但你可能会得知错误信息（这些信息正确与错误交替）。",
+	"team": "minion",
+	"sch_team": "净角",
+	"firstNight": 29,
+	"otherNight": 19,
+	"firstNightReminder": "告知青天大老爷一条关于主演的信息，如果是正确信息，标记“对”，否则标记“错”。",
+	"otherNightReminder": "告知青天大老爷一条关于主演的信息，如果上个夜晚告知了正确消息，今晚必须告知错误消息，移除“对”标记并标记“错”。否则，今晚必须告知正确消息，移除“错”标记并标记“对”。",
+	"reminders": ["对", "错"]
+}, {
+	"id": "db31ee48-58c3-401b-9a59-9824a0aae48a",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6800539077861_be0ff793.jpg",
+	"edition": "custom",
+	"name": "将军",
+	"ability": "所有玩家都知道你是将军。其他玩家不能使用自身能力选择你。每个白天，你可以公开声明“取尔项上人头”，然后选择除你以外的一名玩家和你猜拳：输了的玩家死亡。",
+	"team": "minion",
+	"sch_team": "净角",
+	"firstNight": 50,
+	"otherNight": 0,
+	"firstNightReminder": "如果将军在场，告知所有人谁是将军。"
+}, {
+	"id": "0a7276af-c17c-41e2-85b6-02945e3a59f2",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_683989077861_09502834.jpg",
+	"edition": "custom",
+	"name": "侠客",
+	"ability": "如果没有人“疯狂”地证明你是侠客，在你的第三个黎明，说书人会宣布“十年磨一剑，一朝试锋芒”，随后的每个白天，你可以公开选择一名玩家：他死亡。",
+	"team": "minion",
+	"sch_team": "净角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"reminders": ["第一天黎明", "第二天黎明", "已开刃"]
+}, {
+	"id": "abb9bc96-45ca-4b80-b8f6-8170e2738579",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_89569077861_0dc977ea.jpg",
+	"edition": "custom",
+	"name": "权臣",
+	"ability": "饰反派。所有玩家都知道你是权臣。在白天时，你可以公开选择除你以外的一名存活的玩家：他失去能力且发言只能是奉承你或胡言乱语且会替你死亡，直到你下次选择，否则他可能被处决。",
+	"team": "minion",
+	"sch_team": "净角",
+	"firstNight": 55,
+	"otherNight": 0,
+	"firstNightReminder": "如果权臣在场，告知所有人谁是权臣。",
+	"reminders": ["狗腿子"]
+}, {
+	"id": "7e6076a0-b28c-4392-81f9-2f2ae30f8f1b",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3846869077861_3cdc0feb.jpg",
+	"edition": "custom",
+	"name": "扫把星",
+	"ability": "你不知道你是扫把星。你以为你是一个生角、旦角或净角，但其实你不是。所有玩家都知道扫把星入场。每次变更剧目时，可能会有一名玩家变成扫把星，即使扫把星不在场。",
+	"team": "demon",
+	"sch_team": "丑角",
+	"firstNight": 30,
+	"otherNight": 4,
+	"firstNightReminder": "告知所有玩家，扫把星在场。",
+	"otherNightReminder": "说书人可以选择一名玩家变为扫把星，如果说书人这么做了，说书人需要告诉所有玩家扫把星入场。",
+	"remindersGlobal": ["扫把星"],
+	"setup": true
+}, {
+	"id": "09210636-cbc6-4776-814f-bac55d0d3fcd",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1099329077861_fe61766c.jpg",
+	"edition": "custom",
+	"name": "腐儒",
+	"ability": "你不知道你是腐儒，你以为你是一个生角或净角，但其实你不是。你可能会被当作邪恶阵营、生角或净角。",
+	"team": "demon",
+	"sch_team": "丑角",
+	"firstNight": 0,
+	"otherNight": 0,
+	"remindersGlobal": ["腐儒"],
+	"setup": true
+}, {
+	"id": "cddb0cda-3dfe-49b9-9e68-ba084fbac781",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2600674341071_4c93e0a2.jpg",
+	"edition": "custom",
+	"name": "剧目：铡美案",
+	"ability": "一名生角饰演陈世美。【陈世美：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。如果你死亡，你的搭档变成陈世美】——且看包公怒斩渣男陈世美狗头。",
+	"team": "fabled",
+	"firstNight": 0,
+	"otherNight": 9,
+	"reminders": ["陈世美", "死亡"]
+}, {
+	"id": "2a3fa6cd-28a4-4dba-812e-5e90ab4cfa7a",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3674984341071_19e74b1e.jpg",
+	"edition": "custom",
+	"name": "剧目：霸王别姬",
+	"ability": "一名旦角饰演虞美人，一名反派饰演楚霸王。【虞美人：饰主演。楚霸王知道你是虞美人】【楚霸王：饰反派。每个剧目限一次，在白天时，你可以重复公开选择玩家猜拳，直到你输了，输了的玩家都死亡。即使你已死亡。】——共品项羽与虞姬的末路情歌。",
+	"team": "fabled",
+	"firstNight": 0,
+	"otherNight": 9,
+	"reminders": ["虞美人", "楚霸王"]
+}, {
+	"id": "f0b5f3df-5709-4c02-8fd2-1441807d08af",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5443274341071_b24efb83.jpg",
+	"edition": "custom",
+	"name": "剧目：倩女幽魂",
+	"ability": "一名旦角饰演聂小倩、他的搭档饰演宁采臣。【聂小倩：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。】【宁采臣：饰反派。如果你已死亡，聂小倩每个夜晚都可以额外行动一次。】——围观聂小倩与宁采臣的人鬼虐恋。",
+	"team": "fabled",
+	"firstNight": 0,
+	"otherNight": 9,
+	"reminders": ["聂小倩", "宁采臣", "死亡"]
+}, {
+	"id": "cf85f6a0-9f2c-4023-8a32-dc3f73de68ee",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9450874341071_879a9f65.jpg",
+	"edition": "custom",
+	"name": "剧目：牡丹亭",
+	"ability": "一个生角饰演柳梦梅、一名死亡玩家饰演杜丽娘。【柳梦梅：饰主演。你不知道你是柳梦梅、你的搭档不知道阵营发生了转变，杜丽娘会知道你是柳梦梅。】【杜丽娘：饰反派。每个夜晚*，你要选择一名存活的玩家：他死亡，即使你已死亡。】——见证杜丽娘与柳梦梅的惊美爱情。",
+	"team": "fabled",
+	"firstNight": 0,
+	"otherNight": 9,
+	"reminders": ["杜丽娘", "柳梦梅", "死亡"]
+}, {
+	"id": "7d63957c-ad5a-4250-aaf0-8c33767291e9",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6853494341071_6585e7bc.jpg",
+	"edition": "custom",
+	"name": "剧目：钟馗嫁妹",
+	"ability": "一名净角饰演钟馗。【钟馗：饰主演。每个夜晚，你要选择一名存活的玩家（所有玩家都会得知你选了谁）：只要他存活，在白天结束时会有一名玩家死亡。】——亲历钟馗奉命拔剑镇压魑魅魍魉。",
+	"team": "fabled",
+	"firstNight": 12,
+	"otherNight": 9,
+	"reminders": ["钟馗", "鬼怪", "死亡"]
+}, {
+	"id": "1c18ca79-5ddf-4cd1-9102-6a2bb81cad94",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2649374341071_6f843ad0.jpg",
+	"edition": "custom",
+	"name": "剧目：白蛇传",
+	"ability": "一名旦角饰演白娘子。每天提名开始前加入竞选环节，愿意竞选的玩家依次发言后所有玩家投票，得票最高的玩家饰演法海，直到下个黎明。【白娘子：饰主演。每个夜晚*，你要选择一名存活玩家：他死亡。】【法海：其他玩家不能使用自身能力选择你，只有你才能发起提名。】——回忆许仙与白素贞的人妖殊途。",
+	"team": "fabled",
+	"firstNight": 0,
+	"otherNight": 9,
+	"reminders": ["白娘子", "法海", "死亡"]
+}, {
+	"id": "37638ffa-c082-473c-81a5-de8016436682",
+	"image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1020954341071_e11acf3d.jpg",
+	"edition": "custom",
+	"name": "剧目：武松打虎",
+	"ability": "一名生角饰演武松，一名善良玩家饰演虎。【武松：饰主演。每个夜晚，你要选择一名玩家：他醉酒。如果你选中了虎，改为他死亡。】【虎：每个夜晚*，你要选择一名存活的玩家：他死亡。如果你选中了武松，改为你死亡。】——目睹武松酒后暴打国家保护动物。",
+	"team": "fabled",
+	"firstNight": 12,
+	"otherNight": 9,
+	"reminders": ["武松", "虎", "醉酒", "死亡"]
+}]

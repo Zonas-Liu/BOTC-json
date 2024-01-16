@@ -1,0 +1,73 @@
+[{
+		"id": "_meta",
+		"name": "裁缝vs暴乱",
+		"author": "Sui染钟楼",
+		"logo": "https://i.postimg.cc/mkW8SPQC/copy.png",
+		"description": "一个短平快的玩法",
+		"townsfolkName": "镇民",
+		"demonsName": "恶魔",
+		"townsfolk": "镇民",
+		"demon": "恶魔"
+	},
+
+  {
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "name": "女裁缝",
+    "otherNight": 61,
+    "setup": true,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "seamstressbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Seamstress",
+    "firstNight": 42,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。[所有镇民都是女裁缝]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/seamstress.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "暴乱",
+    "otherNight": 0,
+    "setup": true,
+    "reminders": [],
+    "id": "riotbutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "Riot",
+    "firstNight": 0,
+    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/riot.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "私货商人",
+    "setup": false,
+    "reminders": [],
+    "team": "fabled",
+    "name_eng": "Bootlegger",
+    "id": "bootleggerbutton",
+    "ability": "这个剧本包含有自制角色或自制规则。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bootlegger.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "骗人精",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "team": "fabled",
+    "name_eng": "Fibbin",
+    "id": "fibbinbutton",
+    "ability": "每局游戏限一次，一名善良玩家可能会得知“有问题”的信息。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fibbin.png"
+  }
+]

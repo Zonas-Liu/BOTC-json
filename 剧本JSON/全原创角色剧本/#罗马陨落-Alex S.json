@@ -1,0 +1,451 @@
+[
+  {
+    "id": "_meta",
+    "name": "罗马陨落v1.9",
+    "author": "Alex S",
+    "logo": "https://i.postimg.cc/xdTZqDDy/罗马陨落LOGO_copy.png",
+	"townsfolkName":"罗马公民",
+    "almanac": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/almanac.html"
+  },
+  {
+    "id": "sculptor_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/sculptor_fall_of_rome.png",
+    "firstNightReminder": "指向一名玩家。放置\"雕塑品\"标记在该玩家旁",
+    "otherNightReminder": "如果带有\"雕塑品\"标记的玩家今天白天发起了提名。如果被提名的玩家是邪恶的，向雕塑家展示表示邪恶的拇指向下手势。否则：向雕塑家展示表示善良的拇指向上手势。移除\"被提名\"标记。",
+    "reminders": [
+      "雕塑品",
+      "被提名"
+    ],
+    "name": "雕塑家",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名玩家。每个夜晚*，你会得知他最近提名的玩家的阵营。",
+    "flavor": "你会发现我关注更精微的细节……",
+    "firstNight": 18,
+    "otherNight": 18
+  },
+  {
+    "id": "vestalvirgin_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/vestalvirgin_fall_of_rome.png",
+    "firstNightReminder": "展示1个善良角色标记和1个邪恶角色标记：其中一个在场。放置\"已得知\"在那个在场角色标记旁。",
+    "otherNightReminder": "如果带有\"已得知\"标记的玩家今天死亡，移除标记。展示1个善良角色标记和1个邪恶角色标记：其中一个在场。放置\"已得知\"在那个在场角色标记旁。",
+    "reminders": [
+      "已得知"
+    ],
+    "name": "护火贞女",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个善良角色和一个邪恶角色，其中一个角色在场。当在场角色的玩家死亡时，你在当晚得知一个善良角色和一个邪恶角色，其中一个角色在场。",
+    "flavor": "维斯塔女神，我已经在维斯太圣焰中收到你的信息，现在我如受天启。我很快就会回来……感激神明……",
+    "firstNight": 19,
+    "otherNight": 19
+  },
+  {
+    "id": "physician_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/physician_fall_of_rome.png",
+    "firstNightReminder": "医师指向除自己外的两名玩家。为那两名玩家放置\"患者\"标记。",
+    "otherNightReminder": "移除所有\"患者\"标记。医师指向除自己外的两名玩家。为那两名玩家放置\"患者\"标记。如果带有\"患者\"标记的玩家被恶魔杀死，放置\"首次杀死\"标记在医师旁，并唤醒医师，向他展示恶魔的角色标记。",
+    "reminders": [
+      "患者",
+      "首次杀死"
+    ],
+    "name": "医师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家：他们今晚不会中毒与醉酒且获得正确信息。如果他们之中有玩家首次被恶魔杀死，当晚你会得知恶魔角色。",
+    "flavor": "病人能康复，是因为相信医生。",
+    "firstNight": 16,
+    "otherNight": 10
+  },
+  {
+    "id": "legionary_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/legionary_fall_of_rome.png",
+    "firstNightReminder": "展示军团士兵与顺时针方向另一名军团士兵（不包括军团士兵）之间存活的邪恶玩家数量的手势（0，1，2等）。",
+    "otherNightReminder": "展示军团士兵与顺时针方向另一名军团士兵（不包括军团士兵）之间存活的邪恶玩家数量的手势（0，1，2等）。",
+    "setup": true,
+    "name": "军团士兵",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知在顺时针方向上，你与一名存活的军团士兵之间有多少名存活的邪恶玩家。[+0,+1或+2军团士兵]",
+    "flavor": "我们认为，罗马征服世界的原因无非就是持之以恒的军事训练，在外作战军纪严明，以及孜孜不倦地培养战争艺术。",
+    "firstNight": 20,
+    "otherNight": 20
+  },
+  {
+    "id": "trumpeter_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/trumpeter_fall_of_rome.png",
+    "otherNightReminder": "展示今天白天公开声明自己是斯巴达克斯的邪恶玩家数量的手势（0，1，2等）。",
+    "reminders": [
+      "邪恶声明"
+    ],
+    "name": "军号手",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天白天有多少名邪恶玩家公开声明自己是斯巴达克斯。",
+    "flavor": "谋事在人，成事在天。",
+    "otherNight": 21
+  },
+  {
+    "id": "mortician_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/mortician_fall_of_rome.png",
+    "otherNightReminder": "如果有玩家今天白天死于处决：展示点头表示“是”或摇头表示“否”来表示与那名玩家邻近的存活玩家中是否有邪恶玩家。",
+    "reminders": [
+      "死于今日"
+    ],
+    "name": "殡葬师",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知与他邻近的存活玩家中是否有邪恶玩家。",
+    "flavor": "让我送你安眠……我的挚友……",
+    "otherNight": 22
+  },
+  {
+    "id": "standardbearer_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/standardbearer_fall_of_rome.png",
+    "otherNightReminder": "如果掌旗官的公开声明正确：展示点头表示正确。否则：展示摇头表示错误。",
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "name": "掌旗官",
+    "team": "townsfolk",
+    "ability": "当你被提名时，你可以公开作出一个关于提名者（不能是你自己）的独特声明。当晚，你会得知这个声明是否正确。",
+    "flavor": "你说出来的并不总是你所了解的，但我总是知道你在说什么。",
+    "otherNight": 23
+  },
+  {
+    "id": "centurion1_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/centurion1_fall_of_rome.png",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "百夫长",
+    "team": "townsfolk",
+    "ability": "恶魔的负面能力对你无效。每个白天，如果你提名一名存活玩家并将其处决，他的阵营落败。如果你今天白天公开声明自己是斯巴达克斯，你醉酒直到下个黄昏。",
+    "flavor": "找到愿意去死的人比找到愿意忍受痛苦的人更容易。"
+  },
+  {
+    "id": "merchant_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/merchant_fall_of_rome.png",
+    "otherNightReminder": "如果商人还没有使用能力：商人要么摇头表示\u0027否\u0027，要么点头表示\u0027是\u0027。如果商人选择\u0027是\u0027，以任意顺序展示带有\"已提名\"标记的玩家的角色标记。放置\"失去能力\"标记。",
+    "reminders": [
+      "已提名",
+      "失去能力"
+    ],
+    "name": "商人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以得知有哪些角色提名过你。",
+    "flavor": "贪婪不过是嫉妒的人们强加给上进者的词语。",
+    "otherNight": 25
+  },
+  {
+    "id": "gladiator_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/gladiator_fall_of_rome.png",
+    "otherNightReminder": "如果角斗士今天白天使用能力，唤醒角斗士与被角斗士选择的玩家：两名玩家同时向说书人展示猜拳手势。如果有玩家猜拳落败，他死亡，另一名玩家存活。如果两名玩家都选择同样的手势，再次进行猜拳。",
+    "reminders": [
+      "决斗",
+      "死亡",
+      "失去能力"
+    ],
+    "name": "角斗士",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名存活玩家。当晚，你与他醒来并秘密进行猜拳：输者死亡（必须决出胜负）。",
+    "flavor": "你不觉得有趣吗！",
+    "otherNight": 17
+  },
+  {
+    "id": "actor_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/actor_fall_of_rome.png",
+    "otherNightReminder": "如果今天白天歌剧演员使用能力：展示\"猜测正确\"标记数量的手势（0，1，2或3）。放置\"失去能力\"标记。",
+    "reminders": [
+      "猜测正确",
+      "失去能力"
+    ],
+    "name": "歌剧演员",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以在白天时公开猜测三名除你以外的玩家的角色类型（每个角色类型限一次）。在当晚，你会得知猜测正确的数量。",
+    "flavor": "我表演得不错吧？那么请在我离开时献上掌声！",
+    "otherNight": 24
+  },
+  {
+    "id": "blacksmith_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/blacksmith_fall_of_rome.png",
+    "otherNightReminder": "如果铁匠被恶魔杀死。向铁匠展示一个不在场镇民角色标记。将铁匠角色标记替换为这个不在场角色标记。放置\"是铁匠\"标记在这个不在场角色标记旁。唤醒铁匠并展示\u0027你是\u0027，然后展示他的新的角色能力。",
+    "reminders": [
+      "是铁匠"
+    ],
+    "name": "铁匠",
+    "team": "townsfolk",
+    "ability": "当你首次将要被恶魔杀死时，你存活并获得一个不在场镇民的能力。（你会得知是什么能力）",
+    "flavor": "每个新的开始都来自于另一个开始的结束。",
+    "otherNight": 16
+  },
+  {
+    "id": "scholar_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/scholar_fall_of_rome.png",
+    "otherNightReminder": "如果学者今天白天提名了外来者，放置“失去能力”标记。唤醒被提名的玩家。展示\"失去能力\"标记。唤醒被提名的玩家。展示\u0027你是\u0027，然后展示他的新的角色标记。",
+    "reminders": [
+      "已讲授",
+      "失去能力"
+    ],
+    "setup": true,
+    "name": "学者",
+    "team": "townsfolk",
+    "ability": "首个被你提名的存活外来者立刻变为一个不在场镇民角色。[+1外来者]",
+    "flavor": "当你在早晨醒来，想想活着是多么珍贵吧——能够呼吸，思考，享受和爱。",
+    "otherNight": 2
+  },
+  {
+    "id": "thetwins_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/thetwins_fall_of_rome.png",
+    "firstNightReminder": "指向一名玩家。放置\"胞弟\"标记在那名玩家旁。",
+    "otherNightReminder": "如果狼城双子拥有\"全体镇民醉酒\"标记，所有镇民醉酒直到明天黄昏。",
+    "reminders": [
+      "胞弟",
+      "全体镇民醉酒"
+    ],
+    "name": "狼城双子",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知一名玩家。如果你或者那名玩家被处决，所有镇民醉酒直到下个黄昏。",
+    "flavor": "雷慕斯和罗慕路斯之间发生的争吵表明了这座尘世之城的分裂……",
+    "firstNight": 17,
+    "otherNight": 9
+  },
+  {
+    "id": "winemaker_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/winemaker_fall_of_rome.png",
+    "firstNightReminder": "放置\"奇数\"或\"偶数\"标记。如果放置\"奇数\"标记，酒庄工人在首个夜晚和之后每隔一个夜晚醉酒。否则：酒庄工人在第二个夜晚和之后每隔一个夜晚醉酒。",
+    "otherNightReminder": "检查已经放置的\"奇数\"或\"偶数\"标记。如果是奇数夜晚且放置了\"奇数\"标记，酒庄工人醉酒直到下个黄昏。如果是偶数夜晚且放置了\"偶数\"标记，酒庄工人醉酒直到下个黄昏。否则与他邻近的镇民醉酒直到下个黄昏。",
+    "reminders": [
+      "奇数",
+      "偶数",
+      "醉酒"
+    ],
+    "name": "酒庄工人",
+    "team": "outsider",
+    "ability": "与你邻近的镇民醉酒，但每个奇数或偶数夜晚，你醉酒直到下个黄昏，即使你已死亡。",
+    "flavor": "酒后吐真言。",
+    "firstNight": 15,
+    "otherNight": 8
+  },
+  {
+    "id": "spartacus_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/spartacus_fall_of_rome.png",
+    "reminders": [
+      "已被猜测"
+    ],
+    "name": "斯巴达克斯",
+    "team": "outsider",
+    "ability": "每局游戏限一次，任意邪恶玩家可以公开猜测你是斯巴达克斯，如果猜对，你的阵营落败。你可能会被当作镇民角色，除非你没有在今天白天公开声明自己是斯巴达克斯。",
+    "flavor": "死亡是奴隶所能寻求的唯一解脱……"
+  },
+  {
+    "id": "badomen_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/badomen_fall_of_rome.png",
+    "remindersGlobal": [
+      "是不祥之兆"
+    ],
+    "setup": true,
+    "name": "不祥之兆",
+    "team": "outsider",
+    "ability": "你不知道你是不祥之兆。你以为你是一个镇民角色，但你获取错误信息。你可能会被当作邪恶阵营，即使你已死亡。",
+    "flavor": "梦魇与我交谈，宽慰我心……靠近一点，让我告诉你他们的信息……"
+  },
+  {
+    "id": "temptress_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/temptress_fall_of_rome.png",
+    "firstNightReminder": "交际花指向两名玩家。放置\"诱惑\"标记在这两名玩家旁。分别唤醒这两名玩家。向他展示\u0027这个角色选择了你\u0027提示卡，然后展示交际花角色标记。",
+    "otherNightReminder": "如果带有\"诱惑\"标记的玩家死于处决，移除他的标记。仍然带有\"诱惑\"的玩家转变为邪恶。移除他的标记。唤醒这名邪恶玩家并向他展示\u0027你是\u0027提示卡，做出大拇指向下表示邪恶的手势。",
+    "reminders": [
+      "诱惑"
+    ],
+    "name": "交际花",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你要选择两名玩家：他们得知自己被交际花选中。如果其中一名玩家被处决，另一名玩家会在当晚转变为邪恶阵营。",
+    "flavor": "活着的时候没有什么能将我们分开，但现在面对死亡，我们也许要交换各自埋葬的地方……",
+    "firstNight": 12,
+    "otherNight": 3
+  },
+  {
+    "id": "haruspex_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/haruspex_fall_of_rome.png",
+    "firstNightReminder": "脏卜师指向一名玩家。展示那名玩家的角色标记。放置\"已预言\"标记在那名玩家旁。",
+    "otherNightReminder": "脏卜师指向一名玩家。展示那名玩家的角色标记。放置\"已预言\"标记在那名玩家旁：如果那名玩家已经拥有一个\"已预言\"标记。那名玩家死亡，放置\"无法攻击\"标记在脏卜师旁。",
+    "reminders": [
+      "已预言",
+      "死亡",
+      "无法攻击"
+    ],
+    "setup": true,
+    "name": "脏卜师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：你得知他的角色。首个被你以此方式选择两次的玩家死亡。[+斯巴达克斯]",
+    "flavor": "现在我清晰地感受得到神的谕言降临……你将做出伟大的牺牲！",
+    "firstNight": 14,
+    "otherNight": 15
+  },
+  {
+    "id": "tribunal_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/glykon1_fall_of_rome.png",
+    "reminders": [
+      "当作对立阵营",
+	  "中毒"
+    ],
+    "name": "蛇神使",
+    "team": "minion",
+    "ability": "你可能会被当作善良阵营。被你提名的玩家会被当作他对立的阵营直到下个黄昏。如果他是镇民，他中毒直到下个黄昏。",
+    "flavor": "凡人难以知晓自己何时被神所背弃，因为他们所知道的唯一神并不存在……"
+  },
+  {
+    "id": "augur_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/augur_fall_of_rome.png",
+    "name": "占兆官",
+    "team": "minion",
+    "ability": "提名你的镇民立刻变为不祥之兆。",
+    "flavor": "你被诅咒了！"
+  },
+  {
+    "id": "cleopatra_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/cleopatra_fall_of_rome.png",
+    "firstNightReminder": "克里奥佩特拉指向两名玩家。放置\"被选择\"标记在他们旁。",
+    "otherNightReminder": "移除\"中毒\"标记。克里奥佩特拉指向两名玩家。如果之前被选中的玩家在今天白天发起提名，他死亡。",
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "name": "克里奥佩特拉",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择两名玩家：他们之中在明天白天发起提名的玩家会在当晚死亡。每个白天，如果没有善良玩家（旅行者不计算在内）发起提名，邪恶阵营获胜。",
+    "flavor": "笨蛋！如果没有你我也能生存，那我早该把你毒死一百次了！",
+    "firstNight": 13,
+    "otherNight": 11
+  },
+  {
+    "id": "crassus_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/crassus_fall_of_rome.png",
+    "otherNightReminder": "克拉苏指向一名玩家。那名玩家死亡。如果首个克拉苏在今天白天公开声明自己是斯巴达克斯并指向自己（或是死于处决），且大于等于五名玩家存活时，将一名邪恶玩家的角色标记替换为额外的克拉苏角色标记。向他展示\u0027你是\u0027提示卡，然后展示克拉苏角色标记。",
+    "reminders": [
+      "死亡",
+      "首个克拉苏"
+    ],
+    "name": "克拉苏",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时（旅行者不计算在内）你死亡，且你在今天白天公开声明过自己是斯巴达克斯，一名邪恶玩家会变成克拉苏，但每局游戏仅能成功转化一次。",
+    "flavor": "那些志存高远的人也必须承受极大的痛苦。",
+    "otherNight": 12
+  },
+  {
+    "id": "hannibal_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/hannibal_fall_of_rome.png",
+    "firstNightReminder": "选择2名善良玩家并放置\"是汉尼拔\"提示标记。同时唤醒所有爪牙，告知恶魔是汉尼拔",
+    "otherNightReminder": "同时唤醒所有爪牙，允许他们通过投票指向他们想要\u0027攻击\u0027的玩家。那名玩家死亡。",
+    "remindersGlobal": [
+      "是汉尼拔",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "汉尼拔",
+    "team": "demon",
+    "ability": "你以为你是一个善良角色，但其实你不是。首个死亡的汉尼拔会转变为善良阵营。每个夜晚*，爪牙们要选择一名玩家：他死亡。[+1汉尼拔]",
+    "attribution": "Hannibal was awarded the 4th place trophy in the Unofficial\u0027s \"Custom Demon Contest\".",
+    "flavor": "我将找到出路。不然我就创造出路。",
+    "firstNight": 11,
+    "otherNight": 13
+  },
+  {
+    "id": "caesar_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/caesar_fall_of_rome.png",
+    "otherNightReminder": "如果有邪恶玩家今天白天被处决，凯撒指向两名玩家。否则：凯撒指向一名玩家。被选中的玩家死亡。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "name": "凯撒",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个邪恶玩家死于处决的当晚，你要额外选择一名玩家：他死亡。",
+    "flavor": "我来，我见，我征服。",
+    "otherNight": 14
+  },
+  {
+    "id": "mercenary_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/mercenary_fall_of_rome.png",
+    "otherNightReminder": "向雇佣兵展示今天白天公开声明自己是斯巴达克斯的一名玩家的角色标记，他在今天晚上和明天白天拥有这个角色能力。",
+    "reminders": [
+      "善良",
+      "邪恶",
+      "善良拥有能力",
+      "邪恶拥有能力"
+    ],
+    "name": "雇佣兵",
+    "team": "traveler",
+    "ability": "每个夜晚*，你拥有今天白天公开声明自己是斯巴达克斯的一名玩家的角色能力。如果有雇佣兵被流放，你也会被流放。[+1对立阵营的雇佣兵]",
+    "flavor": "让雇主当心一些……也要当心我！",
+    "otherNight": 4
+  },
+  {
+    "id": "architect_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/architect_fall_of_rome.png",
+    "otherNightReminder": "建筑师指向一名玩家。说书人选择对那名玩家发动哪种能力。以选择能力对应的方式运作（变为不在场角色或交换角色）。分别唤醒被能力影响的玩家。向他展示\u0027你是\u0027，然后展示他的新的角色标记。",
+    "reminders": [
+      "被重建"
+    ],
+    "name": "建筑师",
+    "team": "traveler",
+    "ability": "每个夜晚*，你要选择一名玩家，并由说书人选择：1)他变为一个相同角色类型的不在场角色，或者2)他和一名相同角色类型的玩家交换角色。",
+    "flavor": "罗马原本是砖石堆砌的城市，我让它成为大理石构筑的城市。",
+    "otherNight": 5
+  },
+  {
+    "id": "sibyl_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/sibyl_fall_of_rome.png",
+    "reminders": [
+      "被招魂"
+    ],
+    "name": "女先知",
+    "team": "traveler",
+    "ability": "每个白天，提名阶段开始前，你可以公开选择一名死亡玩家：他今天可以发起提名。",
+    "attribution": "来自Kohav的原创设计角色。感谢他同意将这个角色带入《罗马陨落》！",
+    "flavor": "某种程度上我可以变得不被任何人看到，但都能通过声音识别我。通过我的声音，我会给你第二次机会。"
+  },
+  {
+    "id": "highpriest1_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/highpriest1_fall_of_rome.png",
+    "otherNightReminder": "如果大祭司今天白天成功祝福玩家，会有好事发生在那名玩家以及/或他的阵营上。",
+    "reminders": [
+      "被祝福"
+    ],
+    "name": "大祭司",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的玩家：如果过半数玩家同意祝福他，会有好事发生在他以及他的阵营上。",
+    "flavor": "对于罪人来说最初的也是最深重的惩罚是他自己良心的谴责。",
+    "otherNight": 6
+  },
+  {
+    "id": "highpriest2_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/highpriest2_fall_of_rome.png",
+    "otherNightReminder": "如果大祭司今天白天成功祝福玩家，你要决定这条信息是否正确",
+    "reminders": [
+      "被祝福"
+    ],
+    "name": "大祭司",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的玩家：如果过半数玩家同意祝福他，第二天它可以得知一条信息。但当晚你要决定这条信息是否正确。",
+    "flavor": "对于罪人来说最初的也是最深重的惩罚是他自己良心的谴责。",
+    "otherNight": 6
+  },
+  {
+    "id": "emperor_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/emperor_fall_of_rome.png",
+    "otherNightReminder": "如果今天有玩家被处决且没被皇帝保护：通过手势(拇指向下表示\u0027邪恶\u0027,拇指向上表示\u0027善良\u0027)向皇帝展示那名玩家的阵营。",
+    "name": "皇帝",
+    "team": "traveler",
+    "ability": "每个白天，你可以决定处决结果。如果你选择保护今天被处决的玩家：他存活。否则，今晚你会得知他的阵营。",
+    "flavor": "哪种死法最好？意外猝死。",
+    "otherNight": 7
+  },
+  {
+    "id": "iamspartacus_fall_of_rome",
+    "image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/iamspartacus_fall_of_rome.png",
+    "reminders": [
+      "我是斯巴达克斯"
+    ],
+    "name": "\"我是斯巴达克斯!\"",
+    "team": "fabled",
+    "ability": "每个白天，至多半数的存活玩家（向上取整且不计旅行者）可以公开声明自己是斯巴达克斯。",
+    "flavor": "我是斯巴达克斯！"
+  }
+]
