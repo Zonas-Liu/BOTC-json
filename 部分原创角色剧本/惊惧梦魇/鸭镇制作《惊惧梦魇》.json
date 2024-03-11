@@ -1,0 +1,431 @@
+[
+  {
+    "id": "_meta",
+    "name": "惊惧梦魇",
+    "author": "【作者】Isaac、【译者】蒹葭、【Json制作】鸭镇",
+    "logo":"https://i.postimg.cc/J4zx45gB/image.png"
+  },
+  {
+    "firstNightReminder": "唤醒骑士，然后指向标记了“得知”的两名玩家。",
+    "otherNightReminder": "",
+    "id": "knightbutton",
+    "name": "骑士",
+    "firstNight": 42,
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Knight",
+    "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/knight.png"
+  },
+  {
+    "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
+    "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
+    "name": "祖母",
+    "otherNight": 50,
+    "setup": false,
+    "reminders": [
+      "孙子",
+      "死亡"
+    ],
+    "id": "grandmotherbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Grandmother",
+    "firstNight": 39,
+    "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/grandmother.png"
+  },
+  {
+    "id": "lamplighter",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/lamplighter_wretchscript.png",
+    "firstNightReminder": "唤醒点灯人并向他展示代表当晚因其自身能力而被唤醒的邪恶角色数量的手势。",
+    "otherNightReminder": "唤醒点灯人并向他展示代表当晚因其自身能力而被唤醒的邪恶角色数量的手势。",
+    "reminders": [
+      "唤醒"
+    ],
+    "name": "点灯人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知当晚因其自身能力而被唤醒的邪恶角色的数量。",
+    "firstNight": 45,
+    "otherNight": 64
+  },
+  {
+    "id": "fireeater",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/fireeater_wretchscript.png",
+    "firstNightReminder": "吞火艺人指向一名玩家，标记“转向”。如果那名玩家当晚作出选择，他的选择会秘密改为吞火艺人。",
+    "otherNightReminder": "吞火艺人指向一名玩家，标记“转向”。如果那名玩家当晚作出选择，他的选择会秘密改为吞火艺人。",
+    "reminders": [
+      "转向"
+    ],
+    "name": "吞火艺人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：当晚他的选择会改为你或你的角色。",
+    "firstNight": 17,
+    "otherNight": 9
+  },
+  {
+    "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "name": "气球驾驶员",
+    "otherNight": 63,
+    "setup": true,
+    "reminders": [
+      "得知镇民",
+      "得知外来者",
+      "得知爪牙",
+      "得知恶魔",
+      "得知旅行者"
+    ],
+    "id": "balloonistbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Balloonist",
+    "firstNight": 44,
+    "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/balloonist.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
+    "name": "神谕者",
+    "otherNight": 60,
+    "setup": false,
+    "reminders": [],
+    "id": "oraclebutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Oracle",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/oracle.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
+    "name": "赌徒",
+    "otherNight": 11,
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "id": "gamblerbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Gambler",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gambler.png"
+  },
+  {
+    "id": "fencer",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/fencer_wretchscript.png",
+    "otherNightReminder": "击剑手指向一名玩家，如果他首次选中爪牙，那名爪牙死亡并保留能力。标记击剑手“已选爪牙”。",
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "已选爪牙"
+    ],
+    "name": "击剑手",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：首个被你选中的爪牙死亡并保留能力，即使你已死亡。",
+    "otherNight": 10
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
+    "name": "造谣者",
+    "otherNight": 47,
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "id": "gossipbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Gossip",
+    "firstNight": 0,
+    "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gossip.png"
+  },
+  {
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "name": "女裁缝",
+    "otherNight": 61,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "seamstressbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Seamstress",
+    "firstNight": 42,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/seamstress.png"
+  },
+  {
+    "id": "tailor",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/tailor_wretchscript.png",
+    "firstNightReminder": "改衣匠要么摇头，要么指向角色列表上的一个角色。如果他做出选择，向他展示两名玩家；如果该角色在场，两名玩家之中一定有该角色。",
+    "otherNightReminder": "如果改衣匠还没有使用能力，唤醒他。他要么摇头，要么指向角色列表上的一个角色。如果他做出选择，向他展示两名玩家；如果该角色在场，两名玩家之中一定有该角色。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "改衣匠",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：你会得知两名玩家，如果该角色在场，这两名玩家之一是该角色。",
+    "firstNight": 43,
+    "otherNight": 62
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
+    "name": "贤者",
+    "otherNight": 43,
+    "setup": false,
+    "reminders": [],
+    "id": "sagebutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Sage",
+    "firstNight": 0,
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sage.png"
+  },
+  {
+    "id": "escapeartist",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/escapeartist_wretchscript.png",
+    "otherNightReminder": "如果逃脱艺术家在夜晚死亡，唤醒他并向他展示一个问题。如果他以手势回答正确，改为他没有死亡。",
+    "name": "逃脱艺术家",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒并得知一个问题：如果回答正确，改为你存活。",
+    "otherNight": 38
+  },
+  {
+    "firstNightReminder": "分别给爪牙们展示三个不在场角色，这些信息之间，包括与展示给恶魔的不在场角色之间可能会有重叠。",
+    "otherNightReminder": "",
+    "name": "告密者",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "snitchbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Snitch",
+    "firstNight": 6,
+    "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/snitch.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "陌客",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "reclusebutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Recluse",
+    "firstNight": 0,
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/recluse.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "畸形秀演员",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "mutantbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Mutant",
+    "firstNight": 0,
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mutant.png"
+  },
+  {
+    "id": "wretch",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/wretch_wretchscript.png",
+    "name": "可怜虫",
+    "team": "outsider",
+    "ability": "当你得知你死亡时，你要公开选择一个恶魔角色：如果该角色在场且存活，你的阵营落败。"
+  },
+  {
+    "firstNightReminder": "给寡妇展示魔典，她想看多久就看多久。等她看完后，让她指向一个玩家。那个玩家中毒。唤醒一名善良玩家，告诉他场上有寡妇。",
+    "otherNightReminder": "",
+    "name": "寡妇",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "id": "widowbutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "被知晓"
+    ],
+    "team": "minion",
+    "name_eng": "Widow",
+    "firstNight": 18,
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/widow.png"
+  },
+  {
+    "id": "crone",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/crone_wretchscript.png",
+    "firstNightReminder": "巫婆要么摇头，要么指向一名玩家。让巫婆手写他的请求。巫婆入睡，并唤醒那名玩家，向他展示巫婆的请求。",
+    "otherNightReminder": "如果巫婆还没有使用能力，他要么摇头，要么指向一名玩家。让巫婆手写他的请求。巫婆入睡，并唤醒那名玩家，向他展示巫婆的请求。",
+    "reminders": [
+      "被诅咒",
+      "失去能力",
+      "死亡",
+      "邪恶"
+    ],
+    "name": "巫婆",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家并向他提出一项请求：如果这项请求没有被满足，你们可能会在白天死亡且转变为邪恶。",
+    "firstNight": 19,
+    "otherNight": 12
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
+    "name": "刺客",
+    "otherNight": 37,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "id": "assassinbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Assassin",
+    "firstNight": 0,
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/assassin.png"
+  },
+  {
+    "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/upload/202307/c_4331482099861_0db1bfaf.jpg",
+    "edition": "custom",
+    "flavor": "",
+    "id": "harpy",
+    "firstNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
+    "otherNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
+    "name": "鹰身女妖",
+    "otherNight": 18,
+    "setup": 0,
+    "reminders": [
+      "疯狂",
+      "第二名"
+    ],
+    "remindersGlobal": [],
+    "team": "minion",
+    "firstNight": 26
+  },
+  {
+    "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上一个因普卡中毒的玩家死亡，随后恢复健康。",
+    "name": "普卡",
+    "otherNight": 26,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "id": "pukkabutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "Pukka",
+    "firstNight": 28,
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pukka.png"
+  },
+  {
+    "id": "nalismaw",
+    "image": "https://www.bloodstar.xyz/p/alonelytaco/WretchScript/nalismaw_wretchscript.png",
+    "firstNightReminder": "奈落魔指向一名玩家，标记“吞噬”。",
+    "otherNightReminder": "如果带有“吞噬”标记的玩家今天白天死亡，改为你选择两名玩家死亡，否则带有“吞噬”标记的玩家死亡。移除所有“吞噬”标记。奈落魔指向一名玩家，标记“吞噬”。",
+    "reminders": [
+      "吞噬",
+      "死亡"
+    ],
+    "name": "奈落魔",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家。如果上个夜晚以此方式选择的玩家死于今天白天，当晚会有两名玩家死亡，否则改为他在当晚死亡。",
+    "firstNight": 27,
+    "otherNight": 31
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
+    "name": "诺-达鲺",
+    "otherNight": 30,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "id": "no_dashiibutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "No Dashii",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/no_dashii.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“首次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原本的方古玩家死亡，且他选择的玩家不会被标记为死亡。",
+    "name": "方古",
+    "otherNight": 29,
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "id": "fang_gubutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "限一次"
+    ],
+    "team": "demon",
+    "name_eng": "Fang Gu",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fang_gu.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "私货商人",
+    "setup": false,
+    "reminders": [],
+    "team": "fabled",
+    "name_eng": "Bootlegger",
+    "id": "bootleggerbutton",
+    "ability": "这个剧本包含有以下自制角色：点灯人、吞火艺人、击剑手、改衣匠、逃脱艺术家、可怜虫、巫婆、奈落魔。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bootlegger.png"
+  },
+  {"id":"_meta",
+  "image":"https://i.postimg.cc/L6n9DwSw/image.png",
+  "edition":"custom",
+  "name":"鸭镇制作",
+  "ability":"鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+  "team":"fabled",
+  "firstNight":0,
+  "otherNight":0,
+  "reminders":["鸭镇制作"]
+  }
+]

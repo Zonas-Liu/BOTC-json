@@ -1,0 +1,438 @@
+[
+  {
+    "id": "_meta",
+    "name": "无人生还 Ver.1.2",
+    "author": "【作者】Aero、【译者】大黄鱼&蒹葭、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/3xdj4gNV/image.png",
+    "almanac": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/almanac.html"
+  },
+  {
+    "id": "_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "花花公子指向角色列表上任一善良角色，如果那个角色在场，标记“一同”。",
+    "reminders": [
+      "一同","死亡"
+    ],
+    "name": "花花公子",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择一个善良角色：当你死亡时，如果该角色在场，对应的玩家也会死亡。",
+    "flavor": "哇噢！她真是个辣妹！然后看看他的肌肉！今晚有这么多火辣的人！别挡道，让我进去！",
+    "firstNight": 18
+  },
+  {
+    "id": "1_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/1_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "唤醒牧师左右两侧最近的镇民之一，标记“得知”，并向他展示牧师的角色标记。",
+    "otherNightReminder": "当牧师在夜晚死亡时，标记“死于夜晚”。下个白天，他可以私下询问说书人并获取一条信息。",
+    "reminders": [
+      "得知",
+      "死于夜晚"
+    ],
+    "name": "牧师",
+    "team": "townsfolk",
+    "ability": "一名与你邻近的镇民会在他的首个夜晚知道牧师在场。如果你在夜晚死亡，你可以在下个白天私下询问说书人以得知一条信息。",
+    "flavor": "来吧孩子，这些圣餐饼不吃可就浪费了……啊，上帝啊，他正在和我说话！他正以极其神秘的方式在运作！千真万确！",
+    "firstNight": 17,
+    "otherNight": 17
+  },
+  {
+    "id": "2_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/2_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "唤醒酒保，并向他展示一个能力在当晚正常生效的角色标记。",
+    "otherNightReminder": "唤醒酒保，并向他展示一个能力在当晚正常生效的角色标记。",
+    "reminders": [
+      "正常生效"
+    ],
+    "name": "酒保",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一个在当晚能力正常生效的角色。",
+    "flavor": "呃，又一个夜班。只要我还遇到那些满头大汗，烂醉如泥的混蛋来到酒吧并且和我搭话，我可能会辞职……",
+    "firstNight": 22,
+    "otherNight": 22
+  },
+  {
+    "id": "3_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/3_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "狱警指向一名玩家，标记“无法行动”，如果他是镇民，唤醒那名玩家并告知狱警选择了他，且他无法行动。如果他已经有“无法行动”标记，移除“无法行动”并标记“死亡”。",
+    "otherNightReminder": "狱警指向一名玩家，标记“无法行动”，如果他是镇民，唤醒那名玩家并告知狱警选择了他，且他无法行动。如果他已经有“无法行动”标记，移除“无法行动”并标记“死亡”。",
+    "reminders": [
+      "无法行动",
+      "死亡"
+    ],
+    "name": "狱警",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名存活玩家：如果你上个夜晚也选择了他，他死亡。如果你选中了镇民，他会得知自己被狱警选中，且当晚不会因其自身能力而被唤醒。",
+    "flavor": "我只想知道你在2点到4点之间在什么地方。如果你对我撒谎，我会让你好好认识一下这个电话簿（用电话簿疯狂拷打）",
+    "firstNight": 16,
+    "otherNight": 15
+  },
+  {
+    "id": "4_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/4_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "服务员指向除自己的一名玩家，如果他两侧的玩家属于同一阵营，向服务员点头，否则摇头。如果那名玩家属于邪恶阵营，标记服务员“醉酒”。",
+    "otherNightReminder": "服务员指向除自己的一名玩家，如果他两侧的玩家属于同一阵营，向服务员点头，否则摇头。如果那名玩家属于邪恶阵营，标记服务员“醉酒”。",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "服务员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知与他邻近的两名玩家是否为同一阵营。如果你选中了邪恶玩家，你醉酒直到下个黄昏。",
+    "flavor": "需要盐和胡椒？好的，先生。夫人您需要吗？我由衷地觉得您们两位今晚看起来都非常动人。",
+    "firstNight": 19,
+    "otherNight": 23
+  },
+  {
+    "id": "5_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/5_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "唤醒侦探，如果有玩家由于镇民的能力而死亡，向他点头，否则摇头。",
+    "name": "侦探",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知是否有玩家因镇民能力而死亡。",
+    "flavor": "弹痕的角度说明子弹不是从窗户外射入，（掀开窗帘），而是从内部射向窗外。",
+    "otherNight": 20
+  },
+  {
+    "id": "6_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/6_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "标记与恶魔相邻的死亡玩家“看管”。唤醒看守，向他竖起等同于恶魔两侧最近的死亡玩家数量的手指（0~2）。标记与恶魔相邻的死亡玩家“看管”。",
+    "reminders": [
+      "看管"
+    ],
+    "name": "看守",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知与恶魔邻近的死亡玩家中有多少名邪恶玩家。",
+    "flavor": "好吧，我在这个该死的监狱工作了很多年。你知道吗，在这种所有人都想弄死你的神弃之地，学东西会学得很快。",
+    "otherNight": 21
+  },
+  {
+    "id": "7_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/7_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "警督指向一名玩家，如果那名玩家是爪牙，你选择一名外来者，标记“醉酒”并标记“死亡”。",
+    "reminders": [
+      "醉酒",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "警督",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了爪牙，会有一名外来者醉酒并死亡。[+0或+1外来者]",
+    "flavor": "打起精神，让我们从敌人手中拯救这座城市！甚至不惜生命的代价！",
+    "otherNight": 18
+  },
+  {
+    "id": "8_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/8_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "保镖指向两名与上个夜晚不同的玩家，标记他们“选择”。如果他们都是善良的,标记他们“保护”。如果保镖在今晚被恶魔杀死，标记他们“死亡”。",
+    "reminders": [
+      "保护",
+      "死亡",
+      "选择"
+    ],
+    "name": "保镖",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家（与上个夜晚不同）：如果他们都是善良的，他们当晚不会死亡，如果此时你被恶魔杀死，他们也会死亡。",
+    "flavor": "不好意思，舞厅那边好像有点状况，你们现在得暂时呆在这里。还有，你们是不是喝得有点多了？",
+    "otherNight": 8
+  },
+  {
+    "id": "9_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/9_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "如果在上个白天有玩家在与你的私聊中触发了州长的能力，标记州长“不会死亡”。标记那名玩家“已疯狂”。",
+    "reminders": [
+      "不会死亡",
+      "已疯狂"
+    ],
+    "name": "州长",
+    "team": "townsfolk",
+    "ability": "每个白天，如果至少有一名除你以外的玩家（与之前都不同）私下对说书人“疯狂”地证明你是州长，你在当晚不会死亡。",
+    "flavor": "如果你选我，我保证我们的城市将再次远离毁灭的威胁！跟我来！选我，选我！",
+    "otherNight": 9
+  },
+  {
+    "id": "10_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/10_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "如果你回答了学生的问题，标记学生“好奇害死猫”。如果学生拥有此标记，他可以死亡。",
+    "reminders": [
+      "好奇害死猫",
+      "死亡"
+    ],
+    "name": "学生",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人一个问题。如果说书人回答了你，你可能会在当晚死亡。",
+    "flavor": "老师，打扰一下，关于您上次的心理学课程我有个问题！您说到大多数自恋者会让别人不舒服并以此为乐，而莎莉美丽的双眼让我不舒服，这是否意味着她是自恋者？",
+    "otherNight": 16
+  },
+  {
+    "id": "11_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/11_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "治安官要么摇头，要么点头，如果治安官点头，今晚不会有任何玩家死亡，标记治安官“平安夜“和“失去能力”。在黎明时移除“平安夜”。",
+    "reminders": [
+      "失去能力",
+      "平安夜"
+    ],
+    "name": "治安官",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择是否让当晚不会有玩家死亡。",
+    "flavor": "小心点伙计们，这里的地板湿透啦。我不想今晚有任何人受伤。别喝太多！让我们度过一个安全愉快的夜晚，好吗？",
+    "otherNight": 10
+  },
+  {
+    "id": "12_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/12_bundagee_inn_massacre_bigyellowfish.png",
+    "reminders": [
+      "是工会成员",
+      "中毒"
+    ],
+    "name": "工会成员",
+    "team": "townsfolk",
+    "ability": "当你首次提名并处决一名玩家时，你获得他的能力。如果他是邪恶的，你中毒。",
+    "flavor": "有段时间你会觉得操作机器是如此令人厌恶，让你由内至外感到恶心，以至于无法工作；你甚至无法被动地进行工作，你必须把你的身体放在齿轮上，轮子上，杠杆上，以及所有设备上，你必须让它停止！"
+  },
+  {
+    "id": "13_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/13_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "标记一名玩家“醉酒”，唤醒行刑官，向行刑官展示那名玩家的角色标记。",
+    "reminders": [
+      "醉酒","已处刑"
+    ],
+    "name": "行刑官",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知一个在场角色，他醉酒。如果只有三名玩家存活且他未被处决，你的阵营落败，即使你已死亡。",
+    "flavor": "我没有决定谁必须去死。我只是个被迫拉动拉杆的人……",
+    "firstNight": 20
+  },
+  {
+    "id": "14_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/14_bundagee_inn_massacre_bigyellowfish.png",
+    "reminders": [],
+    "name": "贱民",
+    "team": "outsider",
+    "ability": "如果你或一名存活外来者“疯狂”地证明自己是外来者，可能会有一名善良玩家被处决，即使你已死亡。",
+    "flavor": "大家安静！我们在这不受欢迎……我知道这不公平但这个城市还没准备好接受我们的文化。媒体把我们描绘成捣乱者已经够糟糕了，我不需要这些大老粗开始在街头辱骂我们……"
+  },
+  {
+    "id": "15_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/15_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "标记一名玩家“为他作证”，唤醒那名玩家，向他展示证人的角色标记。",
+    "reminders": [
+      "为他作证"
+    ],
+    "name": "证人",
+    "team": "outsider",
+    "ability": "会有一名玩家知道证人在场。如果他被提名并处决，他的阵营落败，即使你已死亡。他可能会被当作邪恶阵营、爪牙角色或恶魔角色。",
+    "flavor": "我看到他们了！他们站在那个可怜的老太太旁边……看啊，天很黑，我没戴眼镜，并且我觉得灌木丛阻挡了我的视线，但我肯定就是他们！",
+    "firstNight": 21
+  },
+  {
+    "id": "16_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/16_bundagee_inn_massacre_bigyellowfish.png",
+    "reminders": [
+      "错误信息"
+    ],
+    "name": "锅炉工",
+    "team": "outsider",
+    "ability": "与你邻近的两名镇民的能力都会产生错误信息，即使你已死亡。",
+    "flavor": "你拖运了十六吨煤，你挣得了什么？又一天的衰老和更深重的债务……"
+  },
+  {
+    "id": "17_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/17_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "敲诈犯指向一名玩家，标记“被敲诈”，他可能会被当作任意阵营或任意角色，直到下个黄昏。",
+    "otherNightReminder": "敲诈犯指向一名玩家，标记“被敲诈”，他可能会被当作任意阵营或任意角色，直到下个黄昏。",
+    "reminders": [
+      "被敲诈"
+    ],
+    "name": "敲诈犯",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他可能会被当作任意阵营或任意角色，直到下个黄昏。",
+    "flavor": "你有两个选择。要么你忘掉曾经见过我们，要么你和詹金森先生的马的事情会以某种方式泄露出去。所以你帮我，我也会帮你，娈马者。",
+    "firstNight": 14,
+    "otherNight": 6
+  },
+  {
+    "id": "18_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/18_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "放置“善良无法获胜”标记",
+    "otherNightReminder": "如果有玩家死亡且是首个死亡，唤醒他，并向他展示清洁工的角色标记。标记“得知清洁工”。",
+    "reminders": [
+      "拥有能力",
+      "得知清洁工",
+      "善良无法获胜"
+    ],
+    "name": "清洁工",
+    "team": "minion",
+    "ability": "你拥有上个死于处决的爪牙的能力。首个死亡的玩家会得知清洁工在场。如果你存活，善良阵营无法获胜。",
+    "flavor": "清理血迹……清理内脏……清理血迹……清理内脏……清理血迹……清理内脏……",
+    "firstNight": 23,
+    "otherNight": 4
+  },
+  {
+    "id": "19_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/19_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "纵火狂指向一名玩家，唤醒那名玩家，向他展示“这个角色选择了你”卡和纵火狂的角色标记，并标记“浇油！”。",
+    "otherNightReminder": "纵火狂指向一名玩家，唤醒那名玩家，向他展示“这个角色选择了你”卡和纵火狂的角色标记，并标记“浇油！”。",
+    "reminders": [
+      "浇油！","死亡"
+    ],
+    "name": "纵火狂",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他会得知自己被纵火狂选中。如果被你选择过的玩家“疯狂”地证明纵火狂在场，他可能被处决，且其他被你选择过的玩家也死亡。",
+    "flavor": "我爱这座城市，但我已经设定和倒数它的时间……我爱这座城市，爱到让我把它燃烧起来……",
+    "firstNight": 15,
+    "otherNight": 7
+  },
+  {
+    "id": "20_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/20_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "标记被恶魔杀害的玩家“伪装”，不要宣布他们的死亡。",
+    "reminders": [
+      "伪装"
+    ],
+    "name": "欺诈师",
+    "team": "minion",
+    "ability": "被恶魔杀死的玩家会被当作仍然存活，且会知道欺诈师在场。如果这些玩家发起提名，他的阵营落败。",
+    "flavor": "死了？不，他没死。我刚刚收到他的语音邮件。来，让我给你听听……",
+    "otherNight": 19
+  },
+  {
+    "id": "21_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/21_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "说书人选择一名玩家死亡。然后，说书人可以唤醒拥有“处决同伴”标记的善良玩家，将他变成邪恶的亡命徒并告知他。",
+    "reminders": [
+      "死亡",
+      "处决同伴"
+    ],
+    "name": "亡命徒",
+    "team": "demon",
+    "ability": "每个夜晚*，会有一名玩家死亡。如果有善良玩家提名并处决了另一名善良玩家，他可能会在当晚变成邪恶的亡命徒。",
+    "flavor": "嚼着肉。保持安静。反正他都已经病了，不可能在这活下去……",
+    "otherNight": 12
+  },
+  {
+    "id": "22_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/22_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "幽灵选择一名玩家，他死亡。如果幽灵选择自杀，在魔典中央放置“已附体”标记，然后一名曾与你私聊的玩家变为新的邪恶幽灵，告知他的角色和阵营的变化。",
+    "reminders": [
+      "死亡",
+      "已附体",
+      "曾私聊"
+    ],
+    "setup": true,
+    "name": "幽灵",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当幽灵首次以这种方式自杀时，上个白天曾与说书人私聊的一名玩家会变成邪恶的幽灵。[-1外来者]",
+    "flavor": "这些愚蠢的人类，试图与死者联系，打开通往帷幕之后那个地方的传送门……他们应该知道，当你打开这些大门时，你不知道谁—或者什么东西—会冲出来……",
+    "otherNight": 13
+  },
+  {
+    "id": "23_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/23_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "族长选择一名玩家，他死亡。如果上个白天有爪牙死于处决，改为选择两名玩家。",
+    "reminders": [
+      "死亡",
+      "行动两次"
+    ],
+    "setup": true,
+    "name": "族长",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果上个白天有爪牙死于处决，改为选择两名玩家。[+1外来者]",
+    "flavor": "如果我的小弟死了，他们也要陪葬。",
+    "otherNight": 14
+  },
+  {
+    "id": "24_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/24_bundagee_inn_massacre_bigyellowfish.png",
+    "otherNightReminder": "夜魇要么选择一名玩家，他死亡，要么不做选择，如果他这么做，在魔典中央放置“全体中毒”标记，代表所有镇民中毒。",
+    "reminders": [
+      "死亡",
+      "全体中毒"
+    ],
+    "setup": true,
+    "name": "夜魇",
+    "team": "demon",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你没有选择玩家，所有镇民中毒直到下个黄昏。[-1外来者]",
+    "flavor": "吃饱喝足。把我抬到柴堆上吧。宴会结束，让灯熄灭。",
+    "otherNight": 11
+  },
+  {
+    "id": "25_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/25_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "宾鸡选择一名玩家，他在当晚不会被唤醒，标记“不被唤醒”。",
+    "otherNightReminder": "宾鸡选择一名玩家，当晚不会因其自身能力而被唤醒。如果有玩家带有“没有投票”标记，标记“三票”。",
+    "reminders": [
+      "不被唤醒",
+      "没有投票",
+      "三票"
+    ],
+    "name": "宾鸡",
+    "team": "traveler",
+    "ability": "每个夜晚，你要选择一名玩家：他当晚不会因其自身能力而被唤醒。如果他在下个白天没有投票，再下个白天他的投票算作三票。",
+    "flavor": "喂，给我个筹码，一个就够了。你手上这么多筹码，我只要一个。不要占着筹码不用。",
+    "firstNight": 13,
+    "otherNight": 5
+  },
+  {
+    "id": "26_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/26_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "垃圾分类员选择三名玩家，如果他们都是同一阵营，标记“垃圾分类”。",
+    "otherNightReminder": "垃圾分类员选择三名玩家，如果他们都是同一阵营，标记“垃圾分类”。",
+    "reminders": [
+      "垃圾分类"
+    ],
+    "name": "垃圾分类员",
+    "team": "traveler",
+    "ability": "每个夜晚，你要选择三名玩家：如果他们都是同一阵营，下个白天，他们参与投票的处决会失败。",
+    "flavor": "噢，垃圾桶上升，垃圾桶下降，一直走到街道尽头然后我转身！哈，这是一把刀吗？",
+    "firstNight": 12,
+    "otherNight": 3
+  },
+  {
+    "id": "27_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/27_bundagee_inn_massacre_bigyellowfish.png",
+    "firstNightReminder": "透明人选择两名玩家，标记他们“互相指向”。",
+    "otherNightReminder": "透明人选择两名玩家，标记他们“互相指向”。",
+    "reminders": [
+      "互相指向"
+    ],
+    "name": "透明人",
+    "team": "traveler",
+    "ability": "每个夜晚，你要选择两名玩家：他们的能力额外行动一次，且这次行动以对方为目标（如果可以的话）。",
+    "flavor": "如果再让我听到一次“出租车”，我就不干了。我没有得到足够的报酬，而且我确定我会有更好的选择—噢，不，不，不，不—（砸碎）“出租车！”",
+    "firstNight": 11,
+    "otherNight": 2
+  },
+  {
+    "id": "28_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/28_bundagee_inn_massacre_bigyellowfish.png",
+    "reminders": [
+      "申诉成功"
+    ],
+    "name": "板球运动员",
+    "team": "traveler",
+    "ability": "如果从游戏开始到现在正好有善良玩家发起过六次提名，此时你公开声明使用能力，则你的阵营的玩家在今天白天和夜晚不会死亡。",
+    "flavor": "裁判你够了！那是直球正中！你眼睛瞎了吗？！"
+  },
+  {
+    "id": "29_bundagee_inn_massacre_bigyellowfish",
+    "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/29_bundagee_inn_massacre_bigyellowfish.png",
+    "name": "电工",
+    "team": "traveler",
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。",
+    "flavor": "我不想在任何带电设备上工作，我需要切断电源。我不在乎你是否需要电力来驱动你的时髦漂亮电椅。如果你要对此投诉，打电话给我的工会。"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "鸭镇制作",
+    "setup": false,
+    "reminders": [
+      "鸭镇制作"
+    ],
+    "team": "fabled",
+    "name_eng": "_meta",
+    "id": "_meta",
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "edition": "custom",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png"
+  }
+]

@@ -1,0 +1,401 @@
+[
+	{
+		"id": "_meta",
+		"name": "日复一日",
+		"author": "Nexus&Imzecorella",
+		"description": "",
+		"townsfolkName": "镇民",
+		"logo": "https://i.postimg.cc/QM9x4cNS/image.png",
+		"almanac": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/almanac.html#synopsis"
+	},
+	{
+		"id": "1d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/coroner_day_by_day.png",
+		"firstNightReminder": "用数字手势来告诉法医两名非镇民且非旅行者的玩家之间最远的距离。",
+		"name": "法医",
+		"team": "townsfolk",
+		"ability": "在你的首个夜晚，你会得知两名非镇民玩家之间最远的距离。（旅行者不计算在内，邻座的玩家距离为1）",
+		"flavor": "多起突发溺水事件……那些反对者们……您或许好奇这两者之间有什么关联，而我……也一样。",
+		"firstNight": 22
+	},
+	{
+		"id": "2d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/cimlaaq_day_by_day.png",
+		"firstNightReminder": "唤醒巨擘并让他指向三名玩家。",
+		"otherNightReminder": "如果巨擘尚未失去能力，唤醒巨擘并让他指向三名玩家。",
+		"reminders": [
+			"得知",
+			"失去能力"
+		],
+		"name": "巨擘",
+		"team": "townsfolk",
+		"ability": "每个夜晚，你会得知三个玩家。明天白天，你可以私下向说书人发表一个关于这三个玩家的声明。如果该声明错误，你失去能力。",
+		"flavor": "风祛万物，愿尔驻足于知己之檐。",
+		"firstNight": 20,
+		"otherNight": 18
+	},
+	{
+		"id": "3d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/astrologist_day_by_day.png",
+		"firstNightReminder": "标记星象师“奇数夜晚醉酒”或“偶数夜晚醉酒”。让星象师选择一个角色：星象师获得这个角色的能力直到下个黄昏。",
+		"otherNightReminder": "让星象师选择一个角色（不能重复）：星象师将获得这个角色的能力直到下个黄昏。并根据夜晚让星象师醉酒",
+		"reminders": [
+			"星象师",
+			"奇数夜晚醉酒",
+			"偶数夜晚醉酒",
+			"醉酒"
+		],
+		"name": "星象师",
+		"team": "townsfolk",
+		"ability": "每个夜晚，你要选择一个镇民角色（与之前不同）：你获得他的能力直到下个黄昏。每逢奇数或偶数夜晚，你醉酒。",
+		"flavor": "每当你凝视夜空，总能察觉一些殊异，仿佛那是一对陌生的眼睛，一幅未干的画作……",
+		"firstNight": 17,
+		"otherNight": 9
+	},
+	{
+		"id": "4d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/constable_day_by_day.png",
+		"firstNightReminder": "让治安官选择除治安官和与治安官邻近的存活的玩家以外的一名玩家：用拇指向上/下表示那名玩家是善良/邪恶的（如果与治安官邻近的一名存活的玩家是邪恶的，展示错误的阵营）。",
+		"otherNightReminder": "让治安官选择除治安官和与治安官邻近的存活的玩家以外的一名玩家：用拇指向上/下表示那名玩家是善良/邪恶的（如果与治安官邻近的一名存活的玩家是邪恶的，展示错误的阵营）。",
+		"name": "治安官",
+		"team": "townsfolk",
+		"ability": "每个夜晚，你要选择除你和与你邻近的存活的玩家以外的一名玩家：你会得知他的阵营。如果与你邻近的一名存活的玩家是邪恶的，你的能力会产生错误信息作为替代。",
+		"firstNight": 21,
+		"flavor": "我们这儿有什么？你在干嘛，小子?看看他们偷了什么。现在的孩子不干一点好事。",
+		"otherNight": 21
+	},
+	{
+		"id": "5d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/cherrypicker_day_by_day.png",
+		"otherNightReminder": "投机者可以选择一名玩家：如果该玩家是镇民，用一个不在场的外来者角色标记替换该玩家的角色标记，唤醒该玩家，向该玩家展示“你是”信息标记和新的角色标记。",
+		"setup": true,
+		"name": "投机者",
+		"team": "townsfolk",
+		"ability": "每个夜晚*，你可以选择一名玩家：如果他是镇民，他会变成一个不在场的外来者。[+0或+1外来者]",
+		"otherNight": 7
+	},
+	{
+		"id": "6d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/medium_day_by_day.png",
+		"firstNightReminder": "如果灵媒在场，不要让恶魔和爪牙互相认识。",
+		"otherNightReminder": "交换灵媒和恶魔的角色标记和阵营提示标记。将这两名玩家分别独自唤醒。对他们展示“你是”信息标记和他们的新角色标记，并用拇指向上/向下代表他阵营变为善良/邪恶。",
+		"reminders": [
+			"今天死亡"
+		],
+		"name": "灵媒",
+		"team": "townsfolk",
+		"ability": "每个夜晚*，你与恶魔交换角色和阵营。（但保留选择与状态）爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+		"firstNight": 3,
+		"otherNight": 16
+	},
+	{
+		"id": "7d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/ravager_day_by_day.png",
+		"otherNightReminder": "让寻仇者选择一个镇民：如果该角色在场且存活，标记该角色死亡；否则标记寻仇者死亡。",
+		"reminders": [
+			"死亡"
+		],
+		"name": "寻仇者",
+		"team": "townsfolk",
+		"ability": "每个夜晚*，你可以选择一个镇民角色：他死亡，如果该角色不在场或已死亡，你死亡。",
+		"otherNight": 11
+	},
+	{
+		"id": "8d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/beldam_day_by_day.png",
+		"otherNightReminder": "展示与今天白天死于处决的玩家邻近的玩家（跳过旅行者）的一个角色标记。",
+		"reminders": [
+			"死于处决"
+		],
+		"name": "老妪",
+		"team": "townsfolk",
+		"ability": "每个夜晚*，你会得知一名与今天白天死于处决的玩家邻近的玩家的角色（跳过旅行者）。",
+		"otherNight": 19
+	},
+	{
+		"id": "9d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/poetaster_day_by_day.png",
+		"reminders": [
+			"猜测正确"
+		],
+		"name": "打油诗人",
+		"team": "townsfolk",
+		"ability": "每个白天，你可以拜访说书人并猜测一名玩家是一个爪牙角色。如果你猜对的玩家死于处决，你的阵营获胜。"
+	},
+	{
+		"id": "10d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/fashionista1_day_by_day.png",
+		"name": "时尚达人",
+		"team": "townsfolk",
+		"ability": "每个白天，你可以私下询问说书人以得知一条错误信息，但这条信息曾经是正确的。"
+	},
+	{
+		"id": "11d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/benefactor1_day_by_day.png",
+		"name": "赞助人",
+		"team": "townsfolk",
+		"ability": "每个白天，你可以私下询问说书人并得知谁是目前最无关紧要的存活玩家。"
+	},
+	{
+		"id": "12d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/muskeeter_day_by_day.png",
+		"otherNightReminder": "火枪手可以选择除火枪手以外的两名玩家：如果他这么做了，为第一名玩家放置“驻守”提示标记，标记第二名玩家错误。唤醒恶魔，以任意次序指向那两名玩家。如果恶魔杀死了标有“驻守”标记的玩家，再次唤醒火枪手，指向恶魔。",
+		"reminders": [
+			"驻守",
+			"错误",
+			"失去能力"
+		],
+		"name": "火枪手",
+		"team": "townsfolk",
+		"flavor":"黑火药从小袋子里掉下来，流沙的声音伴随着精确的运动：“一无所有，一无所有……我们的世界真是个笑话。” 霎时间，我感觉步枪变得更轻了，而肩上的担子也更重了。",
+		"ability": "每局游戏限一次，在夜晚时*，你可以选择除你以外的两名玩家：如果恶魔选择了首个被你选择的玩家，你会得知谁是恶魔。恶魔会以任意顺序得知你的选择。",
+		"otherNight": 10
+	},
+	{
+		"id": "13d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/violinist_day_by_day.png",
+				"otherNightReminder": "如果邪恶玩家以任何方式杀死了小提琴手，放置“邪恶醉酒”提示标记到魔典中央以提示所有邪恶玩家醉酒。",
+		"reminders": [
+			"邪恶醉酒"
+		],
+		"name": "小提琴家",
+		"team": "townsfolk",
+		"ability": "如果邪恶玩家杀死了你，所有邪恶玩家会醉酒到明天夜晚结束时。"
+	},
+	{
+		"id": "14d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/phantasm_day_by_day.png",
+		"remindersGlobal": [
+			"是幻象",
+			"拥有能力"
+		],
+		"setup": true,
+		"name": "幻象",
+		"team": "outsider",
+		"ability": "你以为你是一个镇民，但其实你不是。如果有大于或等于两名幻象存活，他们拥有自己以为的能力。被你提名的镇民会变成幻象。"
+	},
+	{
+		"id": "15d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/witness_day_by_day.png",
+		"otherNightReminder": "如果当晚目击证人死亡，唤醒目击证人，对目击证人展示被他的能力影响的两个角色。",
+		"reminders": [
+			"被目击"
+		],
+		"name": "目击证人",
+		"team": "outsider",
+		"ability": "说书人可以让玩家以为某两个角色在场，其实并不在，一名玩家可能会被当作这两个角色，即使你已死亡。如果你在夜晚死亡，你会得知这两个角色是什么。",
+		"otherNight": 20
+	},
+	{
+		"id": "16d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/rebellion_day_by_day.png",
+		"reminders": [
+			"醉酒"
+		],
+		"name": "叛匪",
+		"team": "outsider",
+		"ability": "一名镇民醉酒，即使你已死亡。如果你提名了恶魔，你失去能力。"
+	},
+	{
+		"id": "17d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/vacillator_day_by_day.png",
+		"firstNightReminder": "让踌躇者选择一个阵营（用拇指向上代表善良阵营，用拇指向下代表邪恶阵营）：标记踌躇者他选择的阵营。",
+		"otherNightReminder": "转变踌躇者的阵营，即使他已死亡。",
+		"name": "踌躇者",
+		"team": "outsider",
+		"ability": "在你的首个夜晚，你要选择你的阵营。每个夜晚，你会转变为对立的阵营，即使你已死亡。",
+		"firstNight": 16,
+		"otherNight": 8
+	},
+	{
+		"id": "18d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/foxglove_day_by_day.png",
+		"firstNightReminder": "狐狸手套可以选择一个或两个角色：在这些玩家角色标记旁放置“中毒”提示标记，如果狐狸手套选择了两名玩家，在恶魔角色标记旁放置“中毒”提示标记。",
+		"otherNightReminder": "移除所有中毒标记。狐狸手套可以选择一个或两个角色：在这些玩家角色标记旁放置“中毒”提示标记，如果狐狸手套选择了两名玩家，在这些恶魔标记旁放置“中毒”提示标记。",
+		"reminders": [
+			"中毒"
+		],
+		"name": "“狐狸手套”",
+		"team": "minion",
+		"ability": "每个夜晚，你要选择一或两名角色：他们中毒直到下个黄昏。如果你选择了两名角色，恶魔也会中毒。",
+		"firstNight": 15,
+		"otherNight": 6
+	},
+	{
+		"id": "19d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/manipulator_day_by_day.png",
+		"otherNightReminder": "操纵者可以使自己死亡。如果他这么做，在操纵者角色标记旁放置“死亡”提示标记。",
+		"reminders": [
+			"疯狂","去世"
+		],
+		"name": "操纵者",
+		"team": "minion",
+		"ability": "如果你或一名善良玩家“疯狂”地公开证明自己是自己的角色（旅行者不计算在内），对调胜负结果直到下个黄昏。每个夜晚*，你可以让自己死亡。",
+		"otherNight": 17
+	},
+	{
+		"id": "20d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/orator_day_by_day.png",
+		"reminders": [
+			"四天后",
+			"三天后",
+			"两天后",
+			"一天后","?"
+		],
+		"name": "雄辩家",
+		"team": "minion",
+		"ability": "每个白天，你可以私下向说书人声明一条规则及其生效日期。如果说书人同意，与之相关的后果会被一同确认，并从你指定的那个白天起宣布执行。"
+	},
+	{
+		"id": "21d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/summoner_day_by_day.png",
+		"firstNightReminder": "唤醒标有干扰项的玩家，展示“他的能力对你生效”信息标记和召唤师角色标记。",
+		"reminders": [
+			"干扰项",
+			"处决邪恶",
+			"处决善良"
+		],
+		"name": "召唤师",
+		"team": "minion",
+		"ability": "如果处决善良玩家的次数与邪恶玩家的次数相等（零不计算在内），或在白天没人被处决，你会变成一个不在场的恶魔。一名镇民会被你当作邪恶阵营，且得知你在场。",
+		"firstNight": 11
+	},
+	{
+		"id": "22d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/festerwood_day_by_day.png",
+		"otherNightReminder": "让斐斯特伍德选择一名玩家：在那名玩家角色标记旁放置“中毒”且互换，标记另一名玩家死亡，如果斐斯特伍德更换了目标，在下个黎明时宣布斐斯特伍德更换了目标。",
+		"reminders": [
+			"首个目标",
+			"中毒",
+			"死亡"
+		],
+		"name": "斐斯特伍德",
+		"team": "demon",
+		"ability": "每个夜晚*，你要选择一名玩家：他中毒且会被当作邪恶的你，直到下个黄昏。然后一名除他以外的玩家会死亡。当你更换目标时，所有人都会得知你选择了新的玩家。",
+		"otherNight": 14
+	},
+	{
+		"id": "23d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/logosdei_day_by_day.png",
+		"firstNightReminder": "让造物之语选择两名玩家，标记这两名玩家“明晚死亡”提示标记。",
+		"otherNightReminder": "标记所有仍标有“明晚死亡”提示标记的玩家死亡，并移除这些玩家的“明晚死亡”标记。让造物之语选择两名玩家，标记这两名玩家明晚死亡。",
+		"reminders": [
+			"明晚死亡",
+			"死亡"
+		],
+		"remindersGlobal": [
+			"已猜测"
+		],
+		"name": "造物之语",
+		"team": "demon",
+		"ability": "每个夜晚，你要选择两名玩家：他们会在下个夜晚死亡。每名玩家每局游戏限一次，他们可以拜访说书人并选择一名玩家，他不会在下个夜晚被你杀死。。",
+		"flavor": "Αγαπάμε. Η καρδιά σου. Είναι τόσο αγνό. Να θυσιαστεί. Οι φίλοι. Θυσία. Συγχώρεση.",
+		"firstNight": 18,
+		"otherNight": 12
+	},
+	{
+		"id": "24d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/fellowfolk_day_by_day.png",
+		"firstNightReminder": "标记一个镇民为目标。对阖众展示那名玩家的角色标记。",
+		"otherNightReminder": "让阖众选择一名玩家：标记那名玩家死亡。如果阖众角色标记旁有“额外行动”提示标记，让阖众额外选择一名玩家：标记那名玩家死亡。",
+		"reminders": [
+			"目标",
+			"额外行动",
+			"死亡"
+		],
+		"name": "阖众",
+		"team": "demon",
+		"ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你会得知一个在场的镇民角色。如果他死于处决，随后的每个夜晚你要额外选择一名玩家：他死亡。",
+		"flavor": "请原谅我的生疏，我最近一直没有机会亲手处理此类事情。但我不会让您失望的，您也最好不要让我失望。",
+		"firstNight": 19,
+		"otherNight": 13
+	},
+	{
+		"id": "25d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/unazoth_day_by_day.png",
+		"otherNightReminder": "让乌纳佐斯选择两名玩家，标记这两名玩家被选择，标记第一名玩家死亡。如果所有存活的镇民都标有被选择，宣告因为乌纳佐斯的能力，邪恶阵营会在下个黄昏获胜。",
+		"reminders": [
+			"被选择",
+			"死亡"
+		],
+		"setup": true,
+		"name": "乌纳佐斯",
+		"team": "demon",
+		"ability": "每个夜晚*，你要选择两名玩家：首个被你选择玩家死亡。如果你已选择过所有存活的镇民，所有玩家会得知此事，而邪恶阵营会在下个黄昏获胜。[只有1名外来者在场]",
+		"flavor": "أشعر بضغطي حتى تتمزق أو تذوب في العظمة",
+		"otherNight": 15
+	},
+	{
+		"id": "26d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/coupcaller_day_by_day.png",
+		"reminders": [
+			"正确",
+			"失去能力"
+		],
+		"name": "政变召集员",
+		"team": "traveler",
+		"ability": "当一名玩家被提名时，你可以公开发表一个声明。每局游戏限一次，如果该声明正确且那名玩家被处决，他不会死亡。"
+	},
+	{
+		"id": "27d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/secretary_day_by_day.png",
+		"firstNightReminder": "秘书可以选择一个角色。如果他这么做了，标记秘书已使用，记录该玩家新的能力，之后的夜晚无需再唤醒秘书。",
+		"otherNightReminder": "秘书可以选择一个角色。如果他这么做了，标记秘书已使用，记录该玩家新的能力，之后的夜晚无需再唤醒秘书。",
+		"reminders": [
+			"已使用"
+		],
+		"name": "秘书",
+		"team": "traveler",
+		"ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他的能力会转变为相同角色类型的一个其他角色，直到你死亡或离开游戏。",
+		"firstNight": 13,
+		"otherNight": 3
+	},
+	{
+		"id": "28d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/paramour_day_by_day.png",
+		"otherNightReminder": "如果情人是邪恶的，唤醒情人，让情人选择一名死亡的玩家：标记该玩家重获投票标记。",
+		"reminders": [
+			"重获投票标记"
+		],
+		"name": "情人",
+		"team": "traveler",
+		"ability": "每个黎明，一名死亡的玩家会重新获得投票标记。如果你是邪恶的，你要在上个夜晚选择一名死亡玩家以获得投票标记。",
+		"otherNight": 5
+	},
+	{
+		"id": "29d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/fanatic_day_by_day.png",
+		"otherNightReminder": "如果爱猫狂热人士在今天白天“疯狂”地证明除他以外的所有玩家都是猫，展示两个效果，让爱猫狂热人士选择其中一个效果，宣布该效果。",
+		"reminders": [
+			"疯狂"
+		],
+		"name": "爱猫狂热人士",
+		"team": "traveler",
+		"ability": "每个夜晚*，如果你在今天白天“疯狂”地证明除你以外的所有玩家都是猫，你会得知两件事情，你要选择其中一件发生，所有玩家都会得知你的选择。",
+		"otherNight": 2
+	},
+	{
+		"id": "30d",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/framer_day_by_day.png",
+		"firstNightReminder": "让筹划者选择一名玩家：如果你选择交换他们的角色，分别独自唤醒这两名玩家，展示“你是”信息标记和他们的新角色标记，你要在下个黎明宣布新的筹划者是谁。",
+		"otherNightReminder": "让筹划者选择一名玩家：如果你选择交换他们的角色，分别独自唤醒这两名玩家，展示“你是”信息标记和他们的新角色标记，你要在下个黎明宣布新的筹划者是谁。",
+		"reminders": [
+			"初始的筹划者"
+		],
+		"name": "筹划者",
+		"team": "traveler",
+		"ability": "每个夜晚，你要选择一名存活的玩家：你可能与他交换角色。初始的筹划者随时可以与你交换角色并离开游戏，即使你已死亡。",
+		"firstNight": 14,
+		"otherNight": 4
+	},
+	{
+		"id": "weird_fabled",
+		"image": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/ladyjustice_day_by_day.png",
+		"reminders": [
+			"醉酒"
+		],
+		"name": "正义女神",
+		"team": "fabled",
+		"ability": "一名旅行者醉酒，所有玩家都会得知他是谁。每个黎明，顺时针方向上离他最近的旅行者醉酒，他恢复清醒。"
+	}
+]

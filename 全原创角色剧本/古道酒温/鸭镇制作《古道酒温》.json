@@ -1,0 +1,598 @@
+[
+  {
+    "id": "_meta",
+    "name": "古道酒温",
+    "author": "【作者】陌上叶、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/cH7fvnFv/QQ-20231219003350.png",
+    "flavor": "Duck_Town",
+    "townsfolkName": "镇民",
+    "state": [
+      {
+        "stateName": "参与提名",
+        "stateDescription": "在一项提名中，自身作为发起提名的玩家，或是被提名的玩家，称为参与了此项提名。"
+      }
+    ],
+    "status": [
+      {
+        "name": "参与提名",
+        "skill": "在一项提名中，自身作为发起提名的玩家，或是被提名的玩家，称为参与了此项提名。"
+      }
+    ]
+  },
+  {
+    "firstNightReminder": "唤醒樵夫，对他展示一个角色标记，用大拇指向上以表示该角色在场，或用大拇指向下以表示该角色不在场。",
+    "otherNightReminder": "唤醒樵夫，对他展示一个角色标记，用大拇指向上以表示该角色在场，或用大拇指向下以表示该角色不在场。",
+    "otherNight": 20,
+    "firstNight": 25,
+    "name": "樵夫",
+    "reminders": [],
+    "id": "QiaoFu_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "QiaoFu_Duck",
+    "ability": "每个夜晚，你会得知一个角色，并且会得知该角色是否在场。",
+    "flavor": "Duck_Town",
+    "image": "https://i.postimg.cc/vB8drZnH/3.png",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "唤醒洗墨人，让他选择除自己以外的两名玩家，为这些玩家放置“泼墨酣畅”标记，然后确认带有“泼墨酣畅”标记的存活的玩家，用大拇指向上以表示数量相同，或用大拇指向下以表示数量不同。",
+    "otherNightReminder": "唤醒洗墨人，让他选择除自己以外的两名玩家，为这些玩家放置“泼墨酣畅”标记，然后确认带有“泼墨酣畅”标记的存活的玩家，用大拇指向上以表示数量相同，或用大拇指向下以表示数量不同。",
+    "otherNight": 18,
+    "firstNight": 23,
+    "name": "洗墨人",
+    "reminders": [
+      "泼墨酣畅"
+    ],
+    "id": "XiMoRen_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "XiMoRen_Duck",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家（要与之前的选择都不同）：你会得知被你选择过的存活玩家中，邪恶玩家的数量与善良玩家的数量是否相等。",
+    "image": "https://i.postimg.cc/pXmRcr6m/6.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "唤醒签判，让他选择一名玩家，为该玩家放置“轶正气”标记，确认与该玩家邻近的玩家中是否有外来者，如果有外来者，向签判展示“刑徒路”标记，然后为签判放置该标记。",
+    "otherNightReminder": "唤醒签判，让他选择一名玩家，为该玩家放置“轶正气”标记，确认与该玩家邻近的玩家中是否有外来者，如果有外来者，向签判展示“刑徒路”标记，然后为签判放置该标记。",
+    "otherNight": 16,
+    "firstNight": 21,
+    "name": "签判",
+    "reminders": [
+        "轶正气",
+        "刑徒路"
+      
+    ],
+    "id": "QianPan_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "QianPan_Duck",
+    "ability": "每个夜晚，你可以选择一名存活玩家：他开始得知正确信息。如果与他邻近的玩家中有外来者，你在下个白天不能发起提名且你会得知此信息。",
+    "image": "https://i.postimg.cc/wMZ8Y5G7/10.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒棋士，让他选择除棋士以外的角色列表上的一个角色，如果该角色在场，确认与该角色对应玩家的最远的存活的玩家，用大拇指向上以表示有邪恶玩家，或用大拇指向下以表示没有邪恶玩家；如果该角色不在场，为棋士放置“眼气皆散”标记。",
+    "otherNight": 17,
+    "firstNight": 0,
+    "name": "棋士",
+    "reminders": [
+      "眼气皆散"
+    ],
+    "id": "QiShi_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "QiShi_Duck",
+    "ability": "每个夜晚*，你可以选择除棋士外的一个角色：如果该角色在场，你会得知与该角色玩家最远的存活玩家中是否有邪恶玩家；否则你死亡。",
+    "image": "https://i.postimg.cc/Y09MHC2y/7.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "说书门徒",
+    "reminders": [],
+    "id": "ShuoShuMenTu_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "ShuoShuMenTu_Duck",
+    "ability": "每个白天，你可以拜访说书人以得知一个故事片段：它反映了场上发生过的事。但你不能向其他人透露原内容。",
+    "image": "https://i.postimg.cc/N0kc2H5z/8.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "如果师婆未曾使用能力，唤醒师婆，她可以摇头不使用能力，或选择角色列表上的最多五个角色，确认其中的在场角色，用大拇指向上以表示数量更多，或用大拇指向下以表示数量更少，用大拇指水平以表示数量相同。",
+    "otherNightReminder": "如果师婆未曾使用能力，唤醒师婆，她可以摇头不使用能力，或选择角色列表上的最多五个角色，确认其中的在场角色，用大拇指向上以表示数量更多，或用大拇指向下以表示数量更少，用大拇指水平以表示数量相同。",
+    "otherNight": 19,
+    "firstNight": 24,
+    "name": "师婆",
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "ShiPo_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "ShiPo_Duck",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择最多五个角色：你会得知与你选择的在场邪恶角色相比，选择中的在场善良角色情况（更多/更少/相等）。",
+    "image": "https://i.postimg.cc/TYBGzxzC/4.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果嫠妇的能力曾被触发，唤醒嫠妇，对她展示「你是」信息标记和对应角色标记，以及用大拇指以表示嫠妇的阵营。",
+    "otherNight": 1,
+    "firstNight": 0,
+    "name": "嫠妇",
+    "reminders": [
+      "限一次",
+      "嫠妇托付"
+    ],
+    "id": "LiFu_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "LiFu_Duck",
+    "ability": "每个白天，你可以询问一名玩家：如果他同意且你们阵营相同，你变成他的角色，他变成嫠妇；如果他同意且他是邪恶的，你们交换阵营，但每局游戏仅能成功转化一次，且他不知道角色或阵营的变化。",
+    "image": "https://i.postimg.cc/MpRxx4xx/9.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果当天白天青梅无忌提名了竹马无猜，唤醒他并对他展示「该角色的能力对你生效」信息标记和青梅无忌角色标记。",
+    "otherNight": 3,
+    "firstNight": 0,
+    "name": "竹马无猜",
+    "remindersGlobal": [
+      "是竹马无猜"
+    ],
+    "id": "ZhuMaWuCai_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "ZhuMaWuCai_Duck",
+    "ability": "你以为你是一个镇民角色，但其实你不是。如果在今天白天你被青梅无忌提名过，你会在当晚被唤醒且得知此信息，然后你获得你以为的角色能力。[+青梅无忌]",
+    "image": "https://i.postimg.cc/mrs4rw29/2.png",
+    "flavor": "Duck_Town",
+    "setup": true
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "青梅无忌",
+    "reminders": [
+      "相逢竹马"
+    ],
+    "id": "QingMeiWuJi_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "QingMeiWuJi_Duck",
+    "ability": "当你发起提名时，如果被你提名的玩家是镇民且不是竹马无猜，他会在黄昏时变成竹马无猜。",
+    "image": "https://i.postimg.cc/vTNMHwc8/1.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果狂狷侠死亡，为与他对立阵营的玩家都放置“醉酒”标记。决定今晚谁会因为狂狷侠能力死亡。",
+    "otherNight": 12,
+    "firstNight": 0,
+    "name": "狂狷侠",
+    "reminders": [
+      "醉酒",
+      "死亡"
+    ],
+    "id": "KuangJuanXia_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "uangJuanXia_Duck",
+    "ability": "当你死亡时，与你对立阵营的玩家（不包括旅行者）开始醉酒直到他参与的提名结束。在夜晚时，如果有玩家因你的能力而醉酒，可能会有一名玩家死亡，即使你已死亡。",
+    "image": "https://i.postimg.cc/3rS3ZmnM/5.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果虚枝公死亡，唤醒一名与他阵营相同玩家，对该玩家展示「该角色的能力对你生效」信息标记，虚枝公角色标记并且指向虚枝公。然后让他重新入睡，为该玩家放置“遗风”标记。",
+    "otherNight": 13,
+    "firstNight": 0,
+    "name": "虚枝公",
+    "reminders": [
+      "天下有朋",
+      "遗风"
+    ],
+    "id": "XuZhiGong_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "XuZhiGong_Duck",
+    "ability": "你不会变成其他角色。当你死亡时，一名与你阵营相同的玩家会得知你是虚枝公，且如果他存活，他获得你所有的能力。",
+    "image": "https://i.postimg.cc/K8nXCMr8/11.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "如果乾道在场，唤醒恶魔，对他展示乾道角色标记，然后展示相应数量的爪牙角色标记，然后让他重新入睡，为他放置“朗朗乾坤”标记。",
+    "otherNightReminder": "如果此前有邪恶玩家的能力选择过乾道，唤醒乾道，对他展示在场的恶魔角色标记。然后让他重新入睡，为他放置“道殒命消”标记",
+    "otherNight": 14,
+    "firstNight": 4,
+    "name": "乾道",
+    "reminders": [
+      "朗朗乾坤",
+      "道殒命消"
+    ],
+    "id": "QianDao_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "QianDao_Duck",
+    "ability": "当邪恶玩家的能力在夜晚选择你时（首个夜晚除外），你死亡，然后你得知在场的恶魔角色。[恶魔获得并得知初始爪牙配置数加一的爪牙能力，无爪牙在场]",
+    "image": "https://i.postimg.cc/ydfCvChh/13.png",
+    "flavor": "Duck_Town",
+    "setup": true
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果桃花仙带有倒置的“绽东风”标记，唤醒桃花仙，让桃花仙用手势比划出要选择的选项（1或2），然后将“绽东风”标记正放。如果他选择了选项一，为他放置倒置的“繁其实”标记；如果他选择了选项二，对他展示一个善良角色标记。为展示的角色标记放置“繁其实”标记。然后让桃花仙重新入睡。",
+    "otherNight": 8,
+    "firstNight": 0,
+    "name": "桃花仙",
+    "reminders": [
+      "春华来1",
+      "春华来2",
+      "绽东风",
+      "繁其实"
+    ],
+    "id": "TaoHuaXian_Duck",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "TaoHuaXian_Duck",
+    "ability": "在你累计参与两次，五次，九次提名的当晚，由你二选一：1）你在下个白天可以拜访说书人以得知一条正确信息；2）你得知并获得一个善良角色的能力。",
+    "image": "https://i.postimg.cc/Wbqc6Kdr/12.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果在白天所有外来者都参与过提名，分别唤醒所有邪恶玩家和外来者，为他展示“大梦方醒”标记。",
+    "otherNight": 2,
+    "firstNight": 0,
+    "name": "欢梦",
+    "remindersGlobal": [
+      "是欢梦",
+      "大梦方醒"
+    ],
+    "id": "HuanMeng_Duck",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "HuanMeng_Duck",
+    "ability": "你以为你是一个其他角色，但其实你不是。如果在白天外来者都参与过提名，当晚，邪恶玩家和外来者都会得知此信息，即使你醉酒，中毒或已死亡。［所有外来者都是欢梦]",
+    "image": "https://i.postimg.cc/q74frvjX/14.png",
+    "flavor": "Duck_Town",
+    "setup": true
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果烽烟带有“未得知”标记，唤醒恶魔，对他指向一名玩家，并展示该玩家的角色标记。如果烽烟死亡，为带有“得知过”标记的玩家会放置“定风波”标记。",
+    "otherNight": 7,
+    "firstNight": 0,
+    "name": "烽烟",
+    "reminders": [
+      "得知过",
+      "未得知",
+      "定风波"
+    ],
+    "id": "FengYan_Duck",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "FengYan_Duck",
+    "ability": "每个白天，你可以拜访说书人以得知一名善良玩家。在你没有得知信息的当晚，恶魔会被唤醒并得知一名玩家和他的角色，即使你已死亡。当你死亡时，你得知过的玩家都会死亡。",
+    "image": "https://i.postimg.cc/XYMS285P/17.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果浮生客带有“浮生何处”标记，分别唤醒两名存活的善良玩家，对他展示「你是」信息标记和浮生客角色标记。",
+    "otherNight": 6,
+    "firstNight": 0,
+    "name": "浮生客",
+    "reminders": [
+      "浮生何处"
+    ],
+    "id": "FuShengKe_Duck",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "FuShengKe_Duck",
+    "ability": "在没有善良玩家提名你的当晚，会有两名存活善良玩家变为浮生客，即使你已死亡。如果所有存活善良玩家都是浮生客（旅行者不计算在内），善良阵营落败。",
+    "image": "https://i.postimg.cc/x8cDZpgw/15.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "浪荡子",
+    "reminders": [],
+    "id": "LangDangZi_Duck",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "LangDangZi_Duck",
+    "ability": "你可能会被当作邪恶阵营，即使你已死亡。当你在陈述一件游戏内客观正确的事时，你可能被处决。",
+    "image": "https://i.postimg.cc/FFBQSmHN/16.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "离世镜",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "镇民离世镜"
+    ],
+    "id": "LiShiJing_Duck",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "LiShiJing_Duck",
+    "ability": "每个白天你可以提名两次。如果你是外来者，你会获得错误信息且当你参与提名时，参与提名的所有镇民开始醉酒到下一个黎明。每个白天，你可以拜访说书人以得知一条与你提名过的玩家有关的信息。[你可能作为镇民加入游戏，并且一直是镇民]",
+    "image": "https://i.postimg.cc/1zHk31dx/18.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "唤醒酒盅蛊，让他选择角色列表上的一个邪恶角色，如果该角色在场，为与该角色对应玩家邻近的善良玩家放置“遗鸩酒”标记。",
+    "otherNightReminder": "唤醒酒盅蛊，让他选择角色列表上的一个邪恶角色，如果该角色在场，为与该角色对应玩家邻近的善良玩家放置“遗鸩酒”标记。",
+    "otherNight": 5,
+    "firstNight": 10,
+    "name": "酒盅蛊",
+    "reminders": [
+      "遗鸩酒"
+    ],
+    "id": "JuiZhongGu_Duck",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "JuiZhongGu_Duck",
+    "ability": "每个夜晚，你可以选择一个邪恶角色：如果该角色在场，与该角色玩家邻近的两名善良玩家开始中毒直到你下次选择。",
+    "image": "https://i.postimg.cc/Y2VJ93dS/19.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "唤醒毓秀灵，让他选择角色列表上的一个善良角色或一个爪牙角色，为该角色放置“入山化魂”标记。",
+    "otherNightReminder": "唤醒毓秀灵，让他选择角色列表上的一个善良角色或一个爪牙角色，为该角色放置“入山化魂”标记。",
+    "otherNight": 4,
+    "firstNight": 9,
+    "name": "毓秀灵",
+    "reminders": [
+      "入山化魂"
+    ],
+    "id": "YvXuiLing_Duck",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "YvXuiLing_Duck",
+    "ability": "每个夜晚，你可以选择一个善良角色或爪牙角色（要与之前的选择都不同）：你获得该角色的能力直到下个黄昏。",
+    "image": "https://i.postimg.cc/B67R2csM/20.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "如果蓑笠翁在场，跳过他的爪牙信息环节。今晚的爪牙信息和恶魔信息环节，不为恶魔与爪牙指向蓑笠翁。",
+    "otherNightReminder": "唤醒带有“愿者上钩”标记的玩家，对他展示「该角色的能力对你生效」信息标记和蓑笠翁角色标记，然后让他重新入睡。",
+    "otherNight": 3,
+    "firstNight": 2,
+    "name": "蓑笠翁",
+    "reminders": [
+      "愿者上钩",
+      "？"
+    ],
+    "id": "SuoLiWeng_Duck",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "SuoLiWeng_Duck",
+    "ability": "你初始与邪恶阵营互相不认识。在一名爪牙或恶魔首次提名你的当晚，他会得知此信息且当晚他的能力可以生效两次。[+1外来者]",
+    "image": "https://i.postimg.cc/cCK2hgLZ/22.png",
+    "flavor": "Duck_Town",
+    "setup": true
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "破戒僧",
+    "reminders": [
+      "不计入",
+      "提名过"
+    ],
+    "id": "PoJieSeng_Duck",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "PoJieSeng_Duck",
+    "ability": "你与恶魔不计入邪恶阵营获胜所需的条件。当你死于处决时，提名过你的镇民开始不计入邪恶阵营获胜所需的条件。",
+    "image": "https://i.postimg.cc/YqWTmWPz/21.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "唤醒春秋笔，对他展示所有欢梦自以为的角色标记。",
+    "otherNightReminder": "决定今晚谁会因为春秋笔能力死亡。随后，如果有符合条件的玩家，唤醒春秋笔，有必要的话为春秋笔指出哪些是符合条件的玩家，让他选择最多两名符合条件的玩家。让春秋笔重新入睡。为这些玩家放置“死亡”标记。",
+    "otherNight": 9,
+    "firstNight": 14,
+    "name": "春秋笔",
+    "reminders": [
+      "参与提名1",
+      "参与提名2",
+      "死亡"
+    ],
+    "id": "ChunQiuBi_Duck",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "ChunQiuBi_Duck",
+    "ability": "每个夜晚*，可能会有一名玩家死亡。欢梦以为的角色能力可能会正常生效，你得知他们以为的角色。每个夜晚，你可以选择至多两名参与过至少四次提名的玩家：他们死亡。[半数以上的善良玩家为欢梦]",
+    "image": "https://i.postimg.cc/x8W74fXm/23.png",
+    "flavor": "Duck_Town",
+    "setup": true
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒食貘，让他选择两名玩家进行猜测，分别告知他的猜测结果，为被猜对的玩家放置“死亡”标记。如果两次的猜测结果相同，决定谁会因为食貘能力死亡。",
+    "otherNight": 10,
+    "firstNight": 0,
+    "name": "食貘",
+    "reminders": [
+      "猜测1",
+      "猜测2",
+      "死亡"
+    ],
+    "id": "ShiMo_Duck",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "ShiMo_Duck",
+    "ability": "每个夜晚*，你要选择两名玩家并分别猜测该玩家的角色：如果猜测正确，他死亡，然后你得知猜测结果。如果你两次的猜测结果相同，可能会有一名玩家死亡。",
+    "image": "https://i.postimg.cc/7Zrd1L88/24.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "唤醒一枕黄粱，他可以摇头不使用能力，或选择两名玩家。为这些玩家放置“选择”标记。",
+    "otherNightReminder": "唤醒一枕黄粱，他可以摇头不使用能力，或选择两名玩家。为这些玩家放置“选择”标记。如果这些玩家中有人带有“选择”标记，则为该玩家放置“死亡”标记。如果你以这种方式自杀，让一枕黄粱选择一名符合条件的玩家且让他入睡，然后通知那名玩家角色变化。",
+    "otherNight": 11,
+    "firstNight": 16,
+    "name": "一枕黄粱",
+    "reminders": [
+      "选择",
+      "死亡",
+      "提名过",
+      "限一次"
+    ],
+    "id": "YiZhenHuangLiang_Duck",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "YiZhenHuangLiang_Duck",
+    "ability": "每个夜晚，你可以选择两名玩家。当你选择了一名你选择过的玩家时，他死亡，如果你以这种方式自杀，你要选择一名你在白天提名过的玩家，他变为邪恶的一枕黄粱，但每局游戏仅能成功转化一次。",
+    "image": "https://i.postimg.cc/SsxwXt0n/25.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "丹青手",
+    "reminders": [
+      "修改词条",
+      "失去能力"
+    ],
+    "id": "DanQingShou_Duck",
+    "edition": "custom",
+    "team": "traveler",
+    "name_eng": "DanQingShou_Duck",
+    "ability": "每局游戏限一次，在白天时，你可以公开声明，然后拜访说书人并选择一个角色，你可以修改该角色能力的一个词条（在合理范围内），该角色能力以修改后的能力生效，直到下个黎明。说书人会在下个黎明公开声明此词条。",
+    "image": "https://i.postimg.cc/XYKhs04Z/26.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果武陵君未曾使用能力，唤醒武陵君，他可以摇头不使用能力，或让他选择三名玩家，对所有人宣告这些玩家，然后分别唤醒他们并让他们秘密进行生死投票，如果死亡投票票数最多的玩家只有一位，他死亡，如果存活投票票数最多的玩家只有一位，他存活。",
+    "otherNight": 4,
+    "firstNight": 0,
+    "name": "武陵君",
+    "reminders": [
+      "生",
+      "死",
+      "不复得路",
+      "重返桃园",
+      "失去能力"
+    ],
+    "id": "WuLinJun_Duck",
+    "edition": "custom",
+    "team": "traveler",
+    "name_eng": "WuLinJun_Duck",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择除旅行者以外的三名玩家（所有玩家都会得知你选了谁）：你与他们分别秘密对对方的生死进行投票，如果死亡投票票数最多的玩家只有一位，他死亡，如果存活投票票数最多的玩家只有一位，他存活。",
+    "image": "https://i.postimg.cc/rp8HbYwf/27.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "水中鹿",
+    "reminders": [
+      "惊鹿"
+    ],
+    "id": "ShuiZhongLu_Duck",
+    "edition": "custom",
+    "team": "traveler",
+    "name_eng": "ShuiZhongLu_Duck",
+    "ability": "每个白天，你可以公开选择一名玩家：当天他不能参与提名，在当晚，你会得知他是否为外来者。",
+    "image": "https://i.postimg.cc/JhPFWcyM/28.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "魇",
+    "reminders": [
+    ],
+    "id": "Yan_Duck",
+    "edition": "custom",
+    "team": "traveler",
+    "name_eng": "Ya_Duck",
+    "ability": "你可以同时提名两名玩家。如果这项提名的投票成功，他们都即将被处决。",
+    "image": "https://i.postimg.cc/Y90s2Ggg/29.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "firstNight": 0,
+    "name": "丰神",
+    "reminders": [
+    ],
+    "id": "FengShen_Duck",
+    "edition": "custom",
+    "team": "traveler",
+    "name_eng": "FengShen_Duck",
+    "ability": "你没有初始信息。在你得知你的阵营时，你会得知一名与你同一阵营的玩家。如果你是善良的，你可能会被当作外来者；如果你是邪恶的，你可能会被当作恶魔。当你被流放时，你转变为对立阵营。",
+    "image": "https://i.postimg.cc/wvFgZmzm/30.png",
+    "flavor": "Duck_Town",
+    "setup": false
+  }, 
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "鸭镇制作",
+    "setup": false,
+    "reminders": [
+      "鸭镇制作"
+    ],
+    "team": "fabled",
+    "name_eng": "_meta",
+    "id": "_meta",
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "edition": "custom",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png"
+  }
+]

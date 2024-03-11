@@ -1,0 +1,506 @@
+[
+  {
+    "id": "_meta",
+    "name": "雪封三十天",
+    "author": "【作者】Morek、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/Z5CCQtGW/image.png"
+  },
+  {
+    "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
+    "firstNight": 7500,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "小精灵",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pixie.png",
+    "id": "Pixie",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "让断翅雪龙选择一名玩家，以点头或摇头告知他是否是偶数。",
+    "firstNight": 8600,
+    "otherNightReminder": "让断翅雪龙选择一名玩家，以点头或摇头告知他是否是偶数。",
+    "otherNight": 8000,
+    "name": "断翅雪龙",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他与最近的邪恶玩家的距离是否是偶数。（邻座的玩家距离为1）",
+    "image": "https://i.postimg.cc/QC2jmFWd/image.png",
+    "id": "DuanChiXueLong_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "大雪怪可以摇头不使用能力，或让他选择一名玩家，决定是否给该玩家放置“醉酒”标记，然后以点头或摇头告知他选择过的玩家中镇民的数量是否大于等于其他角色类型的数量。",
+    "firstNight": 7300,
+    "otherNightReminder": "大雪怪可以摇头不使用能力，或让他选择一名玩家，决定是否给该玩家放置“醉酒”标记，然后以点头或摇头告知他选择过的玩家中镇民的数量是否大于等于其他角色类型的数量。",
+    "otherNight": 7800,
+    "name": "大雪怪",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "已选择",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，你可以选择一名玩家：他可能会醉酒直到下个黄昏，你会得知你选择过的玩家中镇民的数量是否大于等于其他角色类型的数量。",
+    "image": "https://i.postimg.cc/xTmfC3WJ/image.png",
+    "id": "DaXueGuai_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "对克朗普斯指向一名已放置“错误宣称”的玩家。",
+    "firstNight": 0,
+    "otherNightReminder": "对克朗普斯指向一名已放置“错误宣称”的玩家。",
+    "otherNight": 8100,
+    "name": "克朗普斯",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "错误宣称"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，你会得知一名玩家，他在今天白天说出了错误的信息或自身角色。",
+    "image": "https://i.postimg.cc/hv2cHW1L/image.png",
+    "id": "KeLangPuSi_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "如果在白天时有人“疯狂”地证明白狼是邪恶的，唤醒白狼，对他用手势比划数字来告知他与当前死亡玩家邻近的玩家中邪恶玩家的数量。",
+    "otherNight": 8200,
+    "name": "白狼",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "ability": "如果除你以外的玩家在白天时“疯狂”地证明你是邪恶的，当晚，你会得知与死亡玩家邻近的玩家中有多少名邪恶玩家。",
+    "image": "https://i.postimg.cc/K8wvGbSQ/image.png",
+    "id": "BaiLang_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
+    "otherNight": 1600,
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/innkeeper.png",
+    "id": "Innkeeper",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
+    "otherNight": 1800,
+    "name": "赌徒",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gambler.png",
+    "id": "Gambler",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "firstNight": 8800,
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNight": 8900,
+    "name": "女裁缝",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/seamstress.png",
+    "id": "Seamstress",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "佩斯太太",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "已疯狂",
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "每局游戏限一次，如果你在白天时“疯狂”地证明自己是佩斯太太，当晚，除你以外的善良玩家都不会死亡。",
+    "image": "https://i.postimg.cc/DZgTXkD9/image.png",
+    "id": "PeiSiTaiTai_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "茶艺师",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/tea_lady.png",
+    "id": "Tea Lady",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "如果没有人死亡，则马车邮差死亡。",
+    "otherNight": 6600,
+    "name": "马车邮差",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "你不会因除自身能力以外的原因而死亡。如果在夜晚时没有玩家死亡，你死亡。",
+    "image": "https://i.postimg.cc/L60mDSXR/image.png",
+    "id": "MaCheYouChai_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
+    "otherNight": 7400,
+    "name": "守鸦人",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ravenkeeper.png",
+    "id": "Ravenkeeper",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "如果小女孩已疯狂，且白天触发了她的能力，为一名非证明玩家放置“死亡”标记。",
+    "otherNight": 6300,
+    "name": "小女孩",
+    "team": "townsfolk",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是小女孩",
+      "已疯狂",
+      "死亡"
+    ],
+    "ability": "你以为你是一个外来者，但其实你不是。如果你“疯狂”地证明自己是外来者，当天被处决的镇民可能不会死亡，然后当晚会有一名非镇民玩家死亡。［-1外来者］",
+    "image": "https://i.postimg.cc/6pLBV56B/image.png",
+    "id": "XiaoNvHai_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "分别唤醒所有善良玩家，对他指向“永世隔绝”并展示“永世隔绝”角色标记。",
+    "firstNight": 4600,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "“永世隔绝”",
+    "team": "townsfolk",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "所有善良玩家都知道你是“永世隔绝”。当游戏结束时，只有除旅行者以外的善良玩家都“疯狂”地证明自己不是自己的角色且恶魔没有在夜晚死亡时，善良阵营才会获胜，否则落败，即使你醉酒，中毒或者已死亡。",
+    "image": "https://i.postimg.cc/7YbkfRNR/image.png",
+    "id": "YongShiGeJue_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "让苦艾酒师选择是否改变因他而醉酒的玩家。",
+    "otherNight": 700,
+    "name": "苦艾酒师",
+    "team": "outsider",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "ability": "与恶魔邻近的两名镇民之一醉酒，即使你已死亡。每个夜晚*，你可以选择改变因你而醉酒的玩家。",
+    "image": "https://i.postimg.cc/sxsgkJdr/image.png",
+    "id": "KuAiJiuShi_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "如果杂技演员左右两侧最近的存活善良玩家之一中毒或醉酒，杂技演员死亡。",
+    "otherNight": 6400,
+    "name": "杂技演员",
+    "team": "outsider",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/acrobat.png",
+    "id": "Acrobat",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
+    "firstNight": 2300,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "落难少女",
+    "team": "outsider",
+    "setup": false,
+    "reminders": [
+      "已被猜测"
+    ],
+    "remindersGlobal": [],
+    "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/damsel.png",
+    "id": "Damsel",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "在当晚，一同唤醒所有爪牙和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后展示帽匠角色标记。每名以此被唤醒的玩家可以选择摇头或指向角色列表上与自己当前角色类型相同的一个角色。如果一名玩家在做出自己的选择后会使得自己的角色与一名其他玩家选择的角色相同，对他摇头示意他重新选择。在选择完成后让他重新入睡。",
+    "otherNight": 600,
+    "name": "帽匠",
+    "team": "outsider",
+    "setup": false,
+    "reminders": [
+      "今晚茶会"
+    ],
+    "remindersGlobal": [],
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ee/Hatter.png/300px-Hatter.png",
+    "id": "hatter",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "男爵",
+    "team": "minion",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "会有额外的外来者在场。[+2 外来者]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/baron.png",
+    "id": "Baron",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "让审判庭庭长选择两名玩家，为那些玩家放置“已选择”标记。",
+    "firstNight": 5700,
+    "otherNightReminder": "让审判庭庭长选择两名玩家，其中邪恶玩家则要与上一晚不同，如果其中有人已有“已选择”标记，依次为他们替换成更多次数多“选择”标记，然后期间有人被放置“选择三次”标记，该玩家死亡，审判庭庭长醉酒并停止行动。最后再为那些玩家放置“已选择”标记。",
+    "otherNight": 2400,
+    "name": "审判庭庭长",
+    "team": "minion",
+    "setup": false,
+    "reminders": [
+      "已选择",
+      "选择两次",
+      "选择三次",
+      "死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，你要选择两名存活玩家：如果明天白天他们被处决，他们不会死亡。被你选择三次的玩家死亡，然后你醉酒到下个黄昏，如果你选择了上一晚选择的邪恶玩家，你醉酒。",
+    "image": "https://i.postimg.cc/hjG4tWBc/image.png",
+    "id": "ShenPanTingTingZhang_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
+    "firstNight": 6000,
+    "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
+    "otherNight": 2600,
+    "name": "洗脑师",
+    "team": "minion",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/cerenovus.png",
+    "id": "Cerenovus",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
+    "otherNight": 6100,
+    "name": "刺客",
+    "team": "minion",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/assassin.png",
+    "id": "Assassin",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "主谋",
+    "team": "minion",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mastermind.png",
+    "id": "Mastermind",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+    "firstNight": 4500,
+    "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+    "otherNight": 5200,
+    "name": "小怪宝",
+    "team": "demon",
+    "setup": true,
+    "reminders": [
+      "是恶魔",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lil_monsta.png",
+    "id": "lil_monsta",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "让兽皮玩偶选择一名玩家，为他放置“已选择”标记。然后如果该玩家不是镇民，在魔典中央放置“错误信息”标记。",
+    "firstNight": 6700,
+    "otherNightReminder": "与带有“已选择”标记的玩家邻近一名或两名玩家死亡，让兽皮玩偶选择一名玩家，为他放置“已选择”标记。然后如果该玩家不是镇民，在魔典中央放置“错误信息”标记。",
+    "otherNight": 5400,
+    "name": "兽皮玩偶",
+    "team": "demon",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "已选择",
+      "错误信息"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚，你要选择一名玩家：如果他不是镇民，当晚镇民玩家的能力都会产生错误信息。与你上次选择的玩家邻近的玩家中至少会有一名玩家死亡。［-1或+1外来者］",
+    "image": "https://i.postimg.cc/nhtHQQJd/image.png",
+    "id": "ShouPiWanOu_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
+    "otherNight": 4300,
+    "name": "珀",
+    "team": "demon",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "攻击三次"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/po.png",
+    "id": "Po",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "为善良爪牙放置“善良爪牙”标记，唤醒该玩家，用大拇指向上示意他是善良的，然后让他重新入睡，且跳过他的爪牙信息阶段。",
+    "firstNight": 1100,
+    "otherNightReminder": "让冷杉老人选择一名玩家，他死亡。如果有死亡爪牙，让冷杉老人继续选择玩家，他们死亡。",
+    "otherNight": 5500,
+    "name": "冷杉老人",
+    "team": "demon",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "善良爪牙",
+      "额外行动"
+    ],
+    "remindersGlobal": [],
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每有一名爪牙死亡，在夜晚你额外行动一次。［-1善良角色，+1善良爪牙且他与其他邪恶玩家互相不认识］",
+    "image": "https://i.postimg.cc/RhN0XrsX/image.png",
+    "id": "LengShanLaoRen_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "私货商人",
+    "team": "fabled",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "ability": "这个剧本包含有以下自制角色：断翅雪龙、大雪怪、克朗普斯、白狼、佩斯太太、马车邮差、小女孩、“永世隔绝”、苦艾酒师、审判庭庭长、兽皮玩偶、冷杉老人。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bootlegger.png",
+    "id": "Bootlegger_Duck",
+    "flavor": "Duck_Town"
+  },
+  {
+    "firstNightReminder": "",
+    "firstNight": 0,
+    "otherNightReminder": "",
+    "otherNight": 0,
+    "name": "鸭镇制作",
+    "team": "fabled",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "鸭镇制作"
+    ],
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png",
+    "id": "Duck_Town",
+    "flavor": "Duck_Town"
+  }
+]

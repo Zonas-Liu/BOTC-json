@@ -1,0 +1,593 @@
+[
+  {
+    "id": "_meta",
+    "name": "雾港迷城 Ver.1.2",
+    "author": "【作者、Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/cCLBSXCF/image.png",
+    "state": [
+      {
+        "stateName": "雾海",
+        "stateDescription": "从游戏开始到首次远洋提议通过前，所有玩家都在雾海之中，如果有爪牙存活，善良阵营无法获胜。当首次远洋提议通过时，雾海解除。"
+      },
+      {
+        "stateName": "雾色敕令",
+        "stateDescription": "每个白天限两次，如果一项提名计票之后该玩家即将被处决，发起提名的玩家获得一枚金币，所有投票的玩家都获得一枚金币。"
+      },
+      {
+        "stateName": "乞讨",
+        "stateDescription": "每个白天，任意玩家都可以公开声明自己是广场诗人且乞讨，即使他不是。当天，除他以外的每名存活的玩家都可以施舍该玩家一枚金币。"
+      }
+    ],
+    "status": [
+      {
+        "name": "雾海",
+        "skill": "从游戏开始到首次远洋提议通过前，所有玩家都在雾海之中，如果有爪牙存活，善良阵营无法获胜。当首次远洋提议通过时，雾海解除。"
+      },
+      {
+        "name": "雾色敕令",
+        "skill": "每个白天限两次，如果一项提名计票之后该玩家即将被处决，发起提名的玩家获得一枚金币，所有投票的玩家都获得一枚金币。"
+      },
+      {
+        "name": "乞讨",
+        "skill": "每个白天，任意玩家都可以公开声明自己是广场诗人且乞讨，即使他不是。当天，除他以外的每名存活的玩家都可以施舍该玩家一枚金币。"
+      }
+    ],
+    "townsfolkName": "镇民",
+    "a jinxedName": "相克",
+    "a jinxed": "相克"
+  },
+  {
+    "firstNightReminder": "唤醒殖民主义者，向他展示代表外来者与爪牙之间最近的距离的数字的手势。",
+    "otherNightReminder": "",
+    "name": "殖民主义者",
+    "otherNight": 0,
+    "setup": true,
+    "reminders": [],
+    "id": "2_mistysailing_cn",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 43,
+    "ability": "在你的首个夜晚，你会得知外来者与爪牙之间的最近距离。［+1外来者］",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/2_whtx1xtb_mistysailing_cn.png",
+    "flavor": "人口统计局对奴隶的统计是很严格的，请大人配合。"
+  },
+  {
+    "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
+    "otherNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
+    "name": "水手",
+    "otherNight": 4,
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "id": "sailorbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Sailor",
+    "firstNight": 10,
+    "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sailor.png"
+  },
+  {
+    "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "name": "共情者",
+    "otherNight": 53,
+    "setup": false,
+    "reminders": [],
+    "id": "empathbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Empath",
+    "firstNight": 42,
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/empath.png"
+  },
+  {
+    "firstNightReminder": "为一名外来者放置“走私犯”标记。唤醒总督，让他指向一名玩家，向他展示离该玩家最近的爪牙的角色标记。",
+    "otherNightReminder": "如果带有“走私犯”的玩家死亡，移除标记。唤醒总督，让他指向一名玩家，向他展示离该玩家最近的爪牙的角色标记。",
+    "name": "总督",
+    "otherNight": 56,
+    "setup": false,
+    "reminders": [
+      "走私犯"
+    ],
+    "id": "3_mistysailing_cn",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 45,
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知离他最近的爪牙角色。会有一名外来者被你的能力当作爪牙，除非他已死亡。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/3_whtx1xtb_mistysailing_cn.png",
+    "flavor": "你是哪个船的水手，本大人怎么没见过你？"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
+    "name": "旅店老板",
+    "otherNight": 9,
+    "setup": false,
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "id": "innkeeperbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Innkeeper",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/innkeeper.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
+    "name": "城镇公告员",
+    "otherNight": 59,
+    "setup": false,
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "id": "town_crierbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Town Crier",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/town_crier.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒码头工人。让他依次指向两名玩家，将前者的一枚金币转交给后者。如果选到了死于今天的玩家，向码头工人展示他的角色类型。",
+    "name": "码头工人",
+    "otherNight": 57,
+    "setup": false,
+    "reminders": [
+      "死于今天"
+    ],
+    "id": "4_mistysailing_cn",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择两名玩家：你将前者的一枚金币转交给后者。如果其中一名玩家死于今天，你得知他的角色类型。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/4_whtx1xtb_mistysailing_cn.png",
+    "flavor": "这批烟草可是海兵缴获海盗的，快把它搬去总督大人府上！"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒广场诗人。向他展示施舍他的玩家以及死亡的玩家的角色类型的数量的手势。",
+    "name": "广场诗人",
+    "otherNight": 58,
+    "setup": false,
+    "reminders": [
+      "施舍"
+    ],
+    "id": "6_mistysailing_cn",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "ability": "每个白天，你可以公开乞讨。每个夜晚*，你会得知当天施舍你的玩家以及死亡的玩家之中有多少个角色类型。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/6_whtx1xtb_mistysailing_cn.png",
+    "flavor": "诗人只需要乐器和理想，便可以踏足远方，广场的唱和只是短暂的休息。"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "博学者",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "savantbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Savant",
+    "firstNight": 0,
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/savant.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "艺术家",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "artistbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Artist",
+    "firstNight": 0,
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书⼈一个是非问题，你会得知该问题的答案。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/artist.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果有爪牙或恶魔选择了航海家，唤醒他并向他展示该角色的标记。",
+    "name": "航海家",
+    "otherNight": 37,
+    "setup": true,
+    "reminders": [
+      "出海"
+    ],
+    "id": "9_mistysailing_cn",
+    "edition": "custom",
+    "team": "townsfolk",
+    "ability": "在夜晚时*，如果有爪牙或恶魔的能力选择了你，你会得知该角色。在你扬帆的当天，除塞壬以外的邪恶玩家的负面能力对你无效。［拥有小船］",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/9_whtx1xtb_mistysailing_cn.png",
+    "flavor": "乘风破浪，大海是我的归宿。"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "弄臣",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "foolbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Fool",
+    "firstNight": 0,
+    "ability": "当你首次将要死亡时，你不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fool.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "镇长",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "mayorbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Mayor",
+    "firstNight": 0,
+    "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mayor.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "吹嘘海盗",
+    "otherNight": 0,
+    "setup": true,
+    "remindersGlobal": [
+      "是吹嘘海盗"
+    ],
+    "id": "13_mistysailing_cn",
+    "edition": "custom",
+    "team": "outsider",
+    "ability": "你以为你是一个镇民角色，但你的能力会产生错误信息。当你参与的远洋提议通过后，你会是其中死亡的玩家。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/13_whtx1xtb_mistysailing_cn.png",
+    "flavor": "迷雾之海外边？我去过，穿过风浪也不是一件特别难的事情。"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "莽夫",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "id": "goonbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Goon",
+    "firstNight": 0,
+    "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/goon.png"
+  },
+  {
+    "firstNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
+    "otherNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
+    "name": "管家",
+    "otherNight": 55,
+    "setup": false,
+    "reminders": [
+      "主人"
+    ],
+    "id": "butlerbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Butler",
+    "firstNight": 44,
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/butler.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果瘟疫医生死亡，说书人立刻获得一个爪牙的能力。如果你还没有让这件事情发生，那么现在为瘟疫医生标记四个爪牙标记的一个。从现在开始说书人可以使用该爪牙的能力。",
+    "name": "瘟疫医生",
+    "otherNight": 41,
+    "setup": false,
+    "reminders": [
+      "说书人能力"
+    ],
+    "id": "plague_doctorbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Plague Doctor",
+    "firstNight": 0,
+    "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
+    "image": "https://i.postimg.cc/GhCL8MQ1/Icon-plaguedoctor.png"
+  },
+  {
+    "firstNightReminder": "唤醒征服者，向他他展示一个外来者角色标记以及与他邻近的镇民角色标记。",
+    "otherNightReminder": "",
+    "name": "征服者",
+    "otherNight": 0,
+    "setup": true,
+    "reminders": [
+      "贱民",
+      "失去能力"
+    ],
+    "id": "17_mistysailing_cn",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 22,
+    "ability": "在你的首个夜晚，你会得知一个在场的外来者角色以及与他邻近的镇民角色。每局游戏限一次，在白天时，你可以公开声明“贱民，滚出这片土地”并选择一名存活的玩家：如果他是你得知的角色，他被处决。［+1外来者］",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/17_whtx1xtb_mistysailing_cn.png",
+    "flavor": "你们这些贱民都是我从外海带回来的，是我手里的行货！"
+  },
+  {
+    "firstNightReminder": "唤醒陪酒女郎，让他指向一名玩家，为那名玩家放置“醉酒”标记，如果该玩家持有金币，再偷取该玩家的一枚金币给陪酒女郎。",
+    "otherNightReminder": "唤醒陪酒女郎，让他指向一名玩家，为那名玩家放置“醉酒”标记，如果该玩家持有金币，再偷取该玩家的一枚金币给陪酒女郎。",
+    "name": "陪酒女郎",
+    "otherNight": 8,
+    "reminders": [
+      "醉酒"
+    ],
+    "id": "20_mistysailing_cn",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 21,
+    "ability": "每个夜晚，你要选择一名玩家：他醉酒到下个黄昏。如果他持有金币，你偷取一枚。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/20_whtx1xtb_mistysailing_cn.png",
+    "flavor": "这位船长，今天又来我们这间酒馆喝酒啦~"
+  },
+  {
+    "firstNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
+    "otherNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
+    "id": "harpybutton",
+    "name": "鹰身女妖",
+    "firstNight": 26,
+    "otherNight": 18,
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "第二名"
+    ],
+    "remindersGlobal": [],
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Harpy",
+    "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/harpy.png"
+  },
+  {
+    "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
+    "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
+    "name": "魔鬼代言人",
+    "otherNight": 14,
+    "setup": false,
+    "reminders": [
+      "处决不死"
+    ],
+    "id": "devils_advocatebutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Devil\u0027s Advocate",
+    "firstNight": 22,
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/devils_advocate.png"
+  },
+  {
+    "firstNightReminder": "唤醒波塞冬，让他指向一至三名玩家，给那些玩家标记获得金币。",
+    "otherNightReminder": "唤醒波塞冬，让他指向一至三名玩家，给那些玩家标记获得金币。标记这些被分配到三枚以上的玩家死亡。",
+    "name": "波塞冬",
+    "otherNight": 32,
+    "setup": false,
+    "reminders": [
+      "获得1枚",
+      "获得2枚",
+      "获得3枚",
+      "死亡"
+    ],
+    "id": "21_mistysailing_cn",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 27,
+    "ability": "每个夜晚，你要选择一至三名玩家：由你决定他们获得合计三枚金币。在夜晚时*，所有因波塞冬的能力获得三枚及以上的玩家都会死亡。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/21_whtx1xtb_mistysailing_cn.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒塞壬，指向所有拥有船的玩家。让他选择一名玩家，或选择任意名拥有船的玩家，为这些玩家放置“死亡”标记。",
+    "name": "塞壬",
+    "otherNight": 33,
+    "setup": true,
+    "reminders": [
+      "得知",
+      "死亡"
+    ],
+    "id": "22_whtx1xtb_mistysailing_cn",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知所有拥有船的玩家，然后你要选择一名玩家（或选择一至三名拥有船的玩家）：他们死亡。拥有船的玩家的能力会产生错误信息。[+航海家]",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/22_whtx1xtb_mistysailing_cn.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒斯库拉，让他指向一名玩家，为那名玩家放置“死亡”标记。如果一个类型首次有玩家扬帆，为那名玩家放置对应的“得知”标记。",
+    "name": "斯库拉",
+    "otherNight": 34,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "镇民得知",
+      "外来者得知",
+      "爪牙得知",
+      "恶魔得知"
+    ],
+    "id": "23_mistysailing_cn",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个角色类型首次扬帆的玩家在当晚会知道斯库拉在场，如果这些玩家中有人存活，你不会因死亡而失去能力。在雾海解除时，如果你已死亡，邪恶阵营获胜。",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/23_whtx1xtb_mistysailing_cn.png"
+  },
+  {
+    "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+    "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+    "name": "小怪宝",
+    "otherNight": 36,
+    "setup": true,
+    "reminders": [],
+    "id": "lil_monstabutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "team": "demon",
+    "name_eng": "Lil\u0027 Monsta",
+    "firstNight": 16,
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lil_monsta.png"
+  },
+  {
+    "id": "25_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/25_whtx1xtb_mistysailing_cn.png",
+    "reminders": [
+      "1枚",
+      "2枚",
+      "3枚",
+      "4枚",
+      "5枚",
+      "6枚",
+      "7枚",
+      "8枚",
+      "9枚",
+      "10枚+"
+    ],
+    "name": "金币",
+    "team": "fabled",
+    "ability": "每名玩家都持有自己的金币。在第二个白天及之后，每名存活的玩家都可以拜访说书人以得知自己持有多少枚金币，但醉酒的玩家可能会得知错误的金币数量。"
+  },
+  {
+    "id": "28_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/28_whtx1xtb_mistysailing_cn.png",
+    "reminders": [
+      "小船",
+      "大船"
+    ],
+    "name": "船坞",
+    "team": "fabled",
+    "ability": "在白天时，除旅行者以外的存活的玩家都可以购买船：支付三枚金币可以购买小船，支付五枚金币可以购买大船。所有玩家都会知道谁拥有大船。"
+  },
+  {
+    "id": "29_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/29_whtx1xtb_mistysailing_cn.png",
+    "reminders": [
+      "扬帆"
+    ],
+    "name": "扬帆",
+    "team": "fabled",
+    "ability": "在白天时，拥有船的存活的玩家可以拜访说书人并支付一枚金币。如果一名玩家连续扬帆两天，他可以选择另一名玩家：他会得知该玩家的阵营，但醉酒的玩家会得知错误信息。"
+  },
+  {
+    "id": "30_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/30_whtx1xtb_mistysailing_cn.png",
+    "name": "远洋",
+    "team": "fabled",
+    "ability": "在白天时，拥有大船的三名存活的玩家可以提议远洋，所有玩家要对这项提议举手表决。如果远洋提议的表决超过半数玩家，则提议通过，参与提议的三名玩家：一名会得知他们中有多少名邪恶玩家，一名会得知错误信息，一名会死亡。"
+  },
+  {
+    "id": "_meta",
+    "image": "https://i.postimg.cc/QdzbCC3c/image.png",
+    "name": "雾海 & 镇长",
+    "team": "a jinxed",
+    "setup": 0,
+    "ability": "如果雾海未解除，没有存活的恶魔但镇长存活且白天没有处决发生，善良阵营获胜。"
+  },
+  {
+    "id": "0_meta",
+    "image": "https://i.postimg.cc/qMjQfQDb/image.png",
+    "name": "陪酒女郎 & 瘟疫医生",
+    "team": "a jinxed",
+    "setup": 0,
+    "ability": "如果说书人获得了陪酒女郎的能力，偷取的金币会转交给另一名玩家。"
+  },
+  {
+    "id": "32_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/32_whtx1xtb_mistysailing_cn.png",
+    "name": "巨浪",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开声明“神秘之物掀起海浪”，然后选择一名玩家：你向他索取两枚金币。当你得知你死亡时，你索取的所有金币转交给另一名玩家。"
+  },
+  {
+    "id": "33_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/33_whtx1xtb_mistysailing_cn.png",
+    "otherNightReminder": "说书人选择唤醒一名玩家，向他展示“该角色能力对你生效”提示卡并展示飓风的角色标记，然后决定他获得或失去一枚金币。",
+    "reminders": [
+      "被风吹"
+    ],
+    "name": "飓风",
+    "team": "traveler",
+    "ability": "每个夜晚*，会有一名玩家获得或失去一枚金币，他会得知自己被风吹。",
+    "otherNight": 3
+  },
+  {
+    "id": "34_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/34_whtx1xtb_mistysailing_cn.png",
+    "otherNightReminder": "如果暴雨白天的声明正确，唤醒他并向他展示代表他的新的阵营的手势。",
+    "reminders": [
+      "声明正确"
+    ],
+    "name": "暴雨",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开发表一个独特的声明。如果该声明正确，在当晚你转变阵营。在雾海解除后，你的阵营不再转变。[无初始信息]",
+    "otherNight": 2
+  },
+  {
+    "id": "35_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/35_whtx1xtb_mistysailing_cn.png",
+    "otherNightReminder": "让浓雾指向三名玩家，给他们标记“雾笼噩梦”，让浓雾重新入睡，然后分别唤醒这些玩家，向他们展示“该角色能力对你生效”提示卡并展示浓雾的角色标记。",
+    "reminders": [
+      "已选择"
+    ],
+    "name": "浓雾",
+    "team": "traveler",
+    "ability": "每个夜晚*，你要选择除旅行者以外的三名玩家：他们会得知被你选中。如果明天他们相互提名，在处决后，他们中发起提名的玩家都获得一枚金币。",
+    "otherNight": 4
+  },
+  {
+    "id": "36_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/36_whtx1xtb_mistysailing_cn.png",
+    "reminders": [
+      "被提名"
+    ],
+    "name": "低气压",
+    "team": "traveler",
+    "ability": "在雾海之中，你不能被流放。在第三个白天及之后，如果当天被处决的玩家持有金币大于等于五枚或拥有船，被你提名的玩家也一同被处决。"
+  },
+  {
+    "id": "37_whtx1xtb_mistysailing_cn",
+    "image": "https://www.bloodstar.xyz/p/papel/WHTX-1-XTB_Misty-Sailing_CN/37_whtx1xtb_mistysailing_cn.png",
+    "remindersGlobal": [
+      "是暗礁",
+      "触礁"
+    ],
+    "setup": true,
+    "name": "暗礁",
+    "team": "traveler",
+    "ability": "你同时拥有另一个旅行者角色能力，所有玩家都以为你是那个角色。在夜晚时*，可能会有一名玩家因触礁不会被自身能力唤醒，然后你死亡。"
+  }
+]

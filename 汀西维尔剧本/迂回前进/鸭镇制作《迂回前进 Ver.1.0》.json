@@ -1,0 +1,267 @@
+[
+  {
+    "id": "_meta",
+    "name": "迂回前进 Ver.1.0",
+    "author": "【作者】Mevolas Rubenido、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/L87J7vSH/image.png",
+    "townsfolkName": "镇民"
+  },
+  {
+    "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "name": "共情者",
+    "otherNight": 53,
+    "setup": false,
+    "reminders": [],
+    "id": "empathbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Empath",
+    "firstNight": 36,
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/empath.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
+    "name": "神谕者",
+    "otherNight": 60,
+    "setup": false,
+    "reminders": [],
+    "id": "oraclebutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Oracle",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/oracle.png"
+  },
+  {
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "name": "女裁缝",
+    "otherNight": 61,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "seamstressbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Seamstress",
+    "firstNight": 42,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/seamstress.png"
+  },
+  {
+    "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+    "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+    "name": "工程师",
+    "otherNight": 6,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "engineerbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Engineer",
+    "firstNight": 13,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/engineer.png"
+  },
+  {
+    "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
+    "otherNightReminder": "",
+    "name": "炼金术士",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "alchemistbutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "team": "townsfolk",
+    "name_eng": "Alchemist",
+    "firstNight": 3,
+    "ability": "你拥有一个不在场的爪牙角色的能力。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/alchemist.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "弄臣",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "foolbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Fool",
+    "firstNight": 0,
+    "ability": "当你首次将要死亡时，你不会死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fool.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "在当晚，一同唤醒所有爪牙和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后展示帽匠角色标记。每名以此被唤醒的玩家可以选择摇头或指向角色列表上与自己当前角色类型相同的一个角色。如果一名玩家在做出自己的选择后会使得自己的角色与一名其他玩家选择的角色相同，对他摇头示意他重新选择。在选择完成后让他重新入睡。移除“今晚茶会”提示标记。根据这些玩家的选择，在魔典上执行相应的角色变化操作。",
+    "name": "帽匠",
+    "otherNight": 3,
+    "setup": false,
+    "reminders": [
+      "今晚茶会"
+    ],
+    "id": "hatterbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Hatter",
+    "firstNight": 0,
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/hatter.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "异端分子",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "hereticbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Heretic",
+    "firstNight": 0,
+    "ability": "对调胜负结果，即使你已死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/heretic.png"
+  },
+  {
+    "firstNightReminder": "恐惧之灵指向一名玩家，放置恐惧标记。宣布恐惧之灵选中或改变了目标。",
+    "otherNightReminder": "恐惧之灵指向一名玩家。如果与之前选择的不同，则更换恐惧标记并宣布恐惧之灵选中或改变了目标。",
+    "name": "恐惧之灵",
+    "otherNight": 18,
+    "setup": false,
+    "reminders": [
+      "恐惧蔓延"
+    ],
+    "id": "fearmongerbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Fearmonger",
+    "firstNight": 26,
+    "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fearmonger.png"
+  },
+  {
+    "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "name": "投毒者",
+    "otherNight": 8,
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "id": "poisonerbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Poisoner",
+    "firstNight": 17,
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/poisoner.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "哥布林",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "已公开声明"
+    ],
+    "id": "goblinbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Goblin",
+    "firstNight": 0,
+    "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/goblin.png"
+  },
+  {
+    "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+    "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+    "name": "小怪宝",
+    "otherNight": 36,
+    "setup": true,
+    "reminders": [],
+    "id": "lil_monstabutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "team": "demon",
+    "name_eng": "Lil\u0027 Monsta",
+    "firstNight": 16,
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lil_monsta.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "哨兵",
+    "setup": true,
+    "reminders": [],
+    "team": "fabled",
+    "name_eng": "Sentinel",
+    "id": "sentinelbutton",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sentinel.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果这是最后一个夜晚恶魔的攻击即将获胜，而恶魔旁边仍有未选择标记，则恶魔今晚不会醒来。",
+    "name": "玩具匠",
+    "otherNight": 1,
+    "setup": false,
+    "reminders": [
+      "无法攻击"
+    ],
+    "team": "fabled",
+    "name_eng": "Toymaker",
+    "id": "toymakerbutton",
+    "ability": "恶魔可以在夜晚选择放弃攻击（每局游戏至少一次）。邪恶玩家照常获取初始信息。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/toymaker.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "私货商人",
+    "setup": false,
+    "reminders": [],
+    "team": "fabled",
+    "name_eng": "Bootlegger",
+    "id": "bootleggerbutton",
+    "ability": "这个剧本包含有以下自制规则：当晚的保姆可以选择是否触发玩具匠的放弃攻击。",
+    "edition": "custom",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bootlegger.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "鸭镇制作",
+    "setup": false,
+    "reminders": [
+      "鸭镇制作"
+    ],
+    "team": "fabled",
+    "name_eng": "_meta",
+    "id": "_meta",
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "edition": "custom",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png"
+  }
+]

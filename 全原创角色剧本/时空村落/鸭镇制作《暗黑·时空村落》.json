@@ -1,0 +1,371 @@
+[
+  {
+    "id": "_meta",
+    "name": "时空村落·暗黑二章",
+    "author": "【作者】IAmDeviant、【译者、Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/DyMVykkh/image.png",
+    "state": [
+        {
+          "stateName": "死亡序列",
+          "stateDescription": "游戏开始时，恶魔以特定顺序指向包括自己在内的所有玩家。第一名被指向的玩家是命数一，第二名是命数二，以此类推。"
+        },
+        {
+          "stateName": "命数",
+          "stateDescription": "命数决定玩家的夜晚死亡顺序。部分信息角色的能力会得知与命数相关的信息。相同命数的玩家会一同死亡。"
+        }
+      ],
+      "status": [
+        {
+          "name": "死亡序列",
+          "skill": "游戏开始时，恶魔以特定顺序指向包括自己在内的所有玩家。第一名被指向的玩家是命数一，第二名是命数二，以此类推。"
+        },
+        {
+          "name": "命数",
+          "skill": "命数决定玩家的夜晚死亡顺序。部分信息角色的能力会得知与命数相关的信息。相同命数的玩家会一同死亡。"
+        }
+      ],
+    "almanac": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/almanac.html"
+  },
+  {
+    "id": "detective_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/detective_village_of_chronos.png",
+    "firstNightReminder": "唤醒侦探，向他展示所有爪牙命数的手势。",
+    "otherNightReminder": "如果有爪牙的命数发生改变，唤醒侦探，向他展示所有爪牙命数的手势。",
+    "name": "侦探",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知所有爪牙的命数。如果其中有命数发生改变，你会再得知一次所有爪牙的命数。",
+    "firstNight": 16,
+    "otherNight": 17
+  },
+  {
+    "id": "limitaadtempus_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/limitaadtempus_village_of_chronos.png",
+    "firstNightReminder": "唤醒限时装置，展示他死亡夜数的手势。依据死亡夜数在距离限时装置逆时针方向相应的格子数上放置“计时器”标记。",
+    "otherNightReminder": "指向与限时装置邻近的一名存活玩家，展示该玩家的阵营和命数的手势。顺时针移动一格“计时器”，如果标记到达限时装置，他死亡。",
+    "reminders": [
+      "计时器",
+      "死亡"
+    ],
+    "name": "限时装置",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知你在第几夜死亡，且你会在那个夜晚死亡。每个夜晚*，你会得知与你邻近的一名存活玩家的阵营和命数。",
+    "firstNight": 17,
+    "otherNight": 16
+  },
+  {
+    "id": "physicist_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/physicist_village_of_chronos.png",
+    "otherNightReminder": "物理学家可以展示一个数字的手势。你可以标记对应命数的玩家“死亡”。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "物理学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一个数字：对应命数的玩家可能会死亡。每局游戏限一次，你可以私下询问说书人以得知有多少名玩家因你的能力而死亡。",
+    "otherNight": 7
+  },
+  {
+    "id": "actuary_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/actuary_village_of_chronos.png",
+    "otherNightReminder": "精算师指向两名存活的玩家，向他展示那两名玩家命数总和的手势。",
+    "name": "精算师",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名存活玩家：你会得知他们命数的总和。",
+    "otherNight": 18
+  },
+  {
+    "id": "guardian_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/guardian_village_of_chronos.png",
+    "otherNightReminder": "守卫指向一名玩家（与上个夜晚不同）。如果那名玩家是善良的，并标记他“善良一次”或“善良两次”，如果已经没有标记可用，守卫死亡。否则，标记他与守卫“保护”。如果那名玩家是邪恶的，标记一名玩家“死亡”并移除“善良一次”和“善良两次”。",
+    "reminders": [
+      "保护",
+      "死亡",
+      "善良一次",
+      "善良两次"
+    ],
+    "name": "守卫",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果他是善良的，你与他今晚不会死亡。如果他是邪恶的，会有一名玩家死亡。如果你连续选择了三次善良玩家，你死亡。",
+    "otherNight": 8
+  },
+  {
+    "id": "teacher_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/teacher_village_of_chronos.png",
+    "firstNightReminder": "教师指向一名玩家，向他展示两个数字的手势，那名玩家的命数在两个数字的范围之间。",
+    "otherNightReminder": "教师指向一名玩家，向他展示两个数字的手势，那名玩家的命数在两个数字的范围之间。",
+    "name": "教师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知两个数字，他的命数在包括这两个数字的范围之间。",
+    "firstNight": 18,
+    "otherNight": 19
+  },
+  {
+    "id": "chemist_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/chemist_village_of_chronos.png",
+    "firstNightReminder": "化学家指向一名玩家，向他展示三个数字的手势，其中之一是那名玩家的命数。每个数字以拇指向上代表正数，拇指向下代表负数。",
+    "otherNightReminder": "化学家指向一名玩家，向他展示三个数字的手势，其中之一是那名玩家的命数。每个数字以拇指向上代表正数，拇指向下代表负数。",
+    "name": "化学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知三个数字，其中之一是他的命数。如果你选中了邪恶玩家，你会得知他的命数的负值。",
+    "firstNight": 19,
+    "otherNight": 20
+  },
+  {
+    "id": "statistician_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/statistician_village_of_chronos.png",
+    "firstNightReminder": "唤醒统计员，展示一名善良玩家命数的手势。标记那名善良玩家“已得知”。",
+    "otherNightReminder": "唤醒统计员，展示一名未被展示过的善良玩家命数的手势。标记那名善良玩家“已得知”。",
+    "reminders": [
+      "已得知"
+    ],
+    "name": "统计员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名与之前都不同的善良玩家的命数。会有一名邪恶玩家被你的能力当作善良阵营。",
+    "firstNight": 20,
+    "otherNight": 21
+  },
+  {
+    "id": "timetraveler_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/timetraveler_village_of_chronos.png",
+    "otherNightReminder": "时间行者可以指向一名玩家。如果那名玩家是善良的，由那名玩家开始，重新开始夜晚的行动。在重置的夜晚中，标记所有邪恶玩家“无法行动”。在夜晚结束时移除此标记。",
+    "reminders": [
+      "失去能力",
+      "选中善良"
+    ],
+    "name": "时间行者",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果他是善良的，夜晚重新开始，改为他第一个行动；在重置的夜晚中，邪恶玩家无法行动且能力不生效。",
+    "otherNight": 23
+  },
+  {
+    "id": "enigmatologist_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/enigmatologist_village_of_chronos.png",
+    "firstNightReminder": "谜题学家指向两名玩家，然后，说书人指向命数更小的玩家。",
+    "otherNightReminder": "谜题学家指向两名玩家，然后，说书人指向命数更小的玩家。",
+    "name": "谜题学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知谁的命数更小。",
+    "firstNight": 21,
+    "otherNight": 22
+  },
+  {
+    "id": "mason_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/mason_village_of_chronos.png",
+    "name": "泥瓦匠",
+    "team": "townsfolk",
+    "ability": "你的命数不会被改写或交换，不会被当作其他数字。"
+  },
+  {
+    "id": "illusionist_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/illusionist_village_of_chronos.png",
+    "otherNightReminder": "如果幻术师在夜晚时即将死亡，他可以指向两名玩家。说书人选择其中一名玩家的真实命数与幻术师交换。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "幻术师",
+    "team": "townsfolk",
+    "ability": "在夜晚时*，如果你首次即将死亡，你可以选择两名存活玩家：你会与其中一名玩家交换真实的命数。",
+    "otherNight": 15
+  },
+  {
+    "id": "timestopper_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/timestopper_village_of_chronos.png",
+    "otherNightReminder": "如果时停者在今天白天或上个夜晚死亡，唤醒时停者，他要么摇头，要么点头。如果点头，今晚没有其他玩家可以行动。",
+    "reminders": [
+      "时间停止"
+    ],
+    "name": "时停者",
+    "team": "townsfolk",
+    "ability": "如果你死亡，你可以在下个夜晚选择停止时间：所有持续效果会额外持续一天，当晚不会有其他玩家行动或死亡。你仍然死亡。",
+    "otherNight": 4
+  },
+  {
+    "id": "anomaly_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/anomaly_village_of_chronos.png",
+    "name": "异常数据",
+    "team": "outsider",
+    "ability": "你的命数不受其他角色能力限制，可能会被当作任意数字，即使你已死亡。"
+  },
+  {
+    "id": "clockworker_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/clockworker_village_of_chronos.png",
+    "otherNightReminder": "如果恶魔在夜晚时没有杀死玩家或只杀死一名玩家，标记“行动两次”。在恶魔下次行动时，向他展示“该角色能力你对生效”并展示发条匠角色标记。如果恶魔点头，恶魔行动两次并移除标记；如果恶魔摇头，不要移除“行动两次”标记。",
+    "reminders": [
+      "行动两次",
+      "醉酒"
+    ],
+    "name": "发条匠",
+    "team": "outsider",
+    "ability": "如果恶魔在夜晚时杀死少于等于一名玩家，他在下次行动时可以选择额外进行一次杀戮，直到消耗这次额外行动。当你被处决时，会有一名玩家开始醉酒。",
+    "otherNight": 9
+  },
+  {
+    "id": "gravitas_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/gravitas_village_of_chronos.png",
+    "otherNightReminder": "如果重力老人的能力还没被使用，唤醒恶魔。恶魔要么摇头，要么点头并重新指定死亡序列。如果恶魔这样做了，标记重力老人“失去能力”。然后唤醒重力老人并指向部分玩家，展示他们各自命数的手势。",
+    "reminders": [
+      "失去能力",
+      "减少得知"
+    ],
+    "name": "重力老人",
+    "team": "outsider",
+    "ability": "恶魔以其自身能力得知的玩家会减少一名。每局游戏限一次，恶魔可以重新指定死亡序列，即使你已死亡，然后你会得知部分玩家的命数，以此得知的邪恶玩家命数可能是任意数字。",
+    "otherNight": 6
+  },
+  {
+    "id": "nexus_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/nexus_village_of_chronos.png",
+    "name": "时空枢纽",
+    "team": "outsider",
+    "ability": "善良阵营无法获胜。如果恶魔存活时你被处决，你的阵营落败。你不会因邪恶玩家的能力而死亡。如果你会因死亡序列而死亡，改为下一名符合条件的玩家死亡。"
+  },
+  {
+    "id": "paradox_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/paradox_village_of_chronos.png",
+    "otherNightReminder": "如果你或外来者在今天白天死亡，你可以改变所有存活玩家的角色。然后，唤醒恶魔并展示他的新的三个不在场角色。",
+    "reminders": [
+      "死于今日",
+      "失去能力"
+    ],
+    "setup": 1,
+    "name": "祖父悖论",
+    "team": "minion",
+    "ability": "如果你或外来者在今天白天死亡，每局游戏限一次，你可以选择使用能力，然后所有存活玩家的角色都可能会改变，当晚善良玩家无法行动，恶魔会得知三个新的伪装。你的角色不会改变。[+1外来者]",
+    "otherNight": 2
+  },
+  {
+    "id": "timedilator_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/timedilator_village_of_chronos.png",
+    "otherNightReminder": "时间膨胀装置指向与初始爪牙数量相同的玩家。标记他们“无法行动”。",
+    "reminders": [
+      "无法行动",
+      "失去能力"
+    ],
+    "name": "时间膨胀装置",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择与初始爪牙数量相同的玩家（与上个夜晚不同）：他们今晚无法行动且不能制造死亡。如果存活镇民数量少于你能选择的数量，你失去此能力。",
+    "otherNight": 3
+  },
+  {
+    "id": "wormhole_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/wormhole_village_of_chronos.png",
+    "firstNightReminder": "虫洞指向一名玩家，标记那名玩家“命数改写”，然后标记与那名玩家邻近的一名存活玩家“中毒”。",
+    "otherNightReminder": "虫洞指向一名玩家，标记那名玩家“命数改写”，然后标记与那名玩家邻近的一名存活玩家“中毒”。",
+    "reminders": [
+      "命数改写",
+      "中毒"
+    ],
+    "setup": 1,
+    "name": "虫洞",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他的真实命数，或者因角色能力而被当作的命数，会被当作高于或低于该命数1到2的一个数字，与他邻近的存活玩家之一中毒，直到下个黄昏。[-1外来者]",
+    "firstNight": 15,
+    "otherNight": 5
+  },
+  {
+    "id": "chaos_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/chaos_village_of_chronos.png",
+    "otherNightReminder": "如果混沌系统死于今日，选择1到3名玩家死亡。",
+    "reminders": [
+      "死亡",
+      "死于今日"
+    ],
+    "name": "混沌系统",
+    "team": "minion",
+    "ability": "每个白天开始倒计时，其分钟数等于存活玩家数，计时结束时会有一名玩家死亡。在提名时，计时暂停。如果你死于处决，当晚会有一至三名玩家死亡。",
+    "otherNight": 14
+  },
+  {
+    "id": "protosarithmos_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/protosarithmos_village_of_chronos.png",
+    "firstNightReminder": "在爪牙信息阶段后，分别唤醒爪牙并向他们展示一个不在场角色标记。为原初之数指出三名玩家并展示他们的角色标记，然后，原初之数按顺序指向所有玩家，这是游戏的死亡序列。标记两名命数是质数的善良玩家“中毒”。",
+    "otherNightReminder": "为除恶魔以外命数最低的存活玩家放置“死亡”标记。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "name": "原初之数",
+    "team": "demon",
+    "ability": "游戏开始时，爪牙各得知一个伪装。你会得知三名玩家及其角色，然后你要指定所有玩家的命数。每个夜晚*，除你以外命数最低的存活玩家死亡。你的命数会被当作是零。会有两名命数是质数的善良玩家中毒。",
+    "firstNight": 11,
+    "otherNight": 10
+  },
+  {
+    "id": "xenos_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/xenos_village_of_chronos.png",
+    "firstNightReminder": "爪牙信息阶段后，分别唤醒爪牙并向他们展示一个不在场角色标记。为异界来客指出三名玩家并展示他们的角色标记，然后，异界来客按顺序指向所有玩家，这是游戏的死亡序列。",
+    "otherNightReminder": "为除恶魔以外命数最高的存活玩家放置“死亡”标记。",
+    "reminders": [
+      "当作负数",
+      "死亡"
+    ],
+    "setup": 1,
+    "name": "异界来客",
+    "team": "demon",
+    "ability": "游戏开始时，爪牙各得知一个伪装。你会得知三名玩家及其角色，然后你要指定所有玩家的命数。每个夜晚*，除你以外命数最高的存活玩家死亡。你与外来者的命数可能会被当作是任意负数。[+1外来者]",
+    "firstNight": 12,
+    "otherNight": 11
+  },
+  {
+    "id": "diothanatoi_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/diothanatoi_village_of_chronos.png",
+    "firstNightReminder": "爪牙信息阶段后，分别唤醒爪牙并向他们展示一个不在场角色标记。为双体死星指出三名玩家并展示他们的角色标记，然后，双体死星按顺序指向所有玩家，这是游戏的死亡序列。",
+    "otherNightReminder": "为除恶魔以外命数最低和最高的存活玩家放置“死亡”标记。",
+    "reminders": [
+      "当作夜晚序数",
+      "死亡"
+    ],
+    "name": "双体死星",
+    "team": "demon",
+    "ability": "游戏开始时，爪牙各得知一个伪装。你会得知三名玩家及其角色，然后你要指定所有玩家的命数。每个夜晚*，除你以外命数最低和最高的存活玩家死亡。你的命数会被当作是游戏夜晚序数。",
+    "firstNight": 13,
+    "otherNight": 12
+  },
+  {
+    "id": "proaisthima_village_of_chronos",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Village_Of_Chronos/proaisthima_village_of_chronos.png",
+    "firstNightReminder": "爪牙信息阶段后，分别唤醒爪牙并向他们展示一个不在场角色标记。让既见未来指向四名玩家，说书人展示他们的角色标记，然后，既见未来按顺序指向所有玩家，这是游戏的死亡序列。",
+    "otherNightReminder": "为除恶魔以外命数最低的存活玩家放置“死亡”标记。",
+    "reminders": [
+      "存活善良玩家数",
+      "死亡"
+    ],
+    "setup": 1,
+    "name": "既见未来",
+    "team": "demon",
+    "ability": "游戏开始时，爪牙各得知一个伪装。你要选择四名玩家并得知其角色，然后你要指定所有玩家的命数。每个夜晚*，除你以外命数最低的存活玩家死亡。你的命数会被当作是存活的善良玩家数。[-1外来者]",
+    "firstNight": 14,
+    "otherNight": 13
+  },
+  {
+    "id":"order_of_death_village_of_chronos",
+    "image": "https://i.postimg.cc/76Tt1kDk/20231022141432.png",
+    "reminders": [],
+    "name": "死亡序列",
+    "team": "fabled",
+    "ability": "游戏开始时，恶魔以特定顺序指向包括自己在内的所有玩家。第一名被指向的玩家是命数一，第二名是命数二，以此类推。"
+  },
+  {
+    "id":"number_village_of_chronos",
+    "image": "https://i.postimg.cc/7h8smWYT/20231022141428.png",
+    "reminders": [],
+    "name": "命数",
+    "team": "fabled",
+    "ability": "命数决定玩家的夜晚死亡顺序。部分信息角色的能力会得知与命数相关的信息。相同命数的玩家会一同死亡。"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "鸭镇制作",
+    "setup": false,
+    "reminders": [
+      "鸭镇制作"
+    ],
+    "team": "fabled",
+    "name_eng": "_meta",
+    "id": "_meta",
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "edition": "custom",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png"
+  }
+]

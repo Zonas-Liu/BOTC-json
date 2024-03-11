@@ -1,0 +1,469 @@
+[
+  {
+    "id": "_meta",
+    "name": "善恶彼岸 Ver.3.0",
+    "author": "【作者】Wedge McCloud、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/Y2FCWVsq/image.png",
+    "almanac": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/almanac.html",
+    "townsfolkName": "镇民"
+  },
+  {
+    "id": "clone_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/clone_beyondgoodandevilv3.png",
+    "firstNightReminder": "指向一名玩家，并向克隆人展示该玩家的角色标记。标记该玩家“原生”。",
+    "reminders": [
+      "原生"
+    ],
+    "name": "克隆人",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名镇民和他的角色。如果他将要死亡，改为你死亡。",
+    "flavor": "I\u0027m not expendable! I\u0027m my own person... right?",
+    "firstNight": 14
+  },
+  {
+    "id": "contessa_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/contessa_beyondgoodandevilv3.png",
+    "firstNightReminder": "向女伯爵展示至少一个在场的外来者角色标记，或表示没有外来者。",
+    "otherNightReminder": "如果有外来者死亡，向女伯爵展示存活的外来者玩家的数量的手势（1，2，3等）。",
+    "reminders": [
+      "得知外来者",
+      "外来者死亡"
+    ],
+    "setup": true,
+    "name": "女伯爵",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知至少一个在场的外来者角色（或者你会得知没有外来者在场）。如果有外来者在今天白天或夜晚死亡，你会在当晚得知还有多少名外来者存活。[+1或-1外来者]",
+    "flavor": "There are some very peculiar guests at this party... Are they on the invite list?",
+    "firstNight": 15,
+    "otherNight": 16
+  },
+  {
+    "id": "publicdefender_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/publicdefender_beyondgoodandevilv3.png",
+    "firstNightReminder": "让辩护人指向一名存活玩家，标记该玩家“处决不死”。如果该玩家在下个白天被处决时是善良的，他不会死亡。",
+    "otherNightReminder": "让辩护人指向一名存活玩家，标记该玩家“处决不死”。如果该玩家在下个白天被处决时是善良的，他不会死亡。",
+    "reminders": [
+      "处决不死"
+    ],
+    "name": "辩护人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名存活的玩家：如果他在下个白天被处决，且他是善良的，他不会死亡。",
+    "flavor": "Your Honor, my client is completely innocent! They didn\u0027t... what was the charge again?",
+    "firstNight": 17,
+    "otherNight": 22
+  },
+  {
+    "id": "demagogue_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/demagogue_beyondgoodandevilv3.png",
+    "firstNightReminder": "让煽动者指向一名玩家。标记该玩家“监视”。",
+    "otherNightReminder": "如果带有“监视”标记的玩家被提名，向煽动者展示对该玩家投票的邪恶玩家数量的手势（1，2，3等）。移除“监视”标记。让煽动者指向一名玩家。标记该玩家“监视”。",
+    "reminders": [
+      "监视"
+    ],
+    "name": "煽动者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会在下个夜晚得知当天有多少名邪恶玩家曾投票给他。",
+    "flavor": "Keep a watchful eye of your neighbors! Those who seek to undermine your very existence lie amongst you!",
+    "firstNight": 16,
+    "otherNight": 21
+  },
+  {
+    "id": "darkpassenger_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/darkpassenger_beyondgoodandevilv3.png",
+    "otherNightReminder": "标记今晚因其自身能力制造死亡的玩家“凶手”。向黑暗法医展示带有“凶手”标记的玩家数量的手势（1，2，3等）。",
+    "reminders": [
+      "凶手"
+    ],
+    "name": "黑暗法医",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天有多少名玩家因其自身能力制造了死亡。如果你在夜晚时死亡，可能会有其他玩家代替你死亡。",
+    "flavor": "I\u0027ve lived in darkness a long time. Eventually my eyes adjusted to it until it became my whole world. And then I could see.",
+    "otherNight": 17
+  },
+  {
+    "id": "informant_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/informant_beyondgoodandevilv3.png",
+    "otherNightReminder": "向线人展示一个与之前不同的死亡玩家的角色标记。标记该玩家“得知”。如果所有死亡玩家都已经得知，不唤醒线人。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "线人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知一个与之前不同的死亡玩家的角色。你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "flavor": "Do I know them? Of course I do. I know everyone in this town, from some perspective...",
+    "otherNight": 18
+  },
+  {
+    "id": "octovore_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/octovore_beyondgoodandevilv3.png",
+    "otherNightReminder": "让吞食者指向一名玩家。如果该玩家曾经被吞食者选择过，他死亡。否则标记“选择”。如果该玩家是邪恶的，向该玩家展示吞食者标记并指向吞食者，标记该玩家“醉酒”。",
+    "reminders": [
+      "选择",
+      "醉酒",
+      "死亡"
+    ],
+    "name": "吞食者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你曾选择过他，他死亡。如果邪恶玩家被你首次选中，他会得知你是谁，且他醉酒直到下个黄昏。",
+    "flavor": "A what? A scratch? Oh, I\u0027m sure that it\u0027s nothing. Probably an accident. I\u0027m sure it won\u0027t be a bother to anyone.",
+    "otherNight": 7
+  },
+  {
+    "id": "tombspitter_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/tombspitter_beyondgoodandevilv3.png",
+    "otherNightReminder": "让坟墓唾弃者指向一名除他以外的存活玩家。标记该玩家“看护”。如果该玩家今晚被恶魔杀死，可能会有一名其他的死亡镇民复活并中毒。",
+    "reminders": [
+      "看护",
+      "复活",
+      "中毒"
+    ],
+    "name": "坟墓唾弃者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活玩家：如果他今晚被恶魔杀死，另一名死亡镇民可能会复活并中毒到下个黄昏。",
+    "flavor": "Such vast misfortunes for such a small town... Far too many bodies... No one will mind if I make a little room.",
+    "otherNight": 6
+  },
+  {
+    "id": "auspex_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/auspex_beyondgoodandevilv3.png",
+    "otherNightReminder": "鸟卜师要么摇头，标记“选择三名”，要么指向一名玩家，向鸟卜师展示两个角色标记，其中一个角色是该玩家。如果鸟卜师上个夜晚没有选择任何玩家，让他指向三名玩家，并展示四个角色标记，其中有三个角色是那些玩家。鸟卜师不能选择自己或者旅行者。",
+    "reminders": [
+      "选择三名"
+    ],
+    "name": "鸟卜师",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择除你及旅行者以外的一名玩家：你会得知两个角色，该玩家是其中一个角色。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：你会得知四个角色，他们是其中的三个角色。",
+    "flavor": "A strange formation of clouds and a flock of fowl moving north... Quite odd. A poor omen, indeed.",
+    "otherNight": 20
+  },
+  {
+    "id": "hitman_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hitman_beyondgoodandevilv3.png",
+    "otherNightReminder": "移除“醉酒”标记。如果职业杀手今天白天猜测正确：被猜对的玩家醉酒。",
+    "reminders": [
+      "猜测正确",
+      "醉酒"
+    ],
+    "name": "职业杀手",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开猜测一名玩家的角色：如果猜对，他在当晚和明天白天醉酒。",
+    "flavor": "A list of names. A simple set of rules. A simple mission to protect the innocent. Nothing personal.",
+    "otherNight": 3
+  },
+  {
+    "id": "mobster_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/mobster_beyondgoodandevilv3.png",
+    "reminders": [
+      "失去能力并死亡"
+    ],
+    "setup": true,
+    "name": "悍匪",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开选择一名存活玩家：如果他是外来者，他失去能力并死亡。[+1外来者]",
+    "flavor": "You listen here because I\u0027m only gonna tell ya once: Don\u0027t make any trouble in my town. People who cause trouble find ways to... disappear around here."
+  },
+  {
+    "id": "architect_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/architect_beyondgoodandevilv3.png",
+    "reminders": [
+      "镇民不会死亡"
+    ],
+    "name": "建筑师",
+    "team": "townsfolk",
+    "ability": "如果一名爪牙死于处决，今晚镇民不会死亡。",
+    "flavor": "I\u0027ve checked my measurements and calculations several times now. With careful reinforcement here, everyone should be safe even in the worst case scenario."
+  },
+  {
+    "id": "revenant_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/revenant_beyondgoodandevilv3.png",
+    "otherNightReminder": "如果归来者被当作死亡，唤醒他并指向一名没有“得知”标记的非恶魔的存活玩家。标记该玩家“得知”。",
+    "reminders": [
+      "假死",
+      "得知"
+    ],
+    "name": "归来者",
+    "team": "townsfolk",
+    "ability": "当你首次死亡后，你仍存活，但被当作死亡。你被当作死亡的每个夜晚，你会得知一名与之前不同的非恶魔的存活玩家。",
+    "flavor": "Those who walk in the land of living think of themselves as awake, but they are mistaken. They shamble amidst slumber, blind to the truth of the grave. Beyond the reach of this feeble flesh lies sight beyond sight.",
+    "otherNight": 19
+  },
+  {
+    "id": "specter_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/specter_beyondgoodandevilv3.png",
+    "otherNightReminder": "如果游魂死亡，且场上没有其他游魂，一名其他镇民变为游魂。",
+    "remindersGlobal": [
+      "是游魂",
+      "限一次"
+    ],
+    "name": "游魂",
+    "team": "outsider",
+    "ability": "你不知道你是游魂。你以为你是一个其他善良角色，即使你已死亡，但其实你不是。首个游魂死亡时，会有一名镇民在当晚变为游魂。",
+    "flavor": "My past life is no more and yet still remains. I am hollow... and alone.",
+    "otherNight": 5
+  },
+  {
+    "id": "hex_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hex_beyondgoodandevilv3.png",
+    "otherNightReminder": "选择一名带有“已提名”标记的玩家，他死亡。移除所有“已提名”标记。",
+    "reminders": [
+      "已提名",
+      "死亡"
+    ],
+    "name": "施咒者",
+    "team": "outsider",
+    "ability": "可能会有一名今天发起提名的玩家在夜晚死亡。",
+    "flavor": "Ribbit.",
+    "otherNight": 15
+  },
+  {
+    "id": "cyclox_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/cyclox_beyondgoodandevilv3.png",
+    "otherNightReminder": "如果回环死亡，镇民玩家的能力可能在当晚和明天白天产生错误信息。",
+    "reminders": [
+      "信息出错"
+    ],
+    "name": "回环",
+    "team": "outsider",
+    "ability": "当你死亡时，镇民玩家的能力可能在当晚和明天白天产生错误信息。",
+    "flavor": "They try to learn, but see the storm. For answers, yearn, but wrong in form. The masses plea, seek wrong from right. They try to flee, but day is night.",
+    "otherNight": 4
+  },
+  {
+    "id": "hanabi_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hanabi_beyondgoodandevilv3.png",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "花火",
+    "team": "outsider",
+    "ability": "如果你“疯狂”地证明花火在场，你可能会被处决。如果你被处决，与你邻近的一名存活玩家可能会立即死亡。",
+    "flavor": "A missing shipment of fireworks, you say? No, sir, I wouldn\u0027t know anything about that!"
+  },
+  {
+    "id": "fugitive_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/fugitive_beyondgoodandevilv3.png",
+    "firstNightReminder": "在爪牙信息环节之后，分别唤醒爪牙并向他们展示两个不在场的角色标记。这些角色可以与恶魔得知的不在场角色相同或不同。",
+    "otherNightReminder": "如果逃亡者首次被当作错误的阵营或角色，向他展示“误认”提示标记。",
+    "reminders": [
+      "误认"
+    ],
+    "setup": true,
+    "name": "逃亡者",
+    "team": "minion",
+    "ability": "爪牙会在其首个夜晚得知两个不在场的角色。你可能会被当作善良阵营、镇民角色或外来者角色，当你首次被当作错误的阵营或角色时，你会得知这一信息，即使你已死亡。[+1外来者]",
+    "flavor": "Maybe once this is taken care of I can finally stop running... Just one last job.",
+    "firstNight": 6,
+    "otherNight": 25
+  },
+  {
+    "id": "saboteur_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/saboteur_beyondgoodandevilv3.png",
+    "firstNightReminder": "向恶魔展示破坏狂的角色标记，并指向破坏狂玩家。",
+    "otherNightReminder": "让破坏狂指向一名存活玩家。标记玩家“倒计时”，该玩家随时可能死亡。向恶魔展示“倒计时”提示标记，然后指向被标记的玩家。",
+    "reminders": [
+      "倒计时",
+      "死亡"
+    ],
+    "name": "破坏狂",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名存活玩家：他随时可能死亡。恶魔会得知你是谁，以及你在夜晚选择了谁。",
+    "flavor": "Green wire to red? Or is it green to black? And the clock doesn\u0027t seem to ever read the right time... Oh well! Who doesn\u0027t love surprises?",
+    "firstNight": 7,
+    "otherNight": 10
+  },
+  {
+    "id": "gravedigger_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/gravedigger_beyondgoodandevilv3.png",
+    "otherNightReminder": "如果有玩家今天白天死于处决，向掘墓人展示该玩家的角色标记。如果掘墓人曾在该次处决中投票：如果他点头，那名玩家复活。否则，所有曾给那名玩家投票的存活镇民中毒直到下个黄昏。",
+    "reminders": [
+      "投票",
+      "死于今日",
+      "复活",
+      "中毒"
+    ],
+    "name": "掘墓人",
+    "team": "minion",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色，如果你在这项提名中投过票，在这项提名中投过票的存活镇民都会中毒直到下个黄昏。每局游戏限一次，你可以改为复活他。",
+    "flavor": "After all the flowery words are said and pretty tears are shed, they all leave the real work to me... but at the end of it all, I get the final say... Now let\u0027s see if this one is useful.",
+    "otherNight": 8
+  },
+  {
+    "id": "thug_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/thug_beyondgoodandevilv3.png",
+    "firstNightReminder": "向一名邪恶镇民展示“你是”提示卡并展示拇指向下代表邪恶的手势，然后指向恶棍，并展示恶棍的角色标记。",
+    "otherNightReminder": "如果得知恶棍的邪恶镇民死亡，让恶棍指向一名玩家，向他展示该玩家的角色标记，该玩家死亡。",
+    "reminders": [
+      "知晓",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "恶棍",
+    "team": "minion",
+    "ability": "会有一名邪恶镇民知道你是谁。如果他死亡，在当晚你要选择一名玩家：你会得知他的角色且他死亡。[会有一名镇民转变为邪恶阵营]",
+    "flavor": "You work for me now.",
+    "firstNight": 13,
+    "otherNight": 9
+  },
+  {
+    "id": "landlord_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/landlord_beyondgoodandevilv3.png",
+    "otherNightReminder": "移除“中毒”标记。让吝啬鬼指向两名玩家。一名死亡，另一名中毒。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "吝啬鬼",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择两名玩家：其中一名中毒直到下个黄昏，另一名死亡。",
+    "flavor": "I understand that times have been tough - it has been for all of us - but I\u0027m afraid the market has changed.",
+    "otherNight": 11
+  },
+  {
+    "id": "highroller_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/highroller_beyondgoodandevilv3.png",
+    "otherNightReminder": "让豪赌客指向一名玩家，并指向角色列表上的一个角色，该玩家死亡。如果猜测正确，再次让豪赌客指向一名其他玩家，该玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "豪赌客",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：他死亡。如果猜对，你要额外选择一名玩家：他死亡。",
+    "flavor": "Double or nothing... all on red.",
+    "otherNight": 12
+  },
+  {
+    "id": "machinist_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/machinist_beyondgoodandevilv3.png",
+    "otherNightReminder": "如果机械师点头，所有带有“倒计时”标记的存活玩家死亡；如果他摇头，让他指向一名玩家，该玩家死亡。",
+    "reminders": [
+      "死亡",
+      "已引爆"
+    ],
+    "setup": true,
+    "name": "机械师",
+    "team": "demon",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。或者，每局游戏限一次，让所有被破坏狂选择的玩家死亡。[+破坏狂]",
+    "flavor": "Every part in here is a disaster. And over here has so much faulty wiring... What were they THINKING? ... It\u0027s PERFECT!",
+    "otherNight": 13
+  },
+  {
+    "id": "gardener_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/gardener_beyondgoodandevilv3.png",
+    "otherNightReminder": "让园艺师指向一名玩家：那名玩家死亡。如果园艺师死亡，并且场上至少有五名玩家存活，且没有其他园艺师，在当晚唤醒新的园艺师，向他展示“你是”提示卡并展示园艺师的角色标记。",
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "name": "园艺师",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时（旅行者不计算在内）首个园艺师死亡，会有一名爪牙变为园艺师。",
+    "flavor": "Everyone wishes to grow something that will outlive them, right?",
+    "otherNight": 14
+  },
+  {
+    "id": "invoker_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/invoker_beyondgoodandevilv3.png",
+    "firstNightReminder": "向祈言师展示关键词。",
+    "otherNightReminder": "唤醒今天白天首个说出关键词的玩家，向他展示“这个角色能力对你生效”提示卡，并展示祈言师的角色标记。他今晚能够行动两次。",
+    "reminders": [
+      "行动两次"
+    ],
+    "name": "祈言师",
+    "team": "traveler",
+    "ability": "在你的首个夜晚，你会得知一个关键词。每个白天，首个说出该关键词的除旅行者以外的存活玩家可能在当晚行动两次。",
+    "flavor": "The person who said a picture is worth a thousand words never met a true writer. The right word can be a thousand pictures.",
+    "firstNight": 18,
+    "otherNight": 2
+  },
+  {
+    "id": "fateweaver_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/fateweaver_beyondgoodandevilv3.png",
+    "firstNightReminder": "让织命者指向两名除旅行者以外的存活玩家。标记第一名玩家“注视”，标记第二名玩家“命中注定”。下个白天，如果带有“注视”的玩家死于处决，带有“命中注定”的玩家死亡。",
+    "otherNightReminder": "移除所有标记。如果还有大于等于五名玩家存活，让织命者指向两名除旅行者以外的存活玩家。标记第一名玩家“注视”，标记第二名玩家“命中注定”。下个白天，如果带有“注视”的玩家死于处决，带有“命中注定”的玩家死亡。",
+    "reminders": [
+      "注视",
+      "命中注定",
+      "死亡"
+    ],
+    "name": "织命者",
+    "team": "traveler",
+    "ability": "每个夜晚，如果还有大于等于五名玩家存活，你要选择两名除旅行者以外的存活玩家：如果第一名玩家在下个白天死于处决，第二名玩家也死亡。",
+    "flavor": "Few are gifted enough to see the red string of fate... Fewer still have the gift to stitch with it.",
+    "firstNight": 19,
+    "otherNight": 23
+  },
+  {
+    "id": "commandant_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/commandant_beyondgoodandevilv3.png",
+    "otherNightReminder": "向指挥官展示拇指向上手势表示善良优势，拇指向下手势表示邪恶优势，拇指横向表示均势。如果指挥官还没有让玩家重获投票标记：他要么摇头，要么指向一名死亡玩家。如果该玩家的阵营处于劣势，在黎明时，宣布该玩家重获投票标记。",
+    "reminders": [
+      "重获标记"
+    ],
+    "name": "指挥官",
+    "team": "traveler",
+    "ability": "每个夜晚*，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。每局游戏限一次，你可以选择一名死亡玩家：如果他的阵营处于劣势，他重获投票标记。",
+    "flavor": "No plan survives contact with the enemy.",
+    "otherNight": 24
+  },
+  {
+    "id": "charismatic_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/charismatic_beyondgoodandevilv3.png",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "灵恩牧师",
+    "team": "traveler",
+    "ability": "每个白天，你可以提议所有玩家投票支持你的教会。如果首次所有善良玩家选择支持你，会有一名与你阵营对立的玩家死亡。",
+    "flavor": "As we are gathered here today, I make my plea once more for your simple trust, that I might show you all the truth."
+  },
+  {
+    "id": "graduate_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/graduate_beyondgoodandevilv3.png",
+    "reminders": [
+      "失去能力",
+      "复活",
+      "死亡"
+    ],
+    "name": "毕业生",
+    "team": "traveler",
+    "ability": "每个白天*，在黎明时，当你得知有人死亡时，你可以选择一名死亡玩家和一名存活玩家。如果获得半数以上的玩家同意，死亡的玩家复活，存活的玩家死亡，且你失去能力。",
+    "flavor": "Do I know what I\u0027m doing? I have studied this process for over three years, devoted countless hours to research and analysis, performed at least one hundred scale unit tests, and had my concepts published in at least ten reputable journals... so no, absolutely not."
+  },
+  {
+    "id": "facsimilie_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/facsimilie_beyondgoodandevilv3.png",
+    "firstNightReminder": "唤醒带有“双生”标记的玩家。向他展示“双生”的传奇角色标记，然后拇指向上表示善良，拇指向下表示邪恶。",
+    "remindersGlobal": [
+      "双生"
+    ],
+    "setup": true,
+    "name": "双生",
+    "team": "fabled",
+    "ability": "在初始设置时，可能会有两名相同角色的玩家且他们属于不同阵营。在游戏的首个夜晚，他们会得知此事。他们可能会被当作外来者角色或爪牙角色。",
+    "flavor": "You would be surprised with just how much you can get away with by just walking into a place confidently, as if you are supposed to be there.",
+    "firstNight": 4
+  },
+  {
+    "id": "clairvoyant_beyondgoodandevilv3",
+    "image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/clairvoyant_beyondgoodandevilv3.png",
+    "name": "通灵",
+    "team": "fabled",
+    "ability": "死亡玩家可以在白天时私下询问说书人，消耗他的投票标记并选择一名玩家：他会得知关于那名玩家的两条信息，其中有且只有一条是正确的。",
+    "flavor": "The images I see are like a tarot card. There are always two ways it might appear, and I can show you... but that will come at a price. What are you willing to pay for a last chance at understanding?"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "鸭镇制作",
+    "setup": false,
+    "reminders": [
+      "鸭镇制作"
+    ],
+    "team": "fabled",
+    "name_eng": "_meta",
+    "id": "_meta",
+    "ability": "鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+    "edition": "custom",
+    "image": "https://i.postimg.cc/L6n9DwSw/image.png"
+  }
+]

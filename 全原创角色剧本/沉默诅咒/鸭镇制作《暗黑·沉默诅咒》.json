@@ -1,0 +1,417 @@
+[
+  {
+    "id": "_meta",
+    "name": "沉默诅咒·暗黑一章",
+    "author": "【作者】IAmDeviant、【译者】蒹葭、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/y8S5dGWx/image.png",
+    "state": [
+      {
+        "stateName": "感染",
+        "stateDescription": "被感染的玩家会产生错误信息，可能会在黎明时死亡。恶魔不会因为感染得知错误信息。在死亡后，感染不会移除，也不会痊愈。中毒的被感染玩家可能会产生正确信息。感染不会因为来源死亡或失去能力而被移除。"
+      },
+      {
+        "stateName": "痊愈",
+        "stateDescription": "被感染的玩家获得痊愈会移除感染，且当晚不会再被感染；未被感染的玩家无法获得痊愈。在黎明时，移除所有痊愈。"
+      }
+    ],
+    "status": [
+      {
+        "name": "感染",
+        "skill": "被感染的玩家会产生错误信息，可能会在黎明时死亡。在死亡后，感染不会移除，也不会痊愈。中毒的被感染玩家可能会产生正确信息。感染不会因为来源死亡或失去能力而被移除。"
+      },
+      {
+        "name": "痊愈",
+        "skill": "被感染的玩家获得痊愈会移除感染，且当晚不会再被感染；未被感染的玩家无法获得痊愈。在黎明时，移除所有痊愈。"
+      }
+    ],
+    "almanac": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/almanac.html"
+  },
+  {
+    "id": "visitor_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/visitor_silence_of_the_damned.png",
+    "firstNightReminder": "向访客展示一个在场的镇民角色。",
+    "otherNightReminder": "访客指向一名玩家。如果他选中自己得知的角色，向他点头，否则摇头。唤醒那名玩家，展示访客的角色标记并展示“这个角色选择了你”。标记访客“相聚”。",
+    "reminders": [
+      "得知",
+      "痊愈",
+      "相聚"
+    ],
+    "name": "访客",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。每个夜晚*，你要选择一名玩家：如果他是该角色，他会得知被访客选中，且你不再选择，然后你们都会痊愈。你不会因感染而获得错误信息。",
+    "flavor": "Have you seen my husband? I miss him dearly. He is terribly unwell and I am starting to feel unwell too.",
+    "firstNight": 12,
+    "otherNight": 18
+  },
+  {
+    "id": "psychologist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/psychologist_silence_of_the_damned.png",
+    "firstNightReminder": "心理学家选择一个镇民角色。然后唤醒一名邪恶玩家，向他展示心理学家角色标记并展示“该角色选择了你”，然后展示“你要疯狂证明你是”和那个镇民角色标记",
+    "reminders": [
+      "疯狂",
+      "死亡"
+    ],
+    "name": "心理学家",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择除你以外的一个镇民角色。会有一名邪恶玩家需要“疯狂”地证明自己是该角色，不然他可能死亡。如果你“疯狂”地证明你是心理学家，改为你可能死亡。",
+    "flavor": "So how does that make you feel?",
+    "firstNight": 18
+  },
+  {
+    "id": "epidemiologist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/epidemiologist_silence_of_the_damned.png",
+    "firstNightReminder": "传染病学家指向一名玩家，展示数字手势1-5：1代表很远，5代表就是他。",
+    "otherNightReminder": "如果带有“干扰项”的玩家死亡，标记一名存活玩家“干扰项”。传染病学家指向一名玩家，展示数字手势1-5：1代表很远，5代表就是他。",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "传染病学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他与存活恶魔有多接近（从远到近以1-5的程度表示）。会有一名存活玩家始终被你的能力当作恶魔。",
+    "flavor": "The evidence here suggests that the infection came from one of the patients you brought in. Perhaps quarantining the entire ER is something we should do.",
+    "firstNight": 21,
+    "otherNight": 21
+  },
+  {
+    "id": "labtechnician_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/labtechnician_silence_of_the_damned.png",
+    "firstNightReminder": "化验员指向两名玩家，展示数字手势0-2来告诉他这些玩家中有几人被感染，有几人是邪恶的。",
+    "otherNightReminder": "化验员指向两名玩家，展示数字手势0-2来告诉他这些玩家中有几人被感染，有几人是邪恶的。",
+    "name": "化验员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们中有几人被感染，有几人是邪恶的。外来者会被你的能力当作邪恶阵营。",
+    "flavor": "The blood samples suggest that you might have a case of the snuffles. Also a small trace amount of a rare infection called Goblinitis.",
+    "firstNight": 22,
+    "otherNight": 24
+  },
+  {
+    "id": "surgeon_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/surgeon_silence_of_the_damned.png",
+    "otherNightReminder": "外科医生要么摇头，要么指向一名玩家。如果那名玩家被感染，标记“痊愈”，否则，可以标记“死亡”。",
+    "reminders": [
+      "死亡",
+      "痊愈"
+    ],
+    "name": "外科医生",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果他被感染，他会痊愈；如果他未被感染，他可能会死亡。",
+    "flavor": "Would you like me to cut you open? It won\u0027t hurt.",
+    "otherNight": 8
+  },
+  {
+    "id": "nurse_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/nurse_silence_of_the_damned.png",
+    "otherNightReminder": "护士指向一名玩家，如果那名玩家是善良的且被感染，唤醒那名玩家并展示“你是”和“感染”提示标记。",
+    "setup": 1,
+    "name": "护士",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他是善良的且被感染，他会得知自己被感染。如果你产生错误信息，改为未被感染的善良玩家会得知自己被感染。[0或+1护士]",
+    "flavor": "Your fever is worsening sir. Here, take this. It should lower your fever.",
+    "otherNight": 16
+  },
+  {
+    "id": "receptionist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/receptionist_silence_of_the_damned.png",
+    "otherNightReminder": "指出所有带有“痊愈”标记的玩家，展示数字手势来告诉导医这些玩家中有几人是邪恶的。",
+    "name": "导医",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知当晚痊愈的玩家，且会得知他们之中有几人是邪恶的。",
+    "flavor": "Oh, Sir Afton? Yes, he left a few days ago. On the seventh day he was here, he attacked a lot of the staff saying they will become beautiful.",
+    "otherNight": 23
+  },
+  {
+    "id": "diener_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/diener_silence_of_the_damned.png",
+    "otherNightReminder": "尸检员要么摇头，要么选择一名死亡玩家。向他展示阵营手势，并展示点头表示被感染，摇头表示否。如果那名玩家被感染，你可以标记尸检员“感染”。",
+    "reminders": [
+        "感染"
+      ],
+    "name": "尸检员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名死亡玩家：你会得知他的阵营，且会得知他是否被感染。如果他被感染，你可能会被感染。",
+    "flavor": "The autopsy shows signs of a collapsed lung, a damaged heart, and has anyone seen his spleen?",
+    "otherNight": 20
+  },
+  {
+    "id": "paramedic_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/paramedic_silence_of_the_damned.png",
+    "firstNightReminder": "说书人可以向护理员指出当晚被恶魔选择的玩家。无论如何，唤醒护理员，如果他点头，标记当晚被恶魔选择的玩家“保护”，移除“感染”标记并标记“痊愈”。标记护理员“失去能力”。",
+    "otherNightReminder": "如果护理员还没使用能力，说书人可以向护理员指出当晚被恶魔选择的玩家。无论如何，唤醒护理员，如果他点头，标记当晚被恶魔选择的玩家“保护”，移除“感染”标记并标记“痊愈”。标记护理员“失去能力”。",
+    "reminders": [
+      "保护",
+      "痊愈",
+      "失去能力"
+    ],
+    "name": "护理员",
+    "team": "townsfolk",
+    "ability": "在夜晚时，你可能会得知恶魔当晚选择的玩家，除非你已使用能力。每局游戏限一次，你可以选择痊愈当晚被恶魔选择的玩家并令恶魔的负面能力当晚对他无效。",
+    "flavor": "Don\u0027t worry. I\u0027m here to help you while we go to the hospital.",
+    "firstNight": 20,
+    "otherNight": 17
+  },
+  {
+    "id": "immunologist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/immunologist_silence_of_the_damned.png",
+    "otherNightReminder": "免疫学家要么摇头，要么点头。如果点头，标记恶魔“免疫”，为其他被感染的玩家标记“死亡”或“痊愈”。标记免疫学家“失去能力”。",
+    "reminders": [
+      "免疫",
+      "死亡",
+      "痊愈",
+      "失去能力"
+    ],
+    "name": "免疫学家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择是否使用疫苗：如果使用，除恶魔以外的所有被感染的玩家不是痊愈就是死亡，至多只有两名被感染的玩家会痊愈。",
+    "flavor": "Relax, you\u0027ll feel just a small prick.",
+    "otherNight": 22
+  },
+  {
+    "id": "pharmacist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/pharmacist_silence_of_the_damned.png",
+    "otherNightReminder": "药剂师要么摇头，要么指向至多两名玩家。标记那些玩家“痊愈”。",
+    "reminders": [
+      "痊愈",
+      "失去能力"
+    ],
+    "name": "药剂师",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择至多两名玩家：他们痊愈。",
+    "flavor": "A deadly zombie virus infection you say? Here, take 2 paracetamol every 4 hours and you should be all set.",
+    "otherNight": 19
+  },
+  {
+    "id": "inoculator_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/inoculator_silence_of_the_damned.png",
+    "otherNightReminder": "接种员要么摇头，要么点头。如果点头，标记接种员“失去能力”，当晚不会有玩家被感染或是因感染而死亡。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "接种员",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择是否阻止当晚所有的感染以及因感染引起的死亡。",
+    "flavor": "Make sure you set it over the fire. That way, you can\u0027t get contaminated.",
+    "otherNight": 3
+  },
+  {
+    "id": "germaphobe_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/germaphobe_silence_of_the_damned.png",
+    "firstNightReminder": "标记病菌恐惧者“未被选择”。如果当晚除恶魔以外的玩家选择了他，移除标记。夜晚结束时，如果仍有“未被选择”标记，移除他的“感染”标记，并移除“未被选择”标记。",
+    "otherNightReminder": "标记病菌恐惧者“未被选择”。如果当晚除恶魔以外的玩家选择了他，移除标记。夜晚结束时，如果仍有“未被选择”标记，移除他的“感染”标记，并移除“未被选择”标记。",
+    "reminders": [
+      "未被选择"
+    ],
+    "name": "病菌恐惧者",
+    "team": "townsfolk",
+    "ability": "当你在夜晚时没有被除恶魔以外的玩家选择，你会被当作未被感染的状态且在黎明时会移除自己的感染状态。如果只有三名存活玩家，你失去此能力。",
+    "flavor": "\u003cSigh\u003e. These sheets were just cleaned.",
+    "firstNight": 11,
+    "otherNight": 2
+  },
+  {
+    "id": "inpatient_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/inpatient_silence_of_the_damned.png",
+    "firstNightReminder": "如果住院病人被感染，你可以标记与他邻近的一名玩家“感染”。",
+    "otherNightReminder": "如果住院病人被感染，你可以标记与他邻近的一名玩家“感染”。",
+    "name": "住院病人",
+    "team": "outsider",
+    "ability": "如果你被感染，在夜晚时，与你邻近的玩家之一可能会被感染。",
+    "flavor": "AAAAAAACHOO!",
+    "firstNight": 19,
+    "otherNight": 14
+  },
+  {
+    "id": "schizophrenic_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/schizophrenic_silence_of_the_damned.png",
+    "firstNightReminder": "唤醒恶魔，指向精神分裂患者并展示角色标记。恶魔指向一个善良角色。唤醒精神分裂患者，展示“你要疯狂证明自己是”并展示一个善良角色标记。",
+    "otherNightReminder": "唤醒恶魔，指向精神分裂患者并展示角色标记。恶魔指向一个善良角色。唤醒精神分裂患者，展示“你要疯狂证明自己是”并展示一个善良角色标记。",
+    "reminders": [
+      "疯狂",
+      "感染"
+    ],
+    "name": "精神分裂患者",
+    "team": "outsider",
+    "ability": "恶魔会知道你是精神分裂患者。每个夜晚，恶魔要选择一个善良角色：你明天白天和夜晚需要“疯狂”证明自己是这个角色，不然与你邻近的存活玩家之一会被感染。",
+    "flavor": "Please no. I just want to be free. I\u0027ve been through many things. Please...",
+    "firstNight": 14,
+    "otherNight": 9
+  },
+  {
+    "id": "graveyardnurse_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/graveyardnurse_silence_of_the_damned.png",
+    "otherNightReminder": "夜班护士指向一名玩家，如果那名玩家善良且未被感染，唤醒并展示“你是”和“感染”标记。如果那名玩家是爪牙，标记“行动两次”。",
+    "remindersGlobal": [
+      "是夜班护士","行动两次"
+    ],
+    "setup": 1,
+    "name": "夜班护士",
+    "team": "outsider",
+    "ability": "你以为你是护士，且你可能会被当作护士。每个夜晚*，你要选择一名玩家：如果他是善良的且未被感染，他会得知自己被感染；如果你选中了爪牙，他当晚额外行动一次。",
+    "flavor": "Your fever is worsening sir. Here, take this. It should lower your fever. I hope.",
+    "otherNight": 15
+  },
+  {
+    "id": "janitor_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/janitor_silence_of_the_damned.png",
+    "otherNightReminder": "保洁员指向一名玩家，标记“选择”。如果他们之中有人被感染，标记他们“感染”。",
+    "reminders": [
+      "选择","感染"
+    ],
+    "name": "保洁员",
+    "team": "outsider",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你们之中有人被感染，你们都会被感染。",
+    "otherNight": 7
+  },
+  {
+    "id": "lobotomist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/lobotomist_silence_of_the_damned.png",
+    "firstNightReminder": "脑叶切除师指向一名玩家，标记“被切除”。",
+    "otherNightReminder": "移除“被切除”标记。脑叶切除师指向一名玩家，标记“被切除”。",
+    "reminders": [
+      "被切除","死亡"
+    ],
+    "name": "脑叶切除师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：如果他被感染且在下个白天投票，在计票后他立刻死亡。如果只有三名存活玩家，你的能力改为对恶魔生效。每次提名只会有一名玩家因此死亡。",
+    "flavor": "Sleep my child. You do not need to make such rash decisions.",
+    "firstNight": 13,
+    "otherNight": 6
+  },
+  {
+    "id": "reaper_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/reaper_silence_of_the_damned.png",
+    "otherNightReminder": "如果今天白天有玩家死亡，死神要么摇头，要么指向今天白天死亡的玩家。唤醒那名玩家，展示“该角色能力对你生效”和死神的角色标记。然后说书人可以指向一名善良玩家并展示其角色标记。在白天时宣布玩家的死亡标记被移除。",
+    "reminders": [
+      "死于今日",
+      "失去投票标记",
+      "限一次"
+    ],
+    "name": "死神",
+    "team": "minion",
+    "ability": "每个夜晚*，你可以选择一名今天白天死亡的玩家：他失去投票标记，但他可能会得知一名善良玩家及其角色。每局游戏你只能选择一次邪恶玩家。",
+    "flavor": "I\u0027ll take that. You do not need to make such kinds of decisions.",
+    "otherNight": 5
+  },
+  {
+    "id": "bioterrorist_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/bioterrorist_silence_of_the_damned.png",
+    "reminders": [
+      "已公开声明"
+    ],
+    "setup":1,
+    "name": "生化恐怖分子",
+    "team": "minion",
+    "ability": "如果你在被提名后公开声明自己是生化恐怖分子且在那个白天被处决，会有两名未被感染的玩家被感染。如果有外来者被处决，会有一名未被感染的玩家被感染。[+1外来者]",
+    "flavor": "With the push of this button, the air shall be filled with despair and toxic fumes. Have fun."
+  },
+  {
+    "id": "quackdoctor_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/quackdoctor_silence_of_the_damned.png",
+    "otherNightReminder": "移除“被污染”标记。庸医指向一名玩家，标记那名玩家“被污染”。然后唤醒那名玩家并展示“该角色能力对你生效”和庸医的角色标记。在那名玩家获取信息或进行选择之前，标记他和被他选中的玩家“感染”。",
+    "reminders": [
+      "被污染",
+      "感染"
+    ],
+    "name": "庸医",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家：他会得知自己被庸医选择，当他选择玩家或被玩家选择时，如果他们之中有玩家被感染，他们都会先被感染。",
+    "flavor": "Would you like some Chameleon Oil? It eases the cannibalism and makes the rashes go away.",
+    "otherNight": 4
+  },
+  {
+    "id": "bacteria_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/bacteria_silence_of_the_damned.png",
+    "firstNightReminder": "指出所有被感染的玩家。细菌指向一名玩家，标记那名玩家“选择”和“感染”。在黎明时，检测是否有玩家因为被感染而死亡。",
+    "otherNightReminder": "指出所有被感染的玩家。细菌指向一名玩家，标记那名玩家“选择”和“感染”。在黎明时，检测是否有玩家因为被感染而死亡。",
+    "reminders": [
+      "选择",
+      "中毒",
+      "感染"
+    ],
+    "name": "细菌",
+    "team": "demon",
+    "ability": "每个夜晚，你会得知所有被感染的玩家，然后你要选择一名善良玩家：他被感染。你被感染且无法痊愈。在夜晚时首个使用其自身能力选择你的玩家会被感染，且中毒直到下个黄昏。",
+    "flavor": "A prime example of how infections spread. I must destroy everything.",
+    "firstNight": 15,
+    "otherNight": 10
+  },
+  {
+    "id": "fungus_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/fungus_silence_of_the_damned.png",
+    "firstNightReminder": "说书人选择一名与感染玩家相邻的未被感染的存活玩家被感染。在黎明时，检测是否有玩家因为被感染而死亡。",
+    "otherNightReminder": "指出所有被感染的玩家。霉菌指向一名玩家，标记那名玩家“选择”和“感染”。说书人选择一名与感染玩家相邻的未被感染的存活玩家被感染。在黎明时，检测是否有玩家因为被感染而死亡。",
+    "reminders": [
+      "选择",
+      "感染"
+    ],
+    "setup": 1,
+    "name": "霉菌",
+    "team": "demon",
+    "ability": "每个夜晚*，你会得知所有被感染的玩家，然后你要选择一名善良玩家：他被感染。你被感染且无法痊愈。每个夜晚，会有一名与感染玩家邻近的未被感染的存活玩家被感染。[-1外来者]",
+    "flavor": "They say I am an outsider. But no. I am stealth. I am the wind.",
+    "firstNight": 16,
+    "otherNight": 11
+  },
+  {
+    "id": "virus_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/virus_silence_of_the_damned.png",
+    "otherNightReminder": "指出所有被感染的玩家。病毒指向一名玩家，标记那名玩家“选择”和“感染”。在黎明时，检测是否有玩家因为被感染而死亡。如果一名爪牙被病毒感染，唤醒那名爪牙并向他展示“你是”和新的爪牙角色标记，他在下个夜晚行动两次。",
+    "reminders": [
+      "选择",
+      "行动两次",
+      "感染"
+    ],
+    "setup": 1,
+    "name": "病毒",
+    "team": "demon",
+    "ability": "每个夜晚*，你会得知所有被感染的玩家，然后你要选择一名玩家：他被感染。你被感染且无法痊愈。如果你感染了一名爪牙，他变成一个不在场的爪牙角色并在下个夜晚行动两次。[+1外来者]",
+    "flavor": "Would you like things to change? Because I certainly would like to do so.",
+    "otherNight": 12
+  },
+  {
+    "id": "parasite_silence_of_the_damned",
+    "image": "https://www.bloodstar.xyz/p/IAmDeviant/Silence_Of_The_Damned/parasite_silence_of_the_damned.png",
+    "firstNightReminder": "指出所有被感染的玩家。寄生虫指向一名玩家，标记那名玩家“宿主”。",
+    "otherNightReminder": "指出所有被感染的玩家。寄生虫指向一名善良玩家，标记那名玩家“选择”和“感染”。在黎明时，检测因为与宿主邻近而死亡的感染玩家。",
+    "reminders": [
+      "选择",
+      "宿主",
+      "感染",
+      "中毒"
+    ],
+    "name": "寄生虫",
+    "team": "demon",
+    "ability": "每个夜晚*，你会得知所有被感染的玩家，然后你要选择一名善良玩家：他被感染。在你的首个夜晚，你要选择一名玩家：他感染且中毒，你不会死亡，除非他死亡。每个夜晚*，与他邻近的存活感染玩家会在黎明时死亡。",
+    "flavor": "Life or Death? I choose your intestines.",
+    "firstNight": 17,
+    "otherNight": 13
+  },
+  {
+  "id":"infected_silence_of_the_damned",
+  "image": "https://i.postimg.cc/vHPM9CQv/20230929031700.png",
+  "reminders": [
+    "死亡"
+  ],
+  "name": "感染",
+  "team": "fabled",
+  "ability": "被感染的玩家会产生错误信息，可能会在黎明时死亡。恶魔不会因为感染得知错误信息。在死亡后，感染不会移除，也不会痊愈。中毒的被感染玩家可能会产生正确信息。感染不会因为来源死亡或失去能力而被移除。如果除恶魔以外所有被感染的玩家死亡会让邪恶阵营获胜，他们会在黎明时全部死亡。"
+  },
+  {
+  "id":"cured_silence_of_the_damned",
+  "image": "https://i.postimg.cc/mkj4m57B/20230929031655.png",
+  "reminders": [],
+  "name": "痊愈",
+  "team": "fabled",
+  "ability": "被感染的玩家获得痊愈会移除感染，且当晚不会再被感染；未被感染的玩家无法获得痊愈。在黎明时，移除所有痊愈。"
+  },
+  {
+  "id":"_meta",
+  "image":"https://i.postimg.cc/L6n9DwSw/image.png",
+  "edition":"custom",
+  "name":"鸭镇制作",
+  "ability":"鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+  "team":"fabled",
+  "firstNight":0,
+  "otherNight":0,
+  "reminders":["鸭镇制作"]
+  }
+]

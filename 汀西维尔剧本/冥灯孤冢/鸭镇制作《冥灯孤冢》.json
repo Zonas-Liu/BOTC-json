@@ -1,0 +1,160 @@
+[
+  {
+    "id": "_meta",
+    "name": "冥灯孤冢",
+    "author": "【作者】Cooldoom5、【Json制作】鸭镇",
+    "logo": "https://i.postimg.cc/BbkgNhy0/image.png"
+  },
+  {
+    "id": "3_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/3_yz_cn_ggg.png",
+    "firstNightReminder": "向观星者展示一个不在场角色。在当晚根据对应的角色能力唤醒他。",
+    "otherNightReminder": "向观星者展示一个不在场角色。在当晚根据对应的角色能力唤醒他。",
+    "remindersGlobal": [
+      "是观星者"
+    ],
+    "name": "观星者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一个不在场角色，你获得该角色能力直到下个黄昏。",
+    "firstNight": 17,
+    "otherNight": 9
+  },
+  {
+    "id": "8_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/8_yz_cn_ggg.png",
+    "firstNightReminder": "侦探选择两名玩家。如果他们都是邪恶的，侦探得知“是”，否则得知“否”。",
+    "otherNightReminder": "侦探选择两名玩家。如果他们都是邪恶的，侦探得知“是”，否则得知“否”。",
+    "reminders": [
+      "错误阵营"
+    ],
+    "name": "侦探",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们是否都是邪恶的。会有两名玩家始终被你当作错误阵营；每个白天，你可以拜访说书人并获得关于错误玩家是谁的提示。",
+    "firstNight": 20,
+    "otherNight": 20
+  },
+  {
+    "id": "2_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/2_yz_cn_ggg.png",
+    "firstNightReminder": "旅行家选择一名玩家。向他展示一个在场角色，一个不在场角色和那名玩家的角色。",
+    "otherNightReminder": "旅行家选择一名玩家。向他展示一个在场角色，一个不在场角色和那名玩家的角色。",
+    "name": "旅行家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知三个角色，其中之一是该玩家，另外有一个是其他在场角色，有一个是不在场角色。",
+    "firstNight": 19,
+    "otherNight": 19
+  },
+  {
+    "id": "7_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/7_yz_cn_ggg.png",
+    "otherNightReminder": "商人选择一名玩家。他会得知那名玩家的行动对其自身阵营的重要程度。",
+    "name": "商人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知从1到5，他目前为止的行动对其自身阵营的重要程度。(最低为1，最高为5)",
+    "otherNight": 22
+  },
+  {
+    "id": "6_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/6_yz_cn_ggg.png",
+    "otherNightReminder": "赌场老板可以选择一个角色。如果该角色在场，该角色对应的玩家都变为他的角色类型内的一个其他角色。如果该角色不在场，标记“即将死亡”，恶魔的杀害目标会改为选择他。",
+    "reminders": [
+      "即将死亡"
+    ],
+    "name": "赌场老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以猜测一个角色：如果该角色在场，该角色的所有玩家变成他的角色类型内的另一个角色。如果该角色不在场，当晚恶魔会改为杀死你。",
+    "otherNight": 11
+  },
+  {
+    "id": "9_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/9_yz_cn_ggg.png",
+    "otherNightReminder": "如果探矿员带有“发现金矿!”标记，唤醒他并告诉他发财了。",
+    "reminders": [
+      "发现金矿!"
+    ],
+    "name": "探矿员",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开选择除你以外的大于等于两名玩家。如果他们都是善良的，你会在夜晚得知这一信息。",
+    "otherNight": 18
+  },
+  {
+    "id": "14_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/14_yz_cn_ggg.png",
+    "reminders": [
+      "已声明"
+    ],
+    "name": "乐子人",
+    "team": "outsider",
+    "ability": "游戏结束时，你转变为落败的阵营。如果你“疯狂”地证明自己是外来者，从此你不会死于处决。"
+  },
+  {
+    "id": "15_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/15_yz_cn_ggg.png",
+    "name": "胆小鬼",
+    "team": "outsider",
+    "ability": "如果你所投票的玩家被处决，你可能会代替他被处决。"
+  },
+  {
+    "id": "18_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/18_yz_cn_ggg.png",
+    "otherNightReminder": "木乃伊选择一名玩家，标记“绷带捆绑”。那名玩家变为他的角色类型内的另一个角色。",
+    "reminders": [
+      "绷带捆绑"
+    ],
+    "name": "木乃伊",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家：他变成他的角色类型内的一个不在场角色。",
+    "otherNight": 10
+  },
+  {
+    "id": "17_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/17_yz_cn_ggg.png",
+    "otherNightReminder": "你可以让今天白天对丧尸投票的玩家之一变为丧尸。",
+    "reminders": [
+      "丧尸感染"
+    ],
+    "name": "丧尸",
+    "team": "minion",
+    "ability": "在提名时对你投票的玩家之一可能会在当晚变为丧尸。",
+    "otherNight": 7
+  },
+  {
+    "id": "20_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/20_yz_cn_ggg.png",
+    "otherNightReminder": "巫妖选择两名玩家。一名死亡，另一名变为该死亡玩家的角色，标记“诅咒”。",
+    "reminders": [
+      "诅咒",
+      "谋杀"
+    ],
+    "name": "巫妖",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择两名玩家：其中一名死亡，另一名变为该死亡玩家的角色。",
+    "otherNight": 14
+  },
+  {
+    "id": "21_yz_cn_ggg",
+    "image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/21_yz_cn_ggg.png",
+    "firstNightReminder": "吵闹鬼选择一名玩家，标记“爆吵”。他因自身角色能力获得错误信息。",
+    "otherNightReminder": "吵闹鬼选择一名玩家，标记“爆吵”。他因自身角色能力获得错误信息。说书人标记一名玩家“爆杀”，那名玩家死亡。",
+    "reminders": [
+      "爆吵",
+      "出错",
+      "爆杀"
+    ],
+    "name": "吵闹鬼",
+    "team": "demon",
+    "ability": "每个夜晚*，会有一名玩家死亡。每个夜晚，你要选择一名玩家：从此他获得错误信息，如果白天无人被处决，他会被处决。",
+    "firstNight": 15,
+    "otherNight": 15
+  },
+  {"id":"_meta",
+  "image":"https://i.postimg.cc/L6n9DwSw/image.png",
+  "edition":"custom",
+  "name":"鸭镇制作",
+  "ability":"鸭木布拉夫钟楼小镇制作Json。获得更多官方混合板子或者自制板子，可关注B站同名专栏。",
+  "team":"fabled",
+  "firstNight":0,
+  "otherNight":0,
+  "reminders":["鸭镇制作"]
+  }
+]
